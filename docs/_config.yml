@@ -18,12 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Atul      twitter_username: atulatul2601                    github_username:  atul-atul
+title:
+
+
+twitter_username: atulatul2601
+github_username:  atul-atul
 
 # Build settings
-#theme: minima
-
-theme: phantom
+theme: minima
 plugins:
   - jekyll-feed
 
