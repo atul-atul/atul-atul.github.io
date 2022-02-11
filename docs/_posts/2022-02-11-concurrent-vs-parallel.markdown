@@ -5,6 +5,7 @@ Here it is:
 
 What's the difference between concurrency and parallelism? Explain it to a five year old.
 `Concurrent`: Two queues and one coffee machine. 
+
 `Parallel`: Two queues and two coffee machines.
 
 
