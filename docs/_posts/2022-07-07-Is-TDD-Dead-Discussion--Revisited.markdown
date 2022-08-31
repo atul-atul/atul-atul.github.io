@@ -24,7 +24,7 @@ Another point where everyone agreed was that experience helps you in designing b
 
 I haven’t seen much test code where mocking was not overused. All three of them agreed that they did not prefer mocking.
 
-A quick search [indicates][[hey-code-metrics]] that DHH’s Hey codebase (which is recent in timeline) has Code to Test ratio of 1:0.7 which is quite good. So he is all for well tested code; just not so much for dogmatic test-driven code.
+A quick search [indicates][[hey-code-metrics] that DHH’s Hey codebase (which is recent in timeline) has Code to Test ratio of 1:0.7 which is quite good. So he is all for well tested code; just not so much for dogmatic test-driven code.
 
 Again, thanks DHH for generating this discussion via his post [TDD is dead. Long live testing.][orig-article-TDD-is-dead] If you are a senior developer it is one of the must read articles.
 
