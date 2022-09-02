@@ -21,4 +21,4 @@ The book also talks about changing gaming industry, the impact these people had,
 
 Overall, the book is quite uplifting if not inspiring.
 
-Another couple of books in the area of programmer biography/ history I would recommend are: Seibel's **[Coders at Work](https://en.wikipedia.org/wiki/Coders_at_Work)**, and Lammers' **[Programmers at Work](https://www.goodreads.com/book/show/2092682.Programmers_at_Work)** (Disclaimer: if I remember correctly, I have not read all interviews from Programmers at Work, but howcould you not read an interview with BillG?)
+Another couple of books in the area of programmer biography/ history I would recommend are: Seibel's **[Coders at Work](https://en.wikipedia.org/wiki/Coders_at_Work)**, and Lammers' **[Programmers at Work](https://www.goodreads.com/book/show/2092682.Programmers_at_Work)** (Disclaimer: if I remember correctly, I have not read all interviews from Programmers at Work, but how could you not read an interview with BillG?)
