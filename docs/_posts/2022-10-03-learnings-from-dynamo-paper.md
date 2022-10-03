@@ -15,7 +15,7 @@ A while back I read [the dynamo paper](https://github.com/papers-we-love/papers-
 
 I learned about consistent hashing, vector clocks, quorum, etc. I learned about the choice of trade-offs to live with (letting go of consistency in preference to availability by using sloppy quorum, etc.) Here is a table from the paper describing the techniques used.
 
-![Dynamo- techniques used](./images/dynamo_techniques.png "Dynamo- techniques used and their advantages")
+![Dynamo- techniques used](images/dynamo_techniques.png "Dynamo- techniques used and their advantages")
 
 I knew some of these techniques. But of course, combining these to create a system was an eye opener. This was probably the best learning from the paper. No wonder this is a highly respected paper in the system architecture space. Next on the reading list are papers about Bigtable, Spanner and Cassandra. The concepts are out there. You pick some of these and create a fairly complex and reliable system.
 
