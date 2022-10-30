@@ -1,23 +1,26 @@
 ---
 title: "Currently Reading, Recently Read"
-date: "2022-10-05"
+date: "2022-10-30"
 tags: 
   - "book"
 ---
 
 **Currently Reading October 2022:**
+Birdsong- Sebastian Faulks... started listening to audio book. But after first chapter or so it looks like a book I will enjoy reading. So abandoned the good narrative. Will pick up an ebook soon.
+
 The Rise and Fall of Ancient Egypt- Wilkinson
 
-Thinking In Systems- Meadows
+Thinking In Systems- Meadows... need to pick again soon.
 
-How Buildings Learn: What happens after they're built- Stewart Brand
+How Buildings Learn: What happens after they're built- Stewart Brand... need to pick again soon.
 
-Why The Allies Won- Overy (re-read)
+Why The Allies Won- Overy (re-read)...  need to pick again soon.
 
 **Recently Read:**
+The Mysterious Affair at Styles- Agatha Christie... from wikipedia: 'Styles was Christie's first published novel. It introduced Hercule Poirot, Inspector (later, Chief Inspector) Japp, and Arthur Hastings.' I have been a fan of David Suchet's Poirot from the series. Of course I have read multiple Christie and Poirot novels earlier. But this was after a while. I had forgotten the story from the series episode. Liked it. Crime fiction is not a preference. But I have recently made a point of reading at least one during occassional holidays.
 
 The Splendid And The Vile A Saga Of Churchill, Family And Defiance During The Blitz- Erik Larson. 
-'It was the best of the times, it was the worst of the times.' The book talks about Churchill's leadership before USA joined the war, his diplomacy to keep France going, his go-to people (what interesting insights!), family... A lot of book chronicles diary entries of various people around the PM- his secretary, daughter, letters between his sort of debt ridden son and son's wife, ego clashes, his speeches, inspiring visits to the bombed areas, etc. His opinions about India and attitude towards the Indian Freedom Stuggle and peopl asife (expressed elsewhere), Churchill was a great wartime leader.
+'It was the best of the times, it was the worst of the times.' The book talks about Churchill's leadership before USA joined the war, his diplomacy to keep France going, his go-to people (what interesting insights!), family... A lot of book chronicles diary entries of various people around the PM- his secretary, daughter, letters between his sort of debt ridden son and son's wife, ego clashes, his speeches, inspiring visits to the bombed areas, etc. His opinions about India and attitude towards the Indian Freedom Stuggle and peopl aside (expressed elsewhere), Churchill was a great wartime leader.
 
 Gypsy (Marathi poetry)- Padgaonkar (Re-read a favorite)
 
