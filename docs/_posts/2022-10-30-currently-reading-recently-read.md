@@ -6,7 +6,7 @@ tags:
 ---
 
 **Currently Reading October 2022:**
-Birdsong- Sebastian Faulks... started listening to audio book. But after first chapter or so it looks like a book I will enjoy reading. So abandoned the good narrative. Will pick up an ebook soon.
+Birdsong- Sebastian Faulks... started listening to audio book. But after first chapter or so it looks like a book I will enjoy reading. Appears descriptive in the vein of Gone With The Wind. I know I will feel all those feelings- joys and sorrows- more intensely while reading than listening. So abandoned the audiobook with good narrator. But I will pick up the ebook soon.
 
 The Rise and Fall of Ancient Egypt- Wilkinson
 
