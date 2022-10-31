@@ -20,8 +20,6 @@ Another point was that the TDD is particularly helpful for new developers. Marti
 
 For experienced folks, the TDD may not be much of a value apart from discipline (but a large part of life is discipline). They can make the code maintainable with unit/ integration, etc which are not necessarily written with test-first approach.
 
-Another point where everyone agreed was that experience helps you in designing better.
-
 I haven’t seen much test code where mocking was not overused. All three of them agreed that they did not prefer mocking.
 
 A quick search [indicates][hey-code-metrics] that DHH’s Hey codebase (which is recent in timeline) has Code to Test ratio of 1:0.7 which is quite good. So he is all for well tested code; just not so much for dogmatic test-driven code.
