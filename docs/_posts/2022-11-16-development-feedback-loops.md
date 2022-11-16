@@ -17,7 +17,7 @@ Would you say that sabotage (as in the above video) is also a kind of feedback?
 
 That reminds me of this quite interesting feedback- tweet below. From Ada Lovelace to Charles Babbage. Do read the text in the image. It's worth it. She might not have been 'Mad, Bad and Dangerous to Know' like her father was, but she certainly appears feisty like Scout Finch. The twitter thread mentions the source as Ada, the Enchantress of Numbers by Betty Alexandra Toole.
 
-https://twitter.com/ninabegus/status/1574434557973012480
+[https://twitter.com/ninabegus/status/1574434557973012480](https://twitter.com/ninabegus/status/1574434557973012480)
 
 
 ![Ada Lovelace Letter to Babbage](/images/Ada_Lovelace_Letter_To_Babbage.jpg "Ada Lovelace Letter to Babbage")
