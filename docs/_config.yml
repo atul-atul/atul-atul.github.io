@@ -27,10 +27,10 @@ github_username:  atul-atul
 # Build settings
 # theme: minima
 # remote_theme: chrisrhymes/bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: niklasbuschmann/contrast@v2.11
 
 plugins:
-  # - jekyll-feed
+  - jekyll-feed
   - jekyll-remote-theme
 
 # Exclude from processing.
