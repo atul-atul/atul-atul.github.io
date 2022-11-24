@@ -25,9 +25,9 @@ title: Atul
 # github_username:  atul-atul
 
 # Build settings
-# theme: minima
+theme: minima
 # remote_theme: chrisrhymes/bulma-clean-theme
-remote_theme: niklasbuschmann/contrast@v2.11
+# remote_theme: niklasbuschmann/contrast@v2.11
 
 plugins:
   - jekyll-feed
