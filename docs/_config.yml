@@ -26,10 +26,12 @@ github_username:  atul-atul
 
 # Build settings
 # theme: minima
+# remote_theme: chrisrhymes/bulma-clean-theme
 remote_theme: chrisrhymes/bulma-clean-theme
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
