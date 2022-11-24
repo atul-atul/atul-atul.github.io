@@ -25,7 +25,9 @@ twitter_username: atulatul2601
 github_username:  atul-atul
 
 # Build settings
-theme: cayman
+# theme: minima
+remote_theme: chrisrhymes/bulma-clean-theme
+
 plugins:
   - jekyll-feed
 
