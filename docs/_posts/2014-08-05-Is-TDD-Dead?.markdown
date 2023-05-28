@@ -1,3 +1,10 @@
+---
+title: "Is TDD Dead?"
+date: "2014-08-05"
+tags: 
+  - "TDD"
+---
+
 Is TDD dead? I don’t think so.
 
 Is TDD a replacement for good design? No, in that a bad or an inexperienced designer can come up with very bad system even though he follows TDD.
