@@ -15,7 +15,7 @@ Bigtable is a sparse, distributed, persistent multi-dimensional sorted map. The 
 
 Users typically access a row. Row operations are atomic. Columns (like languages) can be grouped in column families (typically same type of data). Column families are typically few in number (hundreds) but a table can have many columns. Access control and both disk and memory accounting are performed at the column-family level. Each cell in a Bigtable can contain multiple versions of the same data; these versions are indexed by timestamp.
 
-![](images/screen-shot-2023-07-18-at-7.11.54-pm.png)
+![A Bigtable](/images/a_bigtable.png "A Bitgtable storing webpages and links to those pages")
 
 **Building Blocks:** GFS, Chubby, SSTable, Memtable (These topics are good for separate blog posts)
 
@@ -30,8 +30,7 @@ Clients communicate directly with tablet servers for reads and writes; most clie
 A Bigtable cluster stores a number of tables. Each table consists of a set of tablets, and each tablet contains all data associated with a row range. Initially, each table consists of just one tablet. As a table grows, it is automatically split into multiple tablets.
 
 **Tablet Location**: (B+ - tree)
-
-![](images/screen-shot-2023-07-18-at-7.34.24-pm-1.png)
+![Tablet Location Heirarchy](/images/bigtable_tablet_location_heirarchy.png "Tablet Location Heirarchy")
 
 The first level is a file stored in Chubby that contains the location of the _root tablet_. The _root tablet_ contains the location of all tablets in a special METADATA table. Each METADATA tablet contains the location of a set of user tablets. The _root tablet_ is just the first tablet in the METADATA table, but is treated specially- it is never split- to ensure that the tablet location hierarchy has no more than three levels.
 
@@ -55,7 +54,7 @@ The master executes the following steps at startup.
 
 Read and Write: Memtable is in memory; commit logs and SSTable files are in files system.
 
-![](images/screen-shot-2023-07-18-at-7.45.29-pm.png)
+![Writing To A Bigtable](/images/writing_to_a_bigtable.png "Writing To A Bigtable")
 
 Write: 1. Write commit log, write into memtable (group commit), flush into SSTable.
 
