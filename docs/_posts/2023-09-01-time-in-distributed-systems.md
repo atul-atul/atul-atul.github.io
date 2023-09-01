@@ -8,7 +8,7 @@ tags:
 ---
 
 **Physical clocks** (time of day and monotonic)  
-**Time of day clocks** (e.g. Java's System.currentTimeMillis()) aren't very useful in distributed systems. Keeping them in synch across the nodes is not easy. Some options like NTP- network time protocol- servers exist.  
+**Time of day clocks** (e.g. Java's System.currentTimeMillis()) aren't very useful in distributed systems. Keeping them in sync across the nodes is not easy. Some options like NTP- network time protocol- servers exist.  
 **Monotonic clocks** (e.g. Java's System.nanotime()) are also not very useful. They generally measure time relative to some event (server started). But can go away easily when the node is restarted. And again, they are not useful across nodes or services.
 
 **Logical clocks** are useful. But not for knowing exact time. The problem logical clocks try to solve is not of an exact epoch. But that of deciding which event took place before which other event. For example, did read request on a database read replica took place before update request on the same value was placed by the master?
