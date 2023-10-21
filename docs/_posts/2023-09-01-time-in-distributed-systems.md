@@ -6,7 +6,7 @@ categories:
 tags: 
   - "distributed-systems"
 ---
-
+Primarily we will talk about logical clocks in this post.
 **Physical clocks** (time of day and monotonic)  
 **Time of day clocks** (e.g. Java's System.currentTimeMillis()) aren't very useful in distributed systems. Keeping them in sync across the nodes is not easy. Some options like NTP- network time protocol- servers exist.  
 **Monotonic clocks** (e.g. Java's System.nanotime()) are also not very useful. They generally measure time relative to some event (server started). But can go away easily when the node is restarted. And again, they are not useful across nodes or services.
