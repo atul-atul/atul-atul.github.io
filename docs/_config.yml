@@ -34,7 +34,7 @@ plugins:
   - jekyll-remote-theme
 
 
-excerpt_separator: "\n\t"
+excerpt_separator: "\n"
 date_format: "%B %d, %Y"
 
 # Layout
