@@ -27,7 +27,15 @@ github_username:  atul-atul
 # theme: minima
 # remote_theme: chrisrhymes/bulma-clean-theme
 # remote_theme: niklasbuschmann/contrast@v2.11
+
 remote_theme: sighingnow/jekyll-gitbook
+syntax_highlighter_style: colorful
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
+mermaid: true
+
 
 
 plugins:
