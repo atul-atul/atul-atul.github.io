@@ -33,6 +33,7 @@ remote_theme: sighingnow/jekyll-gitbook
 syntax_highlighter_style: colorful
 reverse: false
 facebook: false
+site.posts: false
 toc:
     enabled: true
     h_min: 1
