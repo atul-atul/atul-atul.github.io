@@ -19,12 +19,6 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Atul
-show_wiki_pages: true
-show_wiki_pages_limit: 10
-blog_feature: true
-show_wiki_posts: true
-show_wiki_posts_limit: 10
-
 
 twitter_username: atulatul2601
 github_username:  atul-atul
@@ -33,7 +27,7 @@ github_username:  atul-atul
 # theme: minima
 # remote_theme: chrisrhymes/bulma-clean-theme
 # remote_theme: niklasbuschmann/contrast@v2.11
-remote_theme: Drassil/git-wiki-theme
+remote_theme: vaibhavvikas/jekyll-theme-minimalistic
 
 
 plugins:
