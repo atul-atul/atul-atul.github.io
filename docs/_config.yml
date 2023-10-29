@@ -31,7 +31,8 @@ facebook_username: help/250563911970368
 
 remote_theme: sighingnow/jekyll-gitbook
 syntax_highlighter_style: colorful
-reverse: true
+reverse: false
+facebook: false
 toc:
     enabled: true
     h_min: 1
