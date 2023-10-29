@@ -24,10 +24,10 @@ twitter_username: atulatul2601
 github_username:  atul-atul
 
 # Build settings
-theme: minima
+# theme: minima
 # remote_theme: chrisrhymes/bulma-clean-theme
 # remote_theme: niklasbuschmann/contrast@v2.11
-# remote_theme: vaibhavvikas/jekyll-theme-minimalistic
+remote_theme: sighingnow/jekyll-gitbook
 
 
 plugins:
