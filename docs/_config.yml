@@ -22,13 +22,21 @@ title: Atul
 
 twitter_username: atulatul2601
 github_username:  atul-atul
+facebook_username: help/250563911970368
 
 # Build settings
 # theme: minima
 # remote_theme: chrisrhymes/bulma-clean-theme
 # remote_theme: niklasbuschmann/contrast@v2.11
 
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: sighingnow/jekyll-gitbook
+syntax_highlighter_style: colorful
+reverse: true
+toc:
+    enabled: true
+    h_min: 1
+    h_max: 3
+mermaid: true
 
 
 plugins:
