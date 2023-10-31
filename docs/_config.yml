@@ -49,7 +49,7 @@ lunr:
 # Site Author
 author:
   name             : "Atul"
-  avatar           : /docs/assets/images/ll.jpg"
+  avatar           : /assets/images/ll.jpg"
   bio              : "Just another engineer."
   location         : "Pune"
 encoding: "utf-8"
