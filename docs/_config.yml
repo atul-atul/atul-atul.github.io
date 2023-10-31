@@ -33,8 +33,8 @@ facebook_username: help/250563911970368
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" 
 locale                   : "en-US"
-title                    : "Atul"
-subtitle                 : "AJ"
+# title                    : "Atul"
+# subtitle                 : "AJ"
 title_separator          : "-"
 name                     : "Atul"
 atom_feed:
@@ -42,7 +42,7 @@ atom_feed:
   hide                   : false
 
 defaults:
-  # _posts
+  _posts
   - scope:
       path: ""
       type: posts
