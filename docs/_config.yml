@@ -41,6 +41,15 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : false
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+
+
 search                   : true
 search_full_content      : true
 search_provider          : lunr
