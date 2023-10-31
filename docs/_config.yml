@@ -34,7 +34,7 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" 
 locale                   : "en-US"
 title                    : "Atul"
-subtitle                 : "At the inetersection of life and tech"
+subtitle                 : "AJ"
 title_separator          : "-"
 name                     : "AJ"
 atom_feed:
@@ -49,8 +49,8 @@ lunr:
 # Site Author
 author:
   name             : "Atul"
-  avatar           : /images/ll.jpg"
-  # bio              : "I am an **amazing** person."
+  avatar           : /docs/assets/images/ll.jpg"
+  bio              : "Just another engineer."
   location         : "Pune"
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
