@@ -49,7 +49,7 @@ lunr:
 # Site Author
 author:
   name             : "Atul"
-  # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : /images/ll.jpg"
   # bio              : "I am an **amazing** person."
   location         : "Pune"
 encoding: "utf-8"
