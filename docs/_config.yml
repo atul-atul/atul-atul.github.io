@@ -34,9 +34,9 @@ remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin    : "default" 
 locale                   : "en-US"
 title                    : "Atul"
-subtitle                 : "AJ"
+subtitle                 : "Atul"
 title_separator          : "-"
-name                     : "AJ"
+name                     : "Atul"
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : false
