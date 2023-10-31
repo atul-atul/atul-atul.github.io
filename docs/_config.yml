@@ -30,7 +30,8 @@ facebook_username: help/250563911970368
 # remote_theme: niklasbuschmann/contrast@v2.11
 
 # remote_theme: sighingnow/jekyll-gitbook
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+# remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" 
 locale                   : "en-US"
 title                    : "AJ"
