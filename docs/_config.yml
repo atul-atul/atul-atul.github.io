@@ -42,12 +42,19 @@ atom_feed:
   hide                   : false
 
 defaults:
-  _posts
+  _posts:
+    values:
+      show_date: true
   - scope:
       path: ""
       type: posts
     values:
+      layout: single
+      author_profile: true
       show_date: true
+      comments: # true
+      share: true
+      related: true
 
 
 search                   : true
