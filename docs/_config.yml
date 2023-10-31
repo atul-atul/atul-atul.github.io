@@ -34,10 +34,14 @@ facebook_username: help/250563911970368
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "mint" 
 locale                   : "en-US"
-title                    : "AJ"
+title                    : "Atul"
 subtitle                 : "AJ"
 title_separator          : "-"
 name                     : "Atul"
+words_per_minute         : 150
+
+comments:
+  provider               : false 
 atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : false
@@ -53,6 +57,7 @@ defaults:
       layout: single
       author_profile: true
       show_date: true
+      read_time: true
       comments: true
       share: true
       related: true
@@ -64,6 +69,7 @@ search_provider          : lunr
 lunr:
   search_within_pages    : true
 # Site Author
+author_profile: true
 author:
   name             : "Atul"
   avatar           : /images/ll.jpg
