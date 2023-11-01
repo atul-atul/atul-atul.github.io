@@ -36,7 +36,7 @@ locale                   : "en-US"
 title                    : "Atul"
 # subtitle                 : "AJ"
 title_separator          : "-"
-name                     : "Atul"
+# name                     : "Atul"
 # words_per_minute         : 125
 
 comments:
