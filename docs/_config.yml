@@ -70,7 +70,7 @@ lunr:
 # Site Author
 author_profile: true
 author:
-  name             : "Atul"
+  # name             : "Atul"
   avatar           : /images/ll.jpg
   # bio              : "Just another engineer."
   location         : "Pune"
