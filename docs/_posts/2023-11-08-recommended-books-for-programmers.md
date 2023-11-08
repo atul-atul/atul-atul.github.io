@@ -8,7 +8,7 @@ tags:
   - "technology-books"
 ---
 
-This is another of those **Recommended Books For A Programmer** post. Except, this one is by me. Over the years I read a few programming related books. And some of those stayed with me. I have forgotten many and must have forgotten many which should have made to this list. Also, as I did not formally graduate in Computer Science, you will not see the dragon book or GEB or CLRS on this list. Nor is the list targeted towards interview- so no Grokking Algorythms or Cracking the coding interview on this list. Still, here is an attempt to list a few which I will recommend reading. Only writing about books here. Papers or talks such as Rich Hickey's Are We There Yet would make to a separate post.
+This is another of those Recommended Books For A Programmers post. Over the years I read a few programming related books. And some of those stayed with me. I have forgotten many and must have forgotten many which should have made to this list. Also, as I did not formally graduate in Computer Science, you will not see the dragon book or GEB or CLRS on this list. Nor is the list targeted towards interview- so no Grokking Algorithms or Cracking the coding interview on this list. Still, here is an attempt to list a few which I will recommend reading. Only writing about books here. Papers(like Dynamo) or talks(like Are We There Yet?) would make to a separate post(s).
 
 Let's start with light stuff.
 
@@ -22,10 +22,10 @@ Let's start with light stuff.
     This book talks about OO design pattern primarily centered around interfaces. It is dated with examples of window toolkits, etc. And nowadays with functional programming in context, the OO design patterns may seem overkill or too much of structure. But their discussion about interfaces, why, how of a patterns, etc. stayed with me. This book and Refactoring by Fowler taught me the importance of naming things well. For example, if you tell me you will use a builder here and extract a template method there to be implemented by various concrete implementations, I can understand it without much further detailing. Good, intention revealing names give you an abstraction over the concept indicated by those names.
 
 7. **Microservices** by Sam Newman  
-    While the book seems like a lecture series of slides translated to long-form content to be made into the book, the resulting book gave me a lay of the land of sorts of microservices and distributed systems. Domain Driven Design by Eric Evans is a recommended read in this area for bounded contexts, etc.
+    While the book seems like a lecture series of slides translated to long-form content to be made into the book, the resulting book gave me a lay of the land of sorts of microservices and distributed systems. **Domain Driven Design** by Eric Evans is a recommended read in this area for bounded contexts, etc.
 
 9. **The Pragmatic Programmer** by Dave Thomas and Andy Hunt  
-    This is a good book to come back to often to and glance through it again and again. Better than books like Code Complete, IMO.
+    This is a good book to come back to often to and glance through again and again. Better than books like Code Complete, IMO.
 
 11. **Coders at Work and Programmers at Work**  
     These books are great if you need some sort of looking up to the elders and get motivated.
@@ -49,7 +49,7 @@ Let's start with light stuff.
     An old one. Recommended for the way you can think about it. And whether you will hear about this book or not, these patterns are everywhere in fairly large systems. They have taken different forms with microservices, big data systems. But you can still learn a lot.
 
 25. Continuous Delivery Jez Humble  
-    The concepts and practices are nowadays so commonplace that you might already know many of the things you need to know in the area of delivery, agile, devops, etc. I will also recommend The Phoenix Project but I personally knew the concept and did not like to book much- but that is because I read it very late.  
+    The concepts and practices are nowadays so commonplace that you might already know many of the things you need to know in the area of delivery, agile, devops, etc. I will also recommend The Phoenix Project but I personally knew the concepts and did not like to book much- but that is because I read it very late.  
       
     And now some that you won't find in many other such lists on the net.
 
@@ -57,13 +57,13 @@ Let's start with light stuff.
     A good language and a good book. Similarly I would recommend **Joe Armstrong's Programming Erlang** though I did not finish it. But the concepts are invaluable.
 
 29. UML Distilled by Fowler  
-    This is another of those old books about extinct topic. And another book by Fowler on this list. But quite good.
+    This is another of those old books about an extinct topic. And another book by Fowler on this list. But quite good.
 
 31. **Release It** by Nygard  
-    This is where- even though I say it myself- this post gets better than thousands of other similar post on the net. This has been the best architecture and programming book I have read in maybe a decade. I should have read it much earlier. Primary goal is to write recovery oriented systems. It talks about stability patters/ anti-patterns, etc. If you haven't been following similar patterns in your systems, it will make you lose sleep.
+    This is where- even though I say it myself- this post gets better than thousands of other similar post on the net. This book has been the best architecture and programming book I have read in maybe a decade. I should have read it much earlier. Primary goal is to write recovery oriented systems. It talks about stability patterns/ anti-patterns, etc. If you haven't been following similar patterns in your systems, it will make you lose sleep.
 
 33. **The Art Of Unix Programming** by ESR  
-    This is where you learn the principles. Write small programs which do one thing and do it well and interact well with other programs, etc.
+    This is where you learn the principles like: Write small programs which do one thing and do it well and interact well with other programs, etc.
 
 35. **OO Analysis and Design By Grady Booch**  
     What is abstraction? What is encapsulation? Learn OO concepts from the masters.
