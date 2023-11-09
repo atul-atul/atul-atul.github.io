@@ -8,7 +8,7 @@ tags:
   - "technology-books"
 ---
 
-This is another of those Recommended Books For A Programmers post. Over the years I read a few programming related books. And some of those stayed with me. I have forgotten many and must have forgotten many which should have made to this list. Also, as I did not formally graduate in Computer Science, you will not see the dragon book or GEB or CLRS on this list. Nor is the list targeted towards interview- so no Grokking Algorithms or Cracking the coding interview on this list. Still, here is an attempt to list a few which I will recommend reading. Only writing about books here. Papers(like Dynamo) or talks(like Are We There Yet?) would make to a separate post(s).
+This is another of those Recommended Books For A Programmer posts. Over the years I read a few programming related books. And some of those stayed with me. I have forgotten many and must have forgotten many which should have made to this list. Also, as I did not formally graduate in Computer Science, you will not see the dragon book or GEB or CLRS on this list. Nor is the list targeted towards interview- so no Grokking Algorithms or Cracking the coding interview on this list. Still, here is an attempt to list a few which I will recommend reading. Only writing about books here. Papers(like Dynamo) or talks(like Are We There Yet?) would make to a separate post(s).
 
 Let's start with light stuff.
 
