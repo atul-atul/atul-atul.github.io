@@ -3,7 +3,7 @@ title: "Integration"
 date: "2023-11-26"
 ---
 
-Recently came across the post on Google SRE post. [Lessons Learned from Twenty Years of Site Reliability Engineering](https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned/)
+Recently came across the post on Google SRE blog. [Lessons Learned from Twenty Years of Site Reliability Engineering](https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned/)
 
 Funny that they don't seem to mention the date on the post. Or I might have missed it. That aside, the thing that struck me most is that they mentioned lesson 5 **"Unit tests alone are not enough - integration testing is also needed"** And they seemed to have that learning around 2017. I will try to practice the lesson **Automate your mitigations** but the integration tests lesson resonated.
 
