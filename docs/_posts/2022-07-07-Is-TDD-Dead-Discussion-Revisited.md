@@ -1,3 +1,7 @@
+---
+title: "Is TDD Dead- Discussion Revisited"
+date: "2022-07-07"
+---
 I recently posted this year’s [Stack Overflow Developer Survey 2022 Results][so-survey-results-2022] on engineering channel of my project/ department. It has some 200+ members developers, architects, scrum masters, QAs, etc- many of them being not so active. A sort of short exchange followed. One of the points was about server side rendering which forked into the discussion about whether TDD is dead. (You understand the chain? Popularity of Phoenix -> LiveView -> SSR -> DHH -> Is TDD Dead?)
 
 As a result I ended up watching [the discussion][tdd-discussion] again after many years. The discussion took place in May-June 2014, I [wrote about it][my-impression-about-orig-post] in August 2014 and now watched the discussion again a couple of weeks back. What are my current impressions?
