@@ -1,5 +1,5 @@
 ---
-title: "Working around a problem"
+title: "Working Around Problems"
 date: "2023-12-12"
 categories: 
   - "books"
