@@ -43,7 +43,7 @@ comments:
   provider               : false 
 atom_feed:
   path                   : # blank (default) uses feed.xml
-  hide                   : false
+  hide                   : true
 
 defaults:
   - _posts:
