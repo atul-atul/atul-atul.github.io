@@ -15,7 +15,7 @@ But this can be difficult. Quite a few people are unwilling to change their mind
 1. we have a need to belong somewhere (a group)
 2. Some thoughts and ideas appeal to us
 3. We see ourselves belonging to the group that holds same/ similar ideas.
-4. These thoughts and ideas become our identity. We become different from people with different ideas and similar to the group that advocate same ideas as us.
+4. These thoughts and ideas become our identity. We become different from people with different ideas and similar to the group that advocate same ideas as us. We don't realize that we are not our thoughts.
 5. Changing our minds about those means changing your identity and alliances.
 6. Because of like minded people, the ideas get a boost and conducive environment. The merit of ideas is not debated well in that group.
 
