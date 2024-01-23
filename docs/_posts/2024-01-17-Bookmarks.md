@@ -1,6 +1,6 @@
 ---
 title: "Bookmarks"
-date: "2024-01-17"
+date: "2024-01-23"
 ---
 
 Here I plan to note down links, etc. which I found interesting/ planned to visit later. Some of these may be half-read. Tech/non-Tech I will keep on updating this every now and then.
