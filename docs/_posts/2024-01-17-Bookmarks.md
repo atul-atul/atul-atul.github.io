@@ -17,4 +17,6 @@ Here I plan to note down links, etc. which I found interesting/ planned to visit
 10. [Common Weakness Enumeration- a sample](https://cwe.mitre.org/data/definitions/22.html)
 11. [Tinker Tailor Soldier Spy](https://www.youtube.com/playlist?list=PLwix5PoqRIFNFxBcVsrcq2CrnVvbkexVR) and [Smiley's People](https://www.youtube.com/playlist?list=PLwix5PoqRIFOqIAlXTNGp4pCXu8HLhnWF) TV adaptations as best as any can be.
 12. [Solar system distances if the moon were one pixel](https://joshworth.com/dev/pixelspace/pixelspace_solarsystem.html)
-13.  [How many moons does the earth have?](https://www.youtube.com/watch?v=CIqOsM6_3Dw&ab_channel=QI)
+13. [How many moons does the earth have?](https://www.youtube.com/watch?v=CIqOsM6_3Dw&ab_channel=QI)
+14. [Technology behind a one-person Internet company](https://www.listennotes.com/blog/the-boring-technology-behind-a-one-person-23/)
+15. [API versioning at Stripe](https://stripe.com/blog/api-versioning) I have consumed a lot of material on versioning of APIs. But this is the best content I came across so far. First read in 2017 when it's posted.
