@@ -24,3 +24,5 @@ Here I plan to note down links, etc. which I found interesting/ planned to visit
 17. [Third place](https://en.wikipedia.org/wiki/Third_place) makes so much sense. It's late. But I need to develop one for myself.
 18. [David Perell's Friday Finds Links](https://perell.com/friday-finds-links/)
 19. [Why the Future Doesn't Need Us](https://www.wired.com/2000/04/joy-2/) Read this 2017-18, I think. Should re-read? 
+20. [The 5 laws of API dates and times](https://apiux.com/2013/03/20/5-laws-api-dates-and-times/)
+21. [Before making your site public](https://softwareengineering.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before)
