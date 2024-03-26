@@ -28,3 +28,4 @@ Here I plan to note down links, etc. which I found interesting/ planned to visit
 21. [Before making your site public](https://softwareengineering.stackexchange.com/questions/46716/what-technical-details-should-a-programmer-of-a-web-application-consider-before)
 22. [Buy It For Life](https://www.reddit.com/r/BuyItForLife/). Things that last long. In the age of full-blown consumerism and planned obsolescence, it should be worthwhile shortlisting recommended products and brands in the areas of interest. While not many brands are available in India, I have made an amazon list from my visits to the page (mainly from all time top posts).
 23. Chuck Norris/ Rajinikanth style 'facts' about [Jeff Dean](https://www.informatika.bg/jeffdean) and [Jon Skeet](https://meta.stackexchange.com/questions/9134/jon-skeet-facts).
+24. [Recursion, Calvin And Hobbes Style](https://www.gocomics.com/calvinandhobbes/2024/3/24)
