@@ -1,7 +1,7 @@
 ---
 title: "Two Phase Commit"
 date: "2023-10-23"
-categories: ["notes"]
+# categories: ["notes"]
 tags: ["distributed-systems", "technical-reading" "two-phase-commit"]
 ---
 
