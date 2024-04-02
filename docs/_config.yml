@@ -147,17 +147,17 @@ jekyll-archives:
     - categories
     - tags
     - year
-    - month
+    # - month
     # - day
   layouts:
-    year: year-archive
-    month: month-archive
+    # year: year-archive
+    # month: month-archive
     # day: day-archive
-    category: category-archive
-    tag: tag-archive
+    category: archive-taxonomy
+    tag: archive-taxonomy
   permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
+    # year: '/:year/'
+    # month: '/:year/:month/'
     # day: '/:year/:month/:day/'
     category: /categories/:name/
     tag: /tags/:name/
