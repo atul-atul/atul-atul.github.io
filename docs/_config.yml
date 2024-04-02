@@ -134,33 +134,33 @@ whitelist:
   - jekyll-include-cache
   - jekyll-archives
 
-# category_archive:
-#   type: liquid
-#   path: /categories/
-# tag_archive:
-#   type: liquid
-#   path: /tags/
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
 
-# https://github.com/jekyll/jekyll-archives
-jekyll-archives:
-  enabled:
-    - categories
-    - tags
-    # - year
-    # - month
-    # - day
-  layouts:
-    # year: year-archive
-    # month: month-archive
-    # day: day-archive
-    category: archive-taxonomy
-    tag: archive-taxonomy
-  permalinks:
-    # year: '/:year/'
-    # month: '/:year/:month/'
-    # day: '/:year/:month/:day/'
-    category: /categories/:name/
-    tag: /tags/:name/
+# # https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#     # - year
+#     # - month
+#     # - day
+#   layouts:
+#     # year: year-archive
+#     # month: month-archive
+#     # day: day-archive
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     # year: '/:year/'
+#     # month: '/:year/:month/'
+#     # day: '/:year/:month/:day/'
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 excerpt_separator: "\n"
