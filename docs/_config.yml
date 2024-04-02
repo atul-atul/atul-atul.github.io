@@ -45,11 +45,11 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : true
 
-search                   : true
-search_full_content      : true
-search_provider          : lunr
-lunr:
-  search_within_pages    : true
+# search                   : true
+# search_full_content      : true
+# search_provider          : lunr
+# lunr:
+#   search_within_pages    : true
 
 defaults:
   - _posts:
