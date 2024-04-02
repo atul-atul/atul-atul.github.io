@@ -1,12 +1,8 @@
 ---
 title: "Two Phase Commit"
 date: "2023-10-23"
-categories: 
-  - "notes"
-tags: 
-  - "distributed-systems"
-  - "technical-reading"
-  - "two-phase-commit"
+categories: ["notes"]
+tags:["distributed-systems", "technical-reading", "two-phase-commit"]
 ---
 
 An old topic. Some content/ notes from Foundations of Scalable Systems by Ian Gorton. Posting here for quick reference.
@@ -19,7 +15,7 @@ Once all the operations in the transaction are completed successfully, the clien
 
 1. **Prepare phase** The coordinator sends a message to all participants to tell them to prepare to commit the transaction. When a participant successfully prepares, it guarantees that it can commit the transaction and make it durable. After this, it can no longer unilaterally decide to abort the transaction. If a participant cannot prepare, that is, if it cannot guarantee to commit the transaction, it must abort. Each participant then informs the coordinator about its decision to commit or abort by returning a message that contains its decision.
 
-3. **Resolve phase** When all the participants have replied to the _prepare_ phase, the coordinator examines the results. If all the participants can commit, the whole transaction can commit, and the coordinator sends a commit message to each participant. If any participant has decided that it must abort the transaction, or doesn’t reply to the coordinator within a specified time period, the coordinator sends an abort message to each participant.
+2. **Resolve phase** When all the participants have replied to the _prepare_ phase, the coordinator examines the results. If all the participants can commit, the whole transaction can commit, and the coordinator sends a commit message to each participant. If any participant has decided that it must abort the transaction, or doesn’t reply to the coordinator within a specified time period, the coordinator sends an abort message to each participant.
 
 ![](images/two_phase_commit.png)
 
