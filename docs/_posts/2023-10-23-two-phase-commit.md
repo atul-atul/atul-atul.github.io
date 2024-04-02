@@ -2,7 +2,7 @@
 title: "Two Phase Commit"
 date: "2023-10-23"
 categories: ["notes"]
-tags:["distributed-systems", "technical-reading", "two-phase-commit"]
+tags: ["distributed-systems", "technical-reading" "two-phase-commit"]
 ---
 
 An old topic. Some content/ notes from Foundations of Scalable Systems by Ian Gorton. Posting here for quick reference.
