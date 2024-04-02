@@ -123,7 +123,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-remote-theme
-  # - jekyll-archives
+  - jekyll-archives
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -132,7 +132,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
-  # - jekyll-archives
+  - jekyll-archives
 
 category_archive:
   type: liquid
