@@ -5,6 +5,9 @@ categories:
   - "notes"
 tags: 
   - "technical-reading"
+  - thoughts
+  - concepts
+  - models
 ---
 
 Here I plan to write about some concepts, phrases, models, ideas related to my work and life. As these are likely to be known to many, the idea is to just document these together, rather than go into details of these. Will keep updating.
