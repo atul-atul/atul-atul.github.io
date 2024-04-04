@@ -27,7 +27,7 @@ Here I plan to write about some concepts, phrases, models, ideas related to my w
    People performing a better role at a level get promoted to higher level where they are not as competent. This is generally accepted as true. But again this is to be taken not as a rule but more as a rule of thumb. Many people at higher levels are actually competent.
 7. **[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)**
    Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations. In my experience, this is always valid.
-8. **[Normal Disribution/ Bell Curve](https://en.wikipedia.org/wiki/Normal_distribution)**
+8. **[Normal Distribution/ Bell Curve](https://en.wikipedia.org/wiki/Normal_distribution)**
    Every normal distribution is a version of the standard normal distribution, with some standard deviation and mean. This is why, we will hire only the best candidates generally does not make sense. Even if you hire the best, there will be some who are within bounds of certain sigma value and others beyond those bounds. Need to read more.
 9. **[Sunk Cost and Sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost)**
 10. **[Spontaneous order](https://en.wikipedia.org/wiki/Spontaneous_order)** 
