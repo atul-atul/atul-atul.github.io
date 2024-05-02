@@ -1,6 +1,5 @@
 ---
 title: "Short Takes"
-date: "2024-04-04"
 categories: 
   - "notes"
 tags: 
