@@ -34,7 +34,7 @@ The mechanism of vector clocks is:
 
 3. When a process encounters an event (internal, generated or external)- that is it sends or receives an event, then it increments the number at its own position by one.
 
-5. A process sending an event to another process sends its vector clock to the receiving process along with the event after incrementing its own position. So if P1 sends first event to P2 then it will send the vector \[1,0,0\] along with that. If it sends another event to P2 or P3 then it will send \[2,0,0\] along with that.
+5. A process sending an event to another process sends its vector clock to the receiving process along with the event after incrementing its own position. So if P1 sends the first event to P2 then it will send the vector \[1,0,0\] along with that. If it sends another event to P2 or P3 then it will send \[2,0,0\] along with that.
 
 7. When a process receives a message/ event, it first increments its own local vector clock position. Then it takes position-wise maximum of the two vector clocks- its local VC and the one incoming with the event. So if P2 had a VC \[5, 10, 6\] when it received an event from P3 with \[9, 8, 8\], then the resultant VC at P2 after receiving the event will be \[9, 11, 8\].
 
@@ -45,7 +45,7 @@ A system with three processes using vector clocks:
   
 In the above system, the event A has a vector clock of \[0,3,2\]. Right? We can see the events that happened before A on the same process (P2). We can also say that two on P3 happened before A. Why? Second event on P3 happened before second event on P2 as it is the corresponding send-event for second event on P2. And the first event on P3 happened before the second event on P3. In general, the causal history of an event A is a set of all events which have vector clocks same or smaller than that of A on every position.  
 Similarly causal effects of A include all events which have VCs same or more than that of A at every position.
-If there is an event that has a VC with some positions as same or more and other positions smaller than VC(A), then that event is independent of A. So in above picture, the first event on process P1- which has VC \[1,0,0\] cannot be on the causal history not can it be an effect of the event A. It is independent of A.
+If there is an event that has a VC with some positions as same or more and other positions smaller than VC(A), then that event is independent of A. So in above picture, the first event on process P1- which has VC \[1,0,0\] cannot be on the causal history nor can it be an effect of the event A. It is independent of A.
 
 Are last events on P1 and P3- those having VCs \[2,3,4\] and \[1,3,5\] causally connected?
 
