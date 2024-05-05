@@ -9,7 +9,7 @@ tags:
   - "technical-reading"
 ---
 
-Below are my notes from my reading of [the google's bigtable paper](https://github.com/papers-we-love/papers-we-love/blob/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf).
+Below are my notes from my reading of [Google's bigtable paper](https://github.com/papers-we-love/papers-we-love/blob/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf).
 
 Bigtable is a sparse, distributed, persistent multi-dimensional sorted map. The map is indexed by a row key, column key, and a timestamp; each value in the map is an uninterpreted array of bytes.
 
@@ -46,11 +46,11 @@ The master executes the following steps at startup.
 
 1. The master grabs a unique _master_ lock in Chubby, which prevents concurrent master instantiations.
 
-3. The master scans the servers directory in Chubby to find the live servers.
+2. The master scans the servers directory in Chubby to find the live servers.
 
-5. The master communicates with every live tablet server to discover what tablets are already assigned to each server.
+3. The master communicates with every live tablet server to discover what tablets are already assigned to each server.
 
-7. The master scans the METADATA table to learn the set of tablets. Whenever this scan encounters a tablet that is not already assigned, the master adds the tablet to the set of unassigned tablets, which makes the tablet eligible for tablet assignment.
+4. The master scans the METADATA table to learn the set of tablets. Whenever this scan encounters a tablet that is not already assigned, the master adds the tablet to the set of unassigned tablets, which makes the tablet eligible for tablet assignment.
 
 Read and Write: Memtable is in memory; commit logs and SSTable files are in files system.
 
