@@ -1,6 +1,6 @@
 ---
 title: "Short Takes"
-last_modified_at: 2024-05-02T00:00:01-00:00
+last_modified_at: 2024-05-07T00:00:01-00:00
 categories: 
   - "notes"
 tags: 
@@ -41,3 +41,5 @@ Here I plan to write about some concepts, phrases, models, ideas related to my w
 16. "You can't 'selectively' numb emotions." From [a TED talk](https://www.ted.com/talks/brene_brown_the_power_of_vulnerability).
 17. Shogun TV Series episode 4. Toda Mariko says about her husband's death, "I will inherit his wishes." Wow.
 18. [The Cobra Effect](https://en.wikipedia.org/wiki/Perverse_incentive) is related to [Goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) and [Unintended Consequences](https://en.wikipedia.org/wiki/Unintended_consequences)
+19. The [Paradox of Choice](https://www.youtube.com/watch?v=FpGgMdDimKY) says that you would be happier with your choice when you have a comparatively smaller number of options to choose from. While [options are necessary](https://en.wikipedia.org/wiki/The_Paradox_of_Choice#Summary), increasing the number of options beyond a certain threshold yeilds unsatisfactory results. I haven't read the book. But I think it makes sense. It is said to be applicable for consumer products, dating, etc. A typical career advice says that you should choose a career path that will open a few options to choose from. Try out a few of these and when you find your interest inclining towards one of those options, commit to that. [Longer talk](https://www.youtube.com/watch?v=vMV4PIEIKY4) by the author of the book. Again, things like this are not pure science so your mileage may vary.
+20.  
