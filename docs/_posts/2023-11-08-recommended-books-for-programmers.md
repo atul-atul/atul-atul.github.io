@@ -1,7 +1,7 @@
 ---
 title: "Recommended Books For Programmers"
 date: "2023-11-08"
-last_modified_at: 2024-05-05T00:00:01-00:00
+last_modified_at: 2024-05-07T00:00:01-00:00
 categories: 
   - "books"
 tags: 
@@ -29,11 +29,11 @@ Let's start with light stuff.
       
 And now some books that you won't find in many other such lists on the net.
 
-14. **Programming Elixir ≥ 1.6: Functional |> Concurrent |> Pragmatic |> Fun by Dave Thomas**  A good language and a good book. Similarly I would recommend **Joe Armstrong's Programming Erlang** though I did not finish it. But the concepts are invaluable.
-15. **UML Distilled by Fowler**  This is another of those old books about an extinct topic. And another book by Fowler on this list. But quite good.
-16. **Release It by Nygard** This is where- even though I say it myself- this post gets better than thousands of other similar posts on the net. This book has been [the best general architecture/ system design book I have read](https://atul-atul.github.io/books/release-it-book-by-michael-nygard/) in maybe a decade. I should have read it much earlier. Primary goal is to write recovery oriented systems. It talks about stability patterns/ anti-patterns, etc. If you haven't been following similar patterns in your systems, it will make you lose sleep. 
-17. **The Art Of Unix Programming by ESR**  This is where you learn the principles like: Write small programs which do one thing and do it well and interact well with other programs, etc.
-18. **OO Analysis and Design By Grady Booch**  What is abstraction? What is encapsulation? Learn OO concepts from the masters.
-19. **97 Things** series by O'reilly  Programmers, architects, etc. Similar- The Manager's Path, The first 90 days, etc.
-20. **The Hidden Life of Trees** Wohlleben  Not programming as such. The author talks about how trees survive, etc. And the book is not science proper. But while reading it I kept thinking about how I could make my software systems similarly adaptive, robust like trees.
-21. **Designing Data Intensive Applications** by Kleppmann  I should finish it. But VERY highly recommended.
+1. **Programming Elixir by Dave Thomas**  A good language and a good book. Similarly I would recommend **Joe Armstrong's Programming Erlang** though I did not finish it. But the concepts are invaluable.
+2. **UML Distilled by Fowler**  This is another of those old books about an extinct topic. And another book by Fowler on this list. But quite good.
+3. **Release It by Nygard** This is where- even though I say it myself- this post gets better than thousands of other similar posts on the net. This book has been [the best general architecture/ system design book I have read](https://atul-atul.github.io/books/release-it-book-by-michael-nygard/) in maybe a decade. I should have read it much earlier. Primary goal is to write recovery oriented systems. It talks about stability patterns/ anti-patterns, etc. If you haven't been following similar patterns in your systems, it will make you lose sleep. 
+4. **The Art Of Unix Programming by ESR**  This is where you learn the principles like: Write small programs which do one thing and do it well and interact well with other programs, etc.
+5. **OO Analysis and Design By Grady Booch**  What is abstraction? What is encapsulation? Learn OO concepts from the masters.
+6. **97 Things** series by O'reilly  Programmers, architects, etc. Similar- The Manager's Path, The first 90 days, etc.
+7. **The Hidden Life of Trees** Wohlleben  Not programming as such. The author talks about how trees survive, etc. And the book is not science proper. But while reading it I kept thinking about how I could make my software systems similarly adaptive, robust like trees.
+8. **Designing Data Intensive Applications** by Kleppmann  I should finish it. But VERY highly recommended.
