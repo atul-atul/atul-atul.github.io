@@ -10,7 +10,7 @@ tags:
   - "technical-reading"
   - "technology-books"
 ---
-Here is my understanding about Zookeper from reading [the Zookeper paper](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/zookeeper-wait-free-coordination-for-internet-scale-systems.pdf). Some other references: [MIT's lecture video](https://www.youtube.com/watch?v=pbmyrNjzdDk) and [course notes](http://nil.csail.mit.edu/6.824/2021/notes/l-zookeeper.txt).
+Here is my understanding about Zookeeper from reading [the Zookeper paper](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/zookeeper-wait-free-coordination-for-internet-scale-systems.pdf). Some other references: [MIT's lecture video](https://www.youtube.com/watch?v=pbmyrNjzdDk) and [course notes](http://nil.csail.mit.edu/6.824/2021/notes/l-zookeeper.txt).
 
 The ideas relevant in this description include: distributed applications, group membership, group messaging, broadcast, quorum, leader election, distributed locks, consistency, performance, hierarchical file system, FIFO, linearizability, write-ahead-log, etc. (Some of these topics are so ubiquitous in distributed systems that it'd be worthwhile for me to write about these in short for quick reference.)
 
