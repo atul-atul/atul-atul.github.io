@@ -14,7 +14,7 @@ Here is my understanding about ZooKeeper from reading [the ZooKeeper paper](http
 
 The ideas relevant in this description include: distributed applications, group membership, group messaging, broadcast, quorum, leader election, distributed locks, consistency, performance, hierarchical file system, FIFO, linearizability, write-ahead-log, etc. (Some of these topics are so ubiquitous in distributed systems that it'd be worthwhile for me to write about these in short for quick reference.)
 
-They identify Zookeper (ZK) as a co-ordination service. What does it co-ordinate? Processes of distributed applications. 
+They identify Zookeeper (ZK) as a co-ordination service. What does it co-ordinate? Processes of distributed applications. 
 
 A typical workload of a ZK application is dominated by read operations and it becomes desirable to scale read throughput. 
 
