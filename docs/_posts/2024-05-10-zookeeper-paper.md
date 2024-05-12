@@ -110,16 +110,16 @@ What happens if a process sees that *ready* exists before the new leader starts 
   ```
 
 A few consequences/ constraints:
-  Leader must preserve client write order across leader failure.
-  Replicas must enforce "a client's reads never go backwards in zxid order"
-    despite replica failure.
-  Client must track highest zxid it has read
-    to help ensure next read doesn't go backwards
-    even if sent to a different replica
+1. Leader must preserve client write order across leader failure.
+2. Replicas must enforce "a client's reads never go backwards in zxid order"
+   1. despite replica failure.
+3. Client must track highest zxid it has read
+   1. to help ensure next read doesn't go backwards
+   2. even if sent to a different replica
 
 **Locks**
 
-If many clients set watch, there's a herd effect when the previously held lock gets released- many clients will want to acquire lock at once. Psuedocode for simple locking to avoid the herd effect could look like:
+If many clients set watch, there's a herd effect when the previously held lock gets released- many clients will want to acquire lock at once. Pseudocode for simple locking to avoid the herd effect could look like:
 ```
 Lock
 1 n = create(l + “/lock-”, EPHEMERAL|SEQUENTIAL) 
@@ -160,9 +160,9 @@ Components:
 
 Because state changes depend on the application of previous state changes, Zab provides stronger order guarantees than regular atomic broadcast. More specifically, Zab guarantees that changes broadcast by a leader are delivered in the order they were sent and all changes from previous leaders are delivered to an established leader before it broadcasts its own changes.
 
-Read requests are handled locally at each server. Each read request is processed and tagged with a zxid that corresponds to the last transaction seen by the server. This zxid defines the partial order of the read requests with respect to the write requests. Processing reads locally (an in-memory operation on the local server), yeilds excellent performance with read-dominant workloads.
+Read requests are handled locally at each server. Each read request is processed and tagged with a zxid that corresponds to the last transaction seen by the server. This zxid defines the partial order of the read requests with respect to the write requests. Processing reads locally (an in-memory operation on the local server), yields excellent performance with read-dominant workloads.
 
 There are two reasons for write requests taking longer than read requests. First, write requests must go through atomic broadcast, which requires some extra processing and adds latency to requests. The other reason for longer processing of write requests is that servers must ensure that transactions are logged to non-volatile store before sending acknowledgments back to the leader.
 
-General takeaways:
+**General takeaways:**
 Finished reading this paper quite fast. Also, this is the first time I watched videos related to the paper before reading the paper. Maybe that's a reason behind finishing the paper fast. Also, I hadn't read any paper for a while even though I wanted to. And that was getting on my nerves. And being familiar with some concepts beforehand helped like broadcast, linearizability. I know they say that anybody can program even if they don't have computer science education background. But I am sure if I had an educational background in CS, it would have helped me a lot.
