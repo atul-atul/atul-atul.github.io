@@ -1,5 +1,5 @@
 ---
-title: "Zookeeper Paper"
+title: "ZooKeeper Paper"
 last_modified_at: 2024-05-12T00:00:01-00:00
 categories: 
   - "books"
@@ -29,18 +29,22 @@ In ZK, servers process read operations locally, and are not totally ordered.
 To guarantee that update operations satisfy linearizability, ZK implements a leader-based atomic broadcast protocol, called Zab. The writes in a quorum are commited via a simple majority. Say if the cluster has n machines then at least (1+(n/2)) should be ok to commit the update operation. Having simple majority while commiting updates may lead to weakly consistent states. Say in a cluster of 10 servers, only 6 might have the updated value. A subsequent read request for the same data may be sent to one of the remaining four servers (as it doesn't have to go via master) and the client may read stale data. Thus weak/ relaxed consistency.
 
 **Znodes**
+
 ZK resembles a hierarchical file system. Individual nodes (znodes) map to abstractions of the client application, typically corresponding to config/ meta-data used for coordination purposes. A znode has a version. Clients check version before updating znode. 
 ![ZK znodes](/images/zk_znodes.png "ZK znodes")
 
 A znode can be of type *Regular* or *Ephimeral* each with or without *Sequential* flag. Nodes created with the sequential flag set have the value of a monotonically increasing counter appended to its name (like p_1, p_2 in the figure). If n is the new znode and p is the parent znode, then the sequence value of n is never smaller than the value in the name of any other sequential znode ever created (previously) under p. So in the figure if we create a new sequential (regular or ephimeral) child znode under /app1 and name the new node as background_task then the new znode will be identified as /app1/background_task_4 as the sequence counter had reached upto 3 (for p_3) under /app1. Another node created under p_3 with name xyz will be accessible as /app1/p_3/xyz_5.
 
 **Watches**
+
 ZooKeeper implements watches to allow clients to receive timely notifications of changes without requiring polling. When a client issues a read operation with a watch flag set, the operation completes as normal except that the server promises to notify the client when the information returned has changed. Watches are one-time triggers associated with a session; they are unregistered once triggered or the session closes. Watches indicate that a change has happened, but do not provide the change.
 
 **Sessions**
+
 A client connects to ZooKeeper and initiates a session. Sessions have an associated timeout. Sessions enable a client to move transparently from one server to another within a ZooKeeper ensemble, and hence persist across ZooKeeper servers. This is achieved via zxid, versions, and watches.
 
 **Client API**
+
 While ZK is more of a service (co-ordination as a service) than a library, it provides a client library which makes it easy for developers to submit request, manage connections, etc. ZK service provides APIs and developers can implement locking, caching, etc. at the client end using these APIs.
 
 All methods have both a synchronous and an async version available through the API. The ZooKeeper client guarantees that the corresponding callbacks for each operation are invoked in order.
@@ -61,6 +65,7 @@ All methods have both a synchronous and an async version available through the A
 ```
 
 **Ordering guarantees**
+
 A new leader can designate a path as the *ready* znode; other processes will only use the configuration when that znode exists. The new leader makes the configuration change by first deleting ready file, updating the various configuration znodes, and creating a new ready file. Because of the ordering guarantees, if a process sees the ready znode, it must also see all the configuration changes made by the new leader. If the new leader dies before the ready znode is created, the other processes know that the configuration has not been finalized and do not use it.
 
 What happens if a process sees that *ready* exists before the new leader starts to make a change and then the process starts reading the configuration while the change initiated by the leader is in progress. This problem is solved by the ordering guarantee for the notifications: if a client is watching for a change, the client will see the notification event (that leader has deleted ready file and initiated some changes) before it sees the new state of the system after the change is made.
@@ -113,6 +118,7 @@ A few consequences/ constraints:
     even if sent to a different replica
 
 **Locks**
+
 If many clients set watch, there's a herd effect when the previously held lock gets released- many clients will want to acquire lock at once. Psuedocode for simple locking to avoid the herd effect could look like:
 ```
 Lock
@@ -148,6 +154,7 @@ Read Lock
 ```
 
 **ZK service**
+
 Components:
 ![ZK service components](/images/zk_service_components.png "ZK service components")
 
