@@ -44,7 +44,7 @@ A client connects to ZooKeeper and initiates a session. Sessions have an associa
 While ZK is more of a service (co-ordination as a service) than a library, it provides a client library which makes it easy for developers to submit request, manage connections, etc. ZK service provides APIs and developers can implement locking, caching, etc. at the client end using these APIs.
 
 All methods have both a synchronous and an async version available through the API. The ZooKeeper client guarantees that the corresponding callbacks for each operation are invoked in order.
-
+```
   create(path, data, flags)
     exclusive(atomic)- only first create indicates success. 
   delete(path, version)
@@ -58,7 +58,7 @@ All methods have both a synchronous and an async version available through the A
   sync()
     sync then read ensures that any writes before sync are flushed and visible to same client's read
     client could instead submit a write (as writes are guaranteed to be Linearizable)
-
+```
 
 **Ordering guarantees**
 A new leader can designate a path as the *ready* znode; other processes will only use the configuration when that znode exists. The new leader makes the configuration change by first deleting ready file, updating the various configuration znodes, and creating a new ready file. Because of the ordering guarantees, if a process sees the ready znode, it must also see all the configuration changes made by the new leader. If the new leader dies before the ready znode is created, the other processes know that the configuration has not been finalized and do not use it.
