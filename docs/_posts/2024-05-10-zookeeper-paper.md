@@ -81,6 +81,7 @@ What happens if a process sees that *ready* exists before the new leader starts 
         a server may block a client's read to wait for previous write, or sync()
 
   Read order rules help reasoning.
+  ```
     e.g. if read sees "ready" file, subsequent reads see previous writes.
          (Section 2.3)
          Write order:      Read order:
@@ -101,7 +102,7 @@ What happens if a process sees that *ready* exists before the new leader starts 
          write f1
          write f2
                            read f2
-
+  ```
 
 A few consequences/ constraints:
   Leader must preserve client write order across leader failure.
@@ -113,6 +114,7 @@ A few consequences/ constraints:
 
 **Locks**
 If many clients set watch, there's a herd effect when the previously held lock gets released- many clients will want to acquire lock at once. Psuedocode for simple locking to avoid the herd effect could look like:
+```
 Lock
 1 n = create(l + “/lock-”, EPHEMERAL|SEQUENTIAL) 
 2 C = getChildren(l, false)
@@ -122,10 +124,13 @@ Lock
 6 goto 2
 Unlock
 1 delete(n)
+```
 
 The use of the SEQUENTIAL flag in line 1 of Lock orders the client’s attempt to acquire the lock with respect to all other attempts. If the client’s znode has the lowest sequence number at line 3, the client holds the lock. Otherwise, the client waits for deletion of the znode that either has the lock or will receive the lock before this client’s znode. By only watching the znode that precedes the client’s znode, we avoid the herd effect by only waking up one client process when a lock is released or a lock request is abandoned. What happens if node p (preceding client znode n) gets deleted? A notification is triggered and the client checks if it can now acquire a lock. The check helps in scenarios where the node p may not have had a lock but may have been removed because of missing heartbeat/ network/ hardware failure, etc.
 
 **Read-Write Locks**
+
+```
 Write Lock
 1 n = create(l + “/write-”, EPHEMERAL|SEQUENTIAL) 
 2 C = getChildren(l, false)
@@ -140,7 +145,7 @@ Read Lock
 4 p = write znode in C ordered just before n
 5 if exists(p, true) wait for event
 6 goto 3
-
+```
 
 **ZK service**
 Components:
