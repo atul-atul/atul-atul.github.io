@@ -41,4 +41,5 @@ Proper linearizability and serializability can be difficult to achieve. So some 
 --------------------
 Further reading (TO DO): 
 [Linearizability: A Correctness Condition for Concurrent Objects](https://cs.brown.edu/~mph/HerlihyW90/p463-herlihy.pdf)
+
 [Spanner](https://github.com/papers-we-love/papers-we-love/blob/main/datastores/spanner-google's-globally-distributed-database.pdf)
