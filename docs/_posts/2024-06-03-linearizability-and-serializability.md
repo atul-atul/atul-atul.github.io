@@ -36,7 +36,7 @@ Operations of transactions in a schedule can interleave (i.e., transactions can 
 So serializability is a difficult guarantee because in the worst case scenario, any two transactions can be interleaving and then total order needs to be ensured. Instead databases allow certain other [transaction isolation levels](https://learn.microsoft.com/en-us/sql/odbc/reference/develop-app/transaction-isolation-levels) like Read committed, repeatable read, etc.
 
 --------------------
-Proper linearizability and serializability can be difficult to achieve. So some co-ordination and trade-offe (ex. transaction isolation levels) may be required.
+Proper linearizability and serializability can be difficult to achieve. So some co-ordination (ex. Paxos, ZooKeeper, etc.) and trade-offs (ex. transaction isolation levels) may be required.
 
 --------------------
 Further reading (TO DO): 
