@@ -22,6 +22,8 @@ Users typically access a row. Row operations are atomic. Columns (like languages
 
 **Implementation Components:** a client library, a master, and many tablet servers.
 
+As familiar terms help, let's note that a tablet in BigTable is like a shard or partition.
+
 The master is responsible for assigning tablets to tablet servers, detecting the addition and expiration of tablet servers, balancing tablet-server load, and garbage collection of files in GFS. In addition, it handles schema changes such as table and column family creations.
 
 Each tablet server manages a set of tablets (ten to a thousand tablets per tablet server). The tablet server handles read and write requests to the tablets that it has loaded, and also splits tablets that have grown too large.
