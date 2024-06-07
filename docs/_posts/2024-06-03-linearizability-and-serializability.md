@@ -18,7 +18,7 @@ A series of operations is linearizable if the operations on an object are totall
 Is the following history linearizable then?
 ![Is this linearizable history?](/images/linearizability.png "Is this linearizable history?")
 
-I took this from [a lecture video](https://www.youtube.com/watch?v=pbmyrNjzdDk). There are three processes WX1 means the operations write a value of 1 into object X. RX3 means the operations reads the value of X as 3. \|---- means operation started and ----\| means operation completed.
+I took this from [a lecture video](https://www.youtube.com/watch?v=pbmyrNjzdDk). There are three processes. \|---- means the operation started and ----\| means the operation completed. The operations like WX1 write a value of 1 into object X. And operations like RX3 read the value of X as 3. 
 
 The history can be viewed as linearizable if the server chooses to execute operation WX3 before WX2. As these two are concurrent, the server may choose the order in which to execute. But because RX3 on a process happened before RX2, it means that if the system claims to be linearizable, then write of value 3 into X must have happened before write of value 2. So if the system claims to be lineaziable, we can reason about the operations as if they occurred in the following sequence: WX1, WX3, RX3, WX2, RX2. If no process read value of 1, how can we say that WX1 occurred first? Because it was sent by process P1 before WX2 and server finished that operation. 
 
