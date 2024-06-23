@@ -11,12 +11,12 @@ tags:
 ---
 Below are some notes from my reading of [Facebook's Cassandra paper](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf).
 
-Cassandra was designed at Facebook to fulfill the storage needs of the Inbox Search use case. The current version of [Apache project](https://cassandra.apache.org/_/index.html) is 5.0, and as the ASF website says is used by thousands of companies. TODO: watch [Walmart Cassandra talk](https://aidevcass23.sched.com/event/1Gy6p/embracing-multi-cloud-cassandra-at-walmart-andrew-weaver-patrick-lee-walmart).
+Cassandra was designed at Facebook to fulfill the storage needs of the Inbox Search use case. The current version of [Apache project](https://cassandra.apache.org/_/index.html) is 5.0, and as the ASF website says is used by thousands of companies. TODO: watch [Walmart Cassandra talk](https://aidevcass23.sched.com/event/1Gy6p/embracing-multi-cloud-cassandra-at-walmart-andrew-weaver-patrick-lee-walmart) and go through [documentation](https://cassandra.apache.org/doc/5.0/index.html)
 
 Some terms translated to familiar terms to avoid confusion:
 Column family- corresponds to a table, I think.
 
-Cassandra stores high volume structured data, particularly high write throughput. Queries have low latency. The data is non-relational, although transaction capabilities are targeted (TODO read if transactions are supported in newer versions). Horizontal scaling with number of users was also a requirement in the original inbox search use case.
+Cassandra stores high volume structured data having high write throughput. Queries have low latency. The data is non-relational, although transaction capabilities are targeted (TODO read if transactions are supported in newer versions). Horizontal scaling with number of users was also a requirement in the original inbox search use case.
 
 The design builds on typical distributed systems concepts and patterns: write ahead/ commit log, compaction, quorum (sloppy and strict), cluster membership, consistent hashing, partitioning, replication, ZooKeeper, etc.
 
@@ -27,14 +27,16 @@ The design builds on typical distributed systems concepts and patterns: write ah
 3. delete(table,key,columnName)
 ```
 
-**Data Model:** Typically applications use a dedicated Cassandra cluster and manage them as part of their service. Although the system supports the notion of multiple tables all deployments have only one table in their schema. A table in Cassandra is a distributed multi dimensional map indexed by a string key. The value is an object which is highly structured. Every operation under a single row key is atomic per replica no matter how many columns are being read or written into. Columns are grouped together into sets called column families. Cassandra exposes two kinds of columns families, Simple and Super column families. Super column families can be visualized as a column family within a column family. Applications can specify the sort order of columns within a Super Column or Simple Column family. Any column within a column family is accessed using the convention column family : column and any column within a column family that is of type super is accessed using the convention column family : super column : column
+**Data Model:** Instead of modeling the data first and then writing queries (as in RDBMS), with Cassandra we model the queries considering most common query paths the application will use and let the data be organized around them. For example, data model for user inbox search use case could consider a typical query path like a user searching their inbox for messages from one of their friends which contain certain words. 
+
+Typically applications use a dedicated Cassandra cluster and manage them as part of their service. Although the system supports the notion of multiple tables all deployments have only one table in their schema. A table in Cassandra is a distributed multi dimensional map indexed by a string key. The value is an object which is highly structured. Every operation under a single row key is atomic per replica no matter how many columns are being read or written into. Columns are grouped together into sets called column families. Cassandra exposes two kinds of columns families, Simple and Super column families. Super column families can be visualized as a column family within a column family. Applications can specify the sort order of columns within a Super Column or Simple Column family. Any column within a column family is accessed using the convention column family : column and any column within a column family that is of type super is accessed using the convention column family : super column : column
 
 
 **Partitioning and Load Balancing:** Cassandra partitions data across the cluster using consistent hashing but uses an order preserving hash function to do so. The basic consistent hashing algorithm presents some challenges. First, the random position assignment of each node on the ring leads to non-uniform data and load distribution. Second, the basic algorithm is oblivious to the heterogeneity in the performance of nodes. Typically there exist two ways to address this issue: One is for nodes to get assigned to multiple positions (vnodes) in the circle, and the second is to analyze load information on the ring and have lightly loaded nodes move on the ring to alleviate heavily loaded nodes. Cassandra opts for the latter as it makes the design and implementation very tractable and helps to make very deterministic choices about load balancing.
 
 **Replication:** Cassandra is configured such that each row is replicated across multiple data centers. Each data item is replicated at N hosts, where N is the replication factor configured per cluster deployment. Each data item identified by a key is assigned to a node by hashing the data item’s key to yield its position on the ring, and then walking the hash-ring clockwise to find the first node with a position larger than the item’s position. This node is deemed the coordinator for this key. (Thus, each node becomes responsible for the region in the ring between it and its predecessor node on the ring.) The coordinator is in charge of the replication of the data items that fall within its range. Cassandra provides various replication policies such as "Rack Unaware", "Rack Aware" (within a data center) and "Datacenter Aware". Replicas are chosen based on the replication policy chosen by the application. Cassandra system elects a leader amongst its nodes using Zookeeper. All nodes on joining the cluster contact the leader who tells them for what ranges they are replicas for and the leader makes a concerted effort to maintain the invariant that no node is responsible for more than N-1 ranges in the ring. Nodes that are responsible for a given range form the "preference list" for the range. The preference list of a key is constructed such that the storage nodes are spread across multiple data centers.
 
-Cassandra provides durability guarantees by relaxing the quorum requirements.
+Cassandra provides durability guarantees by relaxing the quorum requirements (they must be using version vectors/ vector clocks for reconciliation, I think).
 
 **Cluster membership and node failure detection:** Rather than a simple heartbeat timeout, Cassandra uses sliding window approach. (Accrual Failure Detection) Every node in the system maintains a sliding window of inter-arrival times of gossip messages from other nodes in the cluster and decides if a node is no longer available. TODO read more about this and Scuttlebutt anti-entropy mechanism.
 
@@ -55,7 +57,7 @@ When a new node is added into the system (manually), it gets assigned a token su
 
 There are some **trade-offs:**
 1. Configuring write ahead log to fast-sync mode (where writes to the log file are buffered) may end up losing data if the node crashes (buffered but not yet persisted data).
-2. Requests could be sync or async. Sync mode uses strict quorum before returning response(consistent data or failure). Async writes use sloppy quorum.
+2. Requests could be sync or async. Sync mode uses strict quorum before returning response (consistent data or failure). Async writes use sloppy quorum.
 3. Some other like block/ file sizes, log rolling strategies, sorting, caching, etc.
 Most of these are config level decisions and can differ from application to application.
 
