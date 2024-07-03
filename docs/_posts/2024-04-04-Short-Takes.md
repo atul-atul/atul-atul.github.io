@@ -1,6 +1,6 @@
 ---
 title: "Short Takes"
-last_modified_at: 2024-05-31T00:00:01-00:00
+last_modified_at: 2024-07-03T00:00:01-00:00
 categories: 
   - "notes"
 tags: 
@@ -48,4 +48,5 @@ Here I plan to write about some concepts, phrases, models, ideas related to my w
 23. [Survivorship Bias](https://en.wikipedia.org/wiki/Survivorship_bias)
 24. [Dunning–Kruger effect](https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect)
 25. [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome)
-26. 
+26. [Greater good and lesser evil principle](https://en.wikipedia.org/wiki/Lesser_of_two_evils_principle) 'Greater good' is from Spinoza's quote/ maxim in the linked article. But the principle is primarily known as lesser evil principle. A lot of choices turn out to be not as bad-vs-good but instead as bad-vs-worse. (Of course, definitions of good or bad are subjective, situation dependent, relative, etc.) And most of the times we are so used to this that we don't even really notice that the choice we made might have been lesser but evil nonetheless. Because of complex and dynamic nature of systems, we learn to live with our choices. Life would be hell if we couldn't. This is more pronounced in case of widely participated systems like bi/ multi party politics. But the principle holds equally true in other areas like technology, etc. There is no ideal technology. So the best a programmer can do is being pragmatic.
+27. Over the last 2-3 months I listened to many episodes of the acquired podcast. Notable ones: [Taylor Swift](https://www.acquired.fm/episodes/taylor-swift-acquireds-version), [LVMH](https://www.acquired.fm/episodes/lvmh), [Starbucks](https://www.acquired.fm/episodes/starbucks-with-howard-schultz), [Microsoft](https://www.acquired.fm/episodes/microsoft), [Hermès](https://www.acquired.fm/episodes/hermes), [Porsche](https://www.acquired.fm/episodes/porsche-with-doug-demuro), [Lockheed Martin](https://www.acquired.fm/episodes/lockheed-martin). All of these have been noteworthy ones. Apart from Microsoft, I did not know much about any of the other brands and phenomena. I was aware about Taylor Swift and that she's a phenomenon. But I hadn't listened to a single complete Taylor Swift song before. And, I am ashamed to say, I still haven't... Yeah, I know. Sorry about that. But maybe someone can educate me and tell me where to begin. I have listened to Microsoft first part more than once and am waiting for the next parts to be released. Again, all of these episodes were interesting. How could a Lockheed Martin story not be interesting? And Hermès story has Grace Kelly in it. So... After listening to these stories, I now have huge respect for Hermès (though I think their model succeeds because of the brand value), and I know that LVMH kind of corporate games may be too much for me.
