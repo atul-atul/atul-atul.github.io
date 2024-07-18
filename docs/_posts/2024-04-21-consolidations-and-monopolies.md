@@ -1,6 +1,7 @@
 ---
 title: "Consolidations And Monopolies"
 date: "2024-04-21"
+last_modified_at: 2024-07-18T00:00:01-00:00
 categories: 
   - "notes"
 tags: 
@@ -17,3 +18,5 @@ It took me some time to realize that this consolidation has actually happened. A
 In his book Zero to One, Peter Thiel aggressively pushes that startups should aim at becoming monopolies. (I did not like the book much. Am I not a target reader? Or is it similar to a self-help book?) Contrary to that, DHH advices an approach of taking it in context of life, remaining profitable, living non-work life, and being ok even if you are not a billionaire.
 
 Now, knowing that in this connected world where the whole world could be considered as a market with theoretically infinite demand, things do appear to consolidate to smaller number of players, what are your thoughts?
+
+I noticed that I did not use the term this phenonmenon is known as: [Oligopoly](https://en.wikipedia.org/wiki/Oligopoly)
