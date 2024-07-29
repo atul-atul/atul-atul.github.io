@@ -1,6 +1,6 @@
 ---
 title: "Short Takes"
-last_modified_at: 2024-07-23T00:00:01-00:00
+last_modified_at: 2024-07-29T00:00:01-00:00
 categories: 
   - "notes"
 tags: 
