@@ -8,7 +8,7 @@ tags:
 ---
 IOU stands for "I owe you". Software engineering being a relatively new field borrowed quite a few ideas via mechanisms like metaphor, simile, lift and shift, etc. Here I plan to write about some such instances. Some of it is only natural when IT enables other industries and domain terminologies get mainstream. Otherwise, in a virtual world of software what do things like spreadsheet, ledger, transactions, end-of-day even mean? If Newton hears about brute 'force' solutions or sprint 'velocity', he will start turning in his grave in the abby and won't stop unless acted upon by an external agency which he named as force. But it's ok because these terms have became mainstream and have acquired overloaded meanings.
 
-Some people like Martin Fowler, Alan Kay, UX people are good at this cross discipline terminologies. Some things like buttons, window, etc. are easy to adopt. (Maybe they look easy in hindsight?) But some are more conceptual. For example, Alan Kay came up with idea of Object Oriented programming and says that the essence of it is in self contained cells communicating via message passing. The inspiration was animal/ plant cells which communicate within themselves and with other cells via amino acids, electrochemical signals.
+Some people like Martin Fowler, Alan Kay, UX people are good at this cross discipline terminologies. Some things like buttons, window, etc. are easy to adopt. (Maybe they look easy in hindsight?) But some are more conceptual. For example, Alan Kay came up with the idea of Object Oriented programming and says that the essence of it is in self contained cells communicating via message passing. The inspiration was animal/ plant cells which communicate within themselves and with other cells via amino acids, electrochemical signals.
 
 Of course, software is not the only field borrowing terms and metaphors- other fields do that, too. For example, without a 'wingman' you might have made some 'unforced errors'. Anyway, you will appreciate that Jerry really 'aces' this [bit about baseball terms](https://youtu.be/HAsBk9Eia8A?t=3328), doesn't he? Of course, if you are in office this video is a 'no-ball' and it may give your boss/ offended coworker 'a free hit'.
 
@@ -30,5 +30,5 @@ I will update this once in a while like some other posts here: [quotes](https://
 14. OO Design patterns like bridge, facade, factory, etc.
 15. Head, tail, push, pop.
 16. Tracer bullet, fanout, shotgun surgery, garbage collection, etc.
-17. Rubber duck debugging (borrowed from English baths, I imagine. I remember [Bertie in bath with a duck](https://youtu.be/yMPuROQMBuw?t=982) on a few occassions).
+17. Rubber duck debugging (borrowed from English baths, I imagine. I remember [Bertie in bath with a duck](https://youtu.be/yMPuROQMBuw?t=982) on a few occasions).
 18. (Enough for today, I think. Will update occassionally. But I will try to add short descriptions than just list the terms as in a few of above bullet points.)
