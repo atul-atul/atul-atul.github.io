@@ -1,6 +1,6 @@
 ---
 title: "About Learning"
-last_modified_at: 2024-08-13T00:00:01-00:00
+last_modified_at: 2024-08-18T00:00:01-00:00
 categories: 
   - "notes"
 tags: 
@@ -19,7 +19,9 @@ Good physical health- particularly aerobic exercise- aids learning. Suggested re
 
 Having a lay of land before you dive deep into a topic helps. Learning gets more pleasurable the deeper we go.
 
-While concepts are more important, knowing syntax helps in learning concepts. (Maybe it's just me?)
+While concepts are more important, knowing syntax helps in learning concepts. (Maybe it's just me?) 
+
+Learning with concrete examples helps in the beginning. Priciple of conservation of angular momentum? Remember an ice skater spreading their hands to reduce rotational speed. Atomic model can be related to the solar system with the Sun as the nucleus and electrons as planets. Later on we can fine tune the ideas like electrons behave both as particle and as waves.
 
 It seems that learning a topic is best done by learning it with other (unrelated) topics. This may seem counterintuitive. Interleaving topics, difficulty levels is good. Cramming everything about a subject into your brain at a go is not good. 
 
@@ -53,8 +55,6 @@ There are some kinds of learning which may be instinctive (survival, procreation
 
 Forgetting does not happen on LRU (least recently used) basis although practically 'use it or lose it' may be a good rule of thumb. There may be other factors like intensity of a thing/ survival needs, etc. For example, people say life flashes before your eyes when you are about to die. Maybe your brain is recalling your entire life so as to find a relevant situation in which you had found a way to survive.
 
-While this may not be politically correct to say, there may be some genetic, social, cultural inheritances involved in the ease with which you can learn some stuff/ acquire some skills. Not sure. Some people are good at commerce, some are better at mathematics just like some other people are better at running marathons and playing chess. Not sure but I need to read more on this. Any recommendations? Similarly not exactly sure but gender may be a thing in learning. [Are men better at abstract reasoning?](https://www.gocomics.com/calvinandhobbes/1990/04/13) Not sure. But for example, young girls seem to have larger vocabulary than boys of same age. I can attest to this from experience. When I was 7, I had a quarrel with a girl I was quite in love with and... Well, that's neither here nor there. Maybe girls that age are also physically stronger than boys. 
+While this may not be politically correct to say, there may be some genetic, social, cultural inheritances involved in the ease with which you can learn some stuff/ acquire some skills. Not sure. Some people are good at commerce, some are better at mathematics just like some other people are better at running marathons and playing chess. Not sure but I need to read more on this. Any recommendations? Similarly not exactly sure but gender may be a thing in learning. [Are men better at abstract reasoning?](https://www.gocomics.com/calvinandhobbes/1990/04/13). Or spatial skills? For example, young girls seem to have larger vocabulary than boys of same age. I can attest to this from experience. When I was 7, I had a quarrel with a girl I was quite in love with and... Well, that's neither here nor there. Maybe girls that age are also physically stronger than boys. 
 
 The course 'Learning how to learn' on coursera should be a good start if you prefer courses over books and are interested in the topic. Of course, their 'cheery greeting' emails every Friday are annoying.
-
-Work In progress.
