@@ -33,7 +33,7 @@ State of panic is not conducive. (But there are some studies which say you if yo
 
 Rephrase the content and reflect the feeling. That is how Stephen R. Covey says you should practise the communication habit (seek first to understand then to be understood) in his book Seven Habits of Highly Effective People (one of the 2-3 self-help books I liked). The same advice is good for learning. Learning is better when you use your own words and terminologies for concepts. Of course, once you have learned those concepts it is better to use the actual domain terminologies because of losses in translation. 
 
-Note taking helps. Not by coping the original material as is but in your own style. Notes are only good when used and particularly good when updated. Obsidian is a good note taking app. Some people say handwritten notes have advantages over typed ones.
+Note taking helps. Not by copying the original material as is but in your own style. Notes are only good when used and particularly good when updated. Obsidian is a good note taking app. Some people say handwritten notes have advantages over typed ones.
 
 Different media help. For example, charts, diagrams, solving problems, bouncing your learning off your friend, debating a topic, using flash cards, video, tutorials, etc. (I haven't tried Anki cards but have heard good things.)
 
