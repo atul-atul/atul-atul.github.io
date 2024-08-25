@@ -19,7 +19,7 @@ But this can be difficult. Quite a few people are unwilling to change their mind
 5. Changing our minds about those means changing our identity and alliances.
 6. Because of like minded people, the ideas get a boost and conducive environment. The merit of ideas is not debated well in that group.
 
-So, instead of us having hold on ideas, the ideas end up having a hold on us. Even though that statement seems true, breaking that hold is in our hands. The idea itself may loose its hold- due to factors like new findings, for example, flat earth people may change their minds by looking at the photos of the earth taken from space. But still some people are more willing than others to change their mindsets.
+So, instead of us having hold on ideas, the ideas end up having a hold on us. Even though that statement seems true, breaking that hold is in our hands. The idea itself may loose its hold- due to factors like new findings, for example, flat earth people [may change](https://www.youtube.com/watch?v=qmpFlOh7Uk4&t=320s) their minds by looking at the photos of the earth taken from space. But still some people are more willing than others to change their mindsets.
 
 Maybe scientists, educated and rational people are more willing to change their minds. Still 'science advances one funeral at a time'. But maybe they are more open than others as doubt is a very important factor in whatever they do.
 
