@@ -21,7 +21,7 @@ Once all the operations in the transaction are completed successfully, the clien
 
 3. **Resolve phase** When all the participants have replied to the _prepare_ phase, the coordinator examines the results. If all the participants can commit, the whole transaction can commit, and the coordinator sends a commit message to each participant. If any participant has decided that it must abort the transaction, or doesn’t reply to the coordinator within a specified time period, the coordinator sends an abort message to each participant.
 
-![2PC](images/two_phase_commit.png "2PC")
+![2PC](/images/two_phase_commit.png "2PC")
 
 2PC has two main **failure modes**. These are participant failure and coordinator failure. As usual, failures can be caused by systems crashing, or being partitioned from the rest of the application. From the perspective of 2PC, the crashes and partitions are indistinguishable:
 
