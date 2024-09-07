@@ -28,7 +28,7 @@ Here I plan to write about some concepts, phrases, models, ideas related to my w
 7. **[Conway's Law](https://en.wikipedia.org/wiki/Conway%27s_law)**
    Organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations. In my experience, this is always valid.
 8. **[Normal Distribution/ Bell Curve](https://en.wikipedia.org/wiki/Normal_distribution)**
-   Every normal distribution is a version of the standard normal distribution, with some standard deviation and mean. This is why, we will hire only the best candidates generally does not make sense. [They can't all be the best](https://www.youtube.com/watch?v=kg3W5f0bP68) Even if you hire the best, there will be some who are within bounds of certain sigma value and others beyond those bounds. Need to read more.
+   Every normal distribution is a version of the standard normal distribution, with some standard deviation and mean. This is why, we will hire only the best candidates generally does not make sense. [They can't all be the best.](https://www.youtube.com/watch?v=kg3W5f0bP68) Even if you hire the best, there will be some who are within bounds of certain sigma value and others beyond those bounds. Need to read more.
 9. **[Sunk Cost and Sunk cost fallacy](https://en.wikipedia.org/wiki/Sunk_cost)**
 10. **[Spontaneous order](https://en.wikipedia.org/wiki/Spontaneous_order)** 
     Self organization appears to emerge out of seeming chaos.
