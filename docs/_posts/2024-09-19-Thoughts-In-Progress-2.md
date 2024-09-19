@@ -5,7 +5,7 @@ last_modified_at: 2024-09-19T00:00:01-00:00
 tags: 
   - thoughts
 ---
-In the `Thoughts In Progress` posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that.
+In the `Thoughts In Progress` posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that. Like Work In Progress, these thoughts are not done yet.
 
 I used to read Naushad Forbes' newspaper articles when I was in college. First, during those years I used to read anything and everything I could. Second, Forbes was one of those few people from different circles than mine who could write in a way I could understand. He is a co-chairman of Forbes Marshall- one of the prominent industries in Pune/ India. He has a Ph.D. from and taught at Stanford. He wrote about industry, economics, etc. and I understood some of it. I did not then understand much what other industrialists wrote. Third, he wrote regularly in the papers available in my library- thus was accessible. Maybe other people wrote regularly in pink papers. But those papers were not available to me. I didn't have much money to buy those, and occasionally when I read those papers I did not understand much of what was written. [Does anyone?](https://www.youtube.com/watch?v=KgUemV4brDU&ab_channel=BBCStudios) 
 
