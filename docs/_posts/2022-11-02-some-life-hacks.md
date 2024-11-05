@@ -1,3 +1,9 @@
+---
+title: "Some Life Hacks"
+date: "2022-11-02"
+last_modified_at: 2024-11-05T00:00:01-00:00
+---
+
 Here are a few life hacks/ tricks I follow/ try to follow to make life simpler, ordered.
 
 1. **No push news.** I have not watched TV news for around 6-7 years. So some things were news to me (pun intended)- like 'last night the PM declared demonetization of certain currencies', etc. Overall though, it has saved me a lot of anxiety. As Kanhemann says in 'Thinking, Fast and Slow', bad news are more popular than good ones and get more broadcast time. As a result the world appears bleak. Steven Pinker demonstrates with data that at macro levels the world is certainly getting better. Instead, I pull news from e-papers, etc. Again, there as well it is more negative than positive, but at least you have a control over what you pull- rather than some items getting bombarded at you.
@@ -12,6 +18,4 @@ Here are a few life hacks/ tricks I follow/ try to follow to make life simpler, 
 
 6. **No multitasking; no background threads.** I at times have TV running in the background while I am doing something else. Mostly it is Seinfeld. I would like to reduce that. Music is ok I think while doing the chores. But if you are watching TV, watch TV. In fact sometimes, while watching a movie on TV, I have played sudoku/ browsed twitter on phone. This kind of multitasking reduces both activities to half-hearted manner. This is bad. It needs to stop.
 
-7. Thinking of trying out these things- No breakfast Tuesday. Sort of an incremental goal. Complete fasting without eating anything looks extreme to me at the moment. Also, full day something may be difficult; so, here a day means a significant part of the day (first/second half of the day, etc). Similarly, no media/ TV Thursday, etc. I used to follow occasional no-talk day. Haven't done that for years now. Should try. Talking is such a drain on energy. Some ideas around this: raw food day (fruits, sprouts, no preservatives), looong-walk-alone-and-without-music day (say, 1st Saturday of the month), phone-call-with-out-of-touch-friends day, etc. I have seen some people taking breaks from twitter, going for vipassana medidation retreat, etc. for detox. This is a shorter/ incremental version towards that. Setting up calendar reminders helps here in my experience.
-
-8. **Consume long form content.** Like books.
+7. **Consume long form content.** Like books.
