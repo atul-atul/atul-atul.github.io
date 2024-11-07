@@ -1,12 +1,13 @@
 ---
 title: "Bylane Learning"
 date: "2021-05-06"
+last_modified_at: 2024-11-07T00:00:01-00:00
 tags: 
   - "bylane-learning"
   - "learning"
 ---
 
-Books or any good content you consume have beneficial side effects of teaching you a few things that you were not then aware of learning from that content.
+Books (or any good content you consume) have beneficial side effect of teaching you a few add-on things. Things that you had not consciously aimed to learn from that content.
 
 For example, when I read the book Effective Java (Joshua Bloch), the learning that persisted or stayed more with me was not about better usage of Java's features(factory methods than constructors) or defensive programming (Date), etc. but about the author's discussion about designing APIs (AbstractSet). And it has been applicable beyond Java. When I started the book I primarily got hit by enum, Date, array, objects handling their memory (setting the object to null after you removed so that it's easily GCed.). And it was the learning or takeaway I was looking for. But I certainly did not expect to be so impressed by something like discussion about API design. First of all I did not even expect to read anything about API design. But the discussion has taught me much more than the book taught me about any particular Java feature. And this is transferable to other areas/ technologies. In fact, possibly because it has relevance beyond Java, the learning is still relevant to me after 10 years of reading the book.
 

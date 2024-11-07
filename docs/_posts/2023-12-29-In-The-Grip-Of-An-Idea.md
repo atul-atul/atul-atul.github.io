@@ -1,21 +1,22 @@
 ---
 title: "In The Grip Of An Idea"
 date: "2023-12-29"
+last_modified_at: 2024-11-07T00:00:01-00:00
 ---
 
 `"The idea possessed her imagination and she took pleasure in it." - Margaret Mitchell in Gone With the Wind`
 
-We should hold our ideas lightly. Put a little differently, we should not be in a tight grip of ideas. 
+We should hold onto our ideas lightly. Put a little differently, we should not be in a tight grip of ideas. 
 
-Ideas here means thoughts, concepts, beliefs, opinions, etc. They form a framework in which we map our lives, thoughts, etc. They are the lens through which we see the world. Of course, the lens may distort the image. So we should diligently clean and polish the lens.
+Ideas here means thoughts, concepts, beliefs, opinions, etc. They form a framework in which we map our lives. They are the lens through which we see the world. Of course, the lens may distort the image. So we should diligently clean and polish the lens.
 
 At times some ideas strike a chord and we become attached to those. As we experience the world and as our experience widens, we may have to give up on some of these dearly held concepts. 
 
-But this can be difficult. Quite a few people are unwilling to change their minds on things like race, geographical, worldview, etc. I think this happens because 
+But this can be difficult. Quite a few people are unwilling to change their minds. I think this happens because 
 1. We have a need to belong somewhere (a group).
 2. Some thoughts and ideas appeal to us. Why does a particular concept appeal to you? It may depend on a lot of factors. So let's not get into that here.
 3. We see ourselves belonging to the group that holds same/ similar ideas.
-4. These thoughts and ideas become our identity. We become different from people with different ideas and similar to the group that advocate same ideas as us. We don't realize that we are not our thoughts.
+4. These thoughts and ideas become our identity. We become different from people with different ideas and similar to the group that advocate same ideas as we do. We don't realize that we are not our thoughts.
 5. Changing our minds about those means changing our identity and alliances.
 6. Because of like minded people, the ideas get a boost and conducive environment. The merit of ideas is not debated well in that group.
 
@@ -23,7 +24,7 @@ So, instead of us having hold on ideas, the ideas end up having a hold on us. Ev
 
 Maybe scientists, educated and rational people are more willing to change their minds. Still 'science advances one funeral at a time'. But maybe they are more open than others as doubt is a very important factor in whatever they do.
 
-A way to get a sense of proportion of various ideas is to pit them against other ideas. Another could be to debate those. I remember a discussion with a friend around 2009. After sub-prime crisis, the company I worked with had hired McKinsey and they had identified a few areas that the company should focus on for 5 years (Mobile Apps, Cloud, BI). I told my friend that maybe they charged heavy fees and our company could have saved huge money during/ after the crisis. My friend said that because they interact with and see so may industries, these consulting companies can give sensible advices. In later years these areas became quite hot and since then I have a sort of respect for such firms and people.
+A way to get a sense of proportion of various ideas is to pit them against other ideas. Another could be to debate those. I remember a discussion with a friend around 2009. After sub-prime crisis, the company I worked with had hired McKinsey and they had identified a few areas that the company should focus on for 5 years (Mobile Apps, Cloud, BI). I told my friend that maybe they charged heavy fees and our company could have saved huge money during/ after the crisis. My friend said that because they interact with and see so many industries, these consulting companies can give sensible advices. In later years these areas became quite hot and since then I have a sort of respect for such firms and people.
 
 A couple of ideas I cut to size in the last couple of years were: The model of selfish gene, the idea that only technology makes the world move forward.
 

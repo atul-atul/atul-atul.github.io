@@ -1,7 +1,7 @@
 ---
 title: "Recommended Books For Programmers"
 date: "2023-11-08"
-last_modified_at: 2024-05-07T00:00:01-00:00
+last_modified_at: 2024-11-07T00:00:01-00:00
 categories: 
   - "books"
 tags: 
@@ -15,7 +15,7 @@ Let's start with light stuff.
 
 1. **Refactoring by Martin Fowler**  This book has probably had the biggest impact on how I _write_ code. It taught me how to write good code. Not in terms of how to come up with most tight/ succinct code or which data structures to use, etc. The book talks about how to improve the design of existing code and in the process I learned how to write good code so that it will have those attributes of code which make it a good design. It taught me about importance of having safety net of tests around the code I write and also taught me that improving the design is a process. So in a sense, while the book may appear prescriptive, the step by step approach with step 1 (extract method), step 2(rename method), etc. is where the magic lies. A few books exist in this space: Clean Code (far inferior book and series), TDD by example(good one).
 2. **Effective Java by Joshua Bloch**  I learned about how to best use features of java and some traps to avoid. But the most important takeaway was about the design of APIs. So far this is the best book on design of APIs I have read. Even if you have read it, read it from that perspective: you want to learn more about designing of APIs rather than java programming best practices. I have [written elsewhere](https://atul-atul.github.io/bylane-learning/) about this lesson.
-3. **Design Patterns book by Gang of Four**  This book talks about OO design patterns primarily centered around interfaces. It is dated with examples of window toolkits, etc. And nowadays with functional programming in context, the OO design patterns may seem overkill or too much of structure. But their discussion about interfaces, why, how of a patterns, etc. [stayed with me](https://atul-atul.github.io/a-review-of-GoF/). This book and Refactoring by Fowler taught me the importance of naming things well. For example, if you tell me you will use a builder here and extract a template method there to be implemented by various concrete implementations, I can understand it without much further detailing. Good, intention revealing names give you an abstraction over the concept indicated by those names.
+3. **Design Patterns book by Gang of Four**  This book talks about OO design patterns primarily centered around interfaces. It is dated with examples of window toolkits, etc. And nowadays with functional programming in context, the OO design patterns may seem overkill or too much of structure. But their discussion about interfaces, why, how of a pattern, etc. [stayed with me](https://atul-atul.github.io/a-review-of-GoF/). This book and Refactoring by Fowler taught me the importance of naming things well. For example, if you tell me you will use a builder here and extract a template method there to be implemented by various concrete implementations, I can understand it without much further detailing. Good, intention revealing names give you an abstraction over the concept indicated by those names.
 4. **Microservices by Sam Newman**  While the book seems like a lecture series of slides translated to long-form content to be made into a book, the resulting book gave me a lay of the land of sorts of microservices and distributed systems. **Domain Driven Design** by Eric Evans is a recommended read in this area for concepts of bounded contexts, etc.
 5. **The Pragmatic Programmer by Dave Thomas and Andy Hunt**  This is a good book to come back to every once in a while and glance through again and again. Better than books like Code Complete, IMO.
 6. **Coders at Work and Programmers at Work**  These books are great if you need some sort of looking up to the elders and get motivated.
@@ -25,7 +25,7 @@ Let's start with light stuff.
 10. **The Mythical Man Month**  A series of essays. Recommended for a somewhat senior programmer/ lead/ manager.
 11. **SICP** by Abelson, Sussman  Did not finish but recommended.
 12. **Patterns of Enterprise Application Architecture by Fowler**  An old one. Recommended for the way you can think about Enterprise Application Architecture. And whether you will hear about this book or not, these patterns are everywhere in fairly large systems. They have taken different forms with microservices, big data systems. But you can still learn a lot.
-13. **Continuous Delivery by Jez Humble**  The concepts and practices are nowadays so commonplace that [you might already know](https://atul-atul.github.io/books/continuous-delivery/) many of the things you need to know in the area of delivery, agile, devops, etc. I will also recommend The Phoenix Project but I personally knew the concepts and did not like to book much- but that is because I read it very late.  
+13. **Continuous Delivery by Jez Humble**  The concepts and practices are nowadays so commonplace that [you might already know](https://atul-atul.github.io/books/continuous-delivery/) many of the things you need to know in the area of delivery, agile, devops, etc. I will also recommend The Phoenix Project but I personally knew the concepts and did not like the book much- but that is because I read it very late.  
       
 And now some books that you won't find in many other such lists on the net.
 
@@ -36,4 +36,4 @@ And now some books that you won't find in many other such lists on the net.
 5. **OO Analysis and Design By Grady Booch**  What is abstraction? What is encapsulation? Learn OO concepts from the masters.
 6. **97 Things** series by O'reilly  Programmers, architects, etc. Similar- The Manager's Path, The first 90 days, etc.
 7. **The Hidden Life of Trees** Wohlleben  Not programming as such. The author talks about how trees survive, etc. And the book is not science proper. But while reading it I kept thinking about how I could make my software systems similarly adaptive, robust like trees.
-8. **Designing Data Intensive Applications** by Kleppmann  I should finish it. But VERY highly recommended.
+8. **Designing Data Intensive Applications** by Kleppmann VERY highly recommended.

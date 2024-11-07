@@ -1,7 +1,7 @@
 ---
 title: "Integration"
 date: "2023-11-26"
-last_modified_at: 2024-05-05T00:00:01-00:00
+last_modified_at: 2024-11-07T00:00:01-00:00
 
 ---
 
@@ -17,7 +17,7 @@ I have had this opinion for a long time. Can't even remember when I formed it. M
 
 `reducing a problem to one or more easier/solved problems is the basic strategy of programming. integration is still painful, though.`
 
-To reduce the pain of integration you should have interfaces (contracts, APIs, versioning, date types, client libraries- Michael Nygard advices against client libraries in Release It) and you should have an agreement on those across teams.
+To reduce the pain of integration you should have interfaces (contracts, APIs, versioning, data types, client libraries- Michael Nygard advices against client libraries in Release It) and you should have an agreement on those across teams.
 
 The test pyramid is a good way to think about your tests. With microservices, this is probably seen as anti-pattern and actual test distribution is more of a slice.
 
