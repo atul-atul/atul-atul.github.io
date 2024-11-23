@@ -20,7 +20,7 @@ The idea is to commit. The system may fail. You have to have something to lose i
 
 A couple of examples of skin in the game: (Based on my reading)
 1. Rahul Bajaj was an industrialist in Pune and led the Bajaj Group. Bajaj Auto- one of the big companies in the group- set up school for children of their workers. And Rahul Bajaj's children studied there.
-2. Anil Awachat was medical doctor turned social worker. He stayed near the slum like area in Pune where he worked and both his daughter went to the same school which the children from the neighborhood went to. 
+2. Anil Awachat was a medical doctor turned social worker. He stayed near the slum like area in Pune where he worked and both his daughters went to the same school which the children from the neighborhood went to. 
 3. The fugu fish possesses a potentially fatal poison so the chef preparing a dish has to eat from the prepared dish before serving to others. (Not sure if this is true these days.) Talking about the fish reminds me of the Columbo episode.
 
 And now something related but not conceptually related: 
