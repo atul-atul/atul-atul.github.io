@@ -35,7 +35,8 @@ The scale and reach of FB, wide fanout (say celebrity created content), read hea
 ---
 The goals of caching at FB: reduce the latency of fetching cached data or the load imposed due to a cache miss.
 
-1. **Reduce Latency**
+**Reduce Latency**
+
 The memcached servers are co-located in a cluster with webservers and storage. This reduces to reduce load on databases and other services and also reduces network lags. Cached items are distributed across the memcached servers through consistent hashing. Thus web servers have to routinely communicate with many memcached servers to satisfy a user request. As a result, all web servers communicate with every memcached server in a short period of time. This all-to-all communication pattern can cause incast congestion or allow a single server to become the bottleneck for many web servers. Data replication often alleviates the single-server bottleneck but leads to significant memory inefficiencies in the common case. They solved this using an indirection by introducing memcache client which runs on each web server. This client serves a range of functions, including serialization, compression, request routing, error handling, and request batching. The memcache client logic is provided as two components: a library that can be embedded into applications or as a standalone proxy named mcrouter. For convenience, I will call both of these (library and proxy) as mcrouter. This proxy presents a memcached server interface and routes the requests/replies to/from other servers. These mcrouters maintain a map of all available servers, which is updated through an auxiliary configuration system (I believe this aux config service is zookeeper).
 
 To minimize the number of network round trips necessary to respond to page requests, FB construct a directed acyclic graph (DAG) representing the dependencies between data. A web server uses this DAG to maximize the number of items that can be fetched concurrently. They also use techniques such as sliding window to throttle the demand. The window size is dependent on observed metrics because smaller window means more number of request in progress and higher window size can cause incast congestion.
@@ -44,7 +45,9 @@ They use UDP for get requests to reduce latency and overhead. Since UDP is conne
 
 They treat get errors as cache misses, but web servers skip inserting entries into memcached after querying for data to avoid putting additional load on a possibly overloaded network or server. This number tends to be small in their experience.
 
-2. **Reduce Load on data stores/ or services**
+---
+**Reduce Load on data stores/ or services**
+
 They use leases to address two problems: stale sets and thundering herds. (If you are not aware, look up thundering herds and also cache stampede.) 
 
 A stale set occurs when a web server sets a value in memcache that does not reflect the latest value that should be cached. This can occur when concurrent updates to memcache get reordered. To refresh your memory, two operations are concurrent when each of them is unaware of the other taking place. And re-ordering of operations is interesting and a common problem because of network delays, etc.  Stale sets are more relevant particularly for cache-aside solutions. Suppose the entry for Mary Jane's marital status is missing in the cache while it's stored as single in the master database. One fine day, Peter Parker looks at her profile and her status. His read from data store request would subsequently want to set the status as single in the demand-filled cache. But that fine day being the first day of spring and all, Mary Jane gets married to Harry. (In a Spiderman story she shouldn't, but this being memcached story suppose she did.) Now Harry and MJ would update their marital statuses to married. Suppose this data store update and subsequent read-your-own-write operation inserts her status as married into the cache. But due concurrent operation reordering Peter's read operation overwrites that status to single. It can cause bad blood. This kind of scenario is stale set. [Read more about it here.](https://atul-atul.github.io/notes/linearizability-and-serializability/).
@@ -95,10 +98,7 @@ FB modified memcached to store its cached values and main data structures in Sys
 
 In conclusion section the paper says: Many of the trade-offs discussed are not fundamental, but are rooted in the realities of balancing engineering resources while evolving a live system under continuous product development. While building, maintaining, and evolving our system we have learned the following lessons. (1) Separating cache and persistent storage systems allows us to independently scale them. (2) Features that improve monitoring, debugging and operational efficiency are as important as performance. (3) Managing stateful components is operationally more complex than stateless ones. As a result keeping logic in a stateless client helps iterate on features and minimize disruption. (4) The system must support gradual rollout and rollback of new features even if it leads to temporary heterogeneity of feature sets. (5) Simplicity is vital.
 
-
 ---
-Some related but not closely related thoughts:
-
 Performance is one of those hygiene factors, isn't it? You can [read more about hygiene factors](https://en.wikipedia.org/wiki/Two-factor_theory) on wikipedia. Basically, having a clean table in cafetaria during lunch hour does not make you happy but seeing it unclean will make you unhappy. Here is some related content I copied from DDIA book:
   It seems intuitively obvious that a fast service is better for users than a slow service. However, it is surprisingly difficult to get hold of reliable data to quantify the effect that latency has on user behavior.
 
@@ -108,6 +108,8 @@ Performance is one of those hygiene factors, isn't it? You can [read more about 
 
   A study by Yahoo compares click-through rates on fast-loading versus slow-loading search results, controlling for quality of search results. It finds 20–30% more clicks on fast searches when the difference between fast and slow responses is 1.25 seconds or more.
 
+---
 I finished reading the paper yesterday. Reading it took a few sittings over the last two weeks. And even with underlines, annotations, etc. writing this post from the paper took a lot of time today. Plus there are things like nagging internal voice telling you to take a shortcut and watch a related memcache talk, read some post to help you understand. Or some of my day today could have been spent watching [Ellyse Perry one day century](https://www.espncricinfo.com/series/australia-women-vs-india-women-2024-25-1426497/australia-women-vs-india-women-2nd-odi-1426621/full-scorecard). But we do some things precisely because they need the attention delaying gratification in the process. 
 
+---
 ** By and large, from technical and social perspective, FB created a lot of value. I deleted my FB account long, well actually, long long back. I haven't been a socially extroverted person ever. But a factor was my experience with orkut. I did not want to be on another such network. Of course, FB makes a lot of things easy. And not being on it has some compromises associated with it which any herd animal has to make by not being a part of the a herd. And I don't know if people use FB much these days. Do they even change their DPs? Going back to [my post on platforms](https://atul-atul.github.io/notes/platforms/) or quoting from Steve Yegge's platform rant, "Facebook -- that is, the stock service they offer with walls and friends and such -- is the killer app for the Facebook Platform.  And it is a very serious mistake to conclude that the Facebook App could have been anywhere near as successful without the Facebook Platform." It's the platform which enabled things like ads, viral content, suggestions, third party integrations, games, marketplace, smear campaigns, propoganda, etc. If you haven't, go read Steve Yegge's platform rant right now. It is more valuable than the paper.
