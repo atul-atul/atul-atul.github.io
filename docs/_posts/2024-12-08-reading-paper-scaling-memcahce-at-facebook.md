@@ -107,6 +107,7 @@ In conclusion section the paper says: Many of the trade-offs discussed are not f
 Performance is one of those hygiene factors, isn't it? You can [read more about hygiene factors](https://en.wikipedia.org/wiki/Two-factor_theory) on wikipedia. Basically, having a clean table in cafetaria during lunch hour does not make you happy but seeing it unclean will make you unhappy. 
 
 Here is some related content I copied from DDIA book:
+
   It seems intuitively obvious that a fast service is better for users than a slow service. However, it is surprisingly difficult to get hold of reliable data to quantify the effect that latency has on user behavior.
 
   Some often-cited statistics are unreliable. In 2006 Google reported that a slowdown in search results from 400 ms to 900 ms was associated with a 20% drop in traffic and revenue. However, another Google study from 2009 reported that a 400 ms increase in latency resulted in only 0.6% fewer searches per day, and in the same year Bing found that a two-second increase in load time reduced ad revenue by 4.3%. Newer data from these companies appears not to be publicly available.
