@@ -5,11 +5,11 @@ categories:
   - "notes"
 tags: 
   - "distributed-systems"
-  - "Memcahce-paper"
+  - "Memcache-paper"
   - "technical-papers"
   - "technical-reading"
 ---
-I recently read the paper [Scaling Memcahce At Facebook](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf). Some of my notes below:
+I recently read the paper [Scaling Memcache At Facebook](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf). Some of my notes below:
 
 First let's familiarize with some terms, ideas which are used in the paper/ my notes on it. This section may come across as teach-me-as-if-I-am-five-year-old description. Sorry for that.
 A caching solution generally holds data in a hash-table like key-value structure- mostly in memory- to provide- more or less- O(1) look up. It saves trips to and thus reduces load on the data store. The data store can be a database, a service, etc. Data can become stale (inconsistent with underlying source-of-truth store) and updates/ deletes/ new additions of data need to be managed. Some caching systems may take up persistence of data (data written first into the cache and later flushed to data-store in batches AKA write-back). Evicting data from cache/ cache invalidation can be challenging (There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.- Jeff Atwood of StackOverflow, codinghorror blog.). Look up terms like LRU, LFU, TTL, cache-aside, write-through/back/around, versioning, cache-stampede/ thundering-herd, etc.
