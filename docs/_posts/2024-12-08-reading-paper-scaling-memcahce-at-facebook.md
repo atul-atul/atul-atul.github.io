@@ -11,13 +11,18 @@ tags:
 ---
 I recently read the paper [Scaling Memcache At Facebook](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf). Some of my notes below:
 
+---
 First let's familiarize with some terms, ideas which are used in the paper/ my notes on it. This section may come across as teach-me-as-if-I-am-five-year-old description. Sorry for that.
 A caching solution generally holds data in a hash-table like key-value structure- mostly in memory- to provide- more or less- O(1) look up. It saves trips to and thus reduces load on the data store. The data store can be a database, a service, etc. Data can become stale (inconsistent with underlying source-of-truth store) and updates/ deletes/ new additions of data need to be managed. Some caching systems may take up persistence of data (data written first into the cache and later flushed to data-store in batches AKA write-back). Evicting data from cache/ cache invalidation can be challenging (There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.- Jeff Atwood of StackOverflow, codinghorror blog.). Look up terms like LRU, LFU, TTL, cache-aside, write-through/back/around, versioning, cache-stampede/ thundering-herd, etc.
+
 **memcached**- Free & open source, high-performance, distributed memory object caching system. I pronounce it with d in the end (like in etcd) but you can pronounce it as the past tense of a verb. It was first designed for use in LiveJournal and is now a popular caching solution.
+
 **memcache**- Notice the missing d in the end. Facebook's (FB) distributed caching system which uses memcached. When fb designed this system memcached was not a distributed solution. This paper discusses this system. They added capabilities to memcached and some of them are now open sourced.
 
+---
 One of the authors of the paper discusses some of the techniques/ rationale in [this talk](https://youtu.be/m4_7W4XzRgk).
 
+---
 For convenience and to avoid confusion, some clarification on terms used. They use the term client not to indicate the client app of cached-data but the memcached client app/ library to embed into/ call from the facebook application. FB web or mobile app interacts with memcached servers via this client side app. This client-library kind of app is called mcrouter.
 The term 'frontend clusters' is used a lot. If I am not mistaken it means the deployments of user facing facebook site. As the term frontend can become overloaded with things like webapp, backend for mobile app, UI, javascript, etc. let's keep in mind that it means deployments of user facing facebook site.**
 
