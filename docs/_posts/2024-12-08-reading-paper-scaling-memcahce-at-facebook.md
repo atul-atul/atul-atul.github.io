@@ -1,5 +1,5 @@
 ---
-title: "Scaling Memcahce Paper"
+title: "Reading Paper Scaling Memcache at Facebook"
 last_modified_at: 2024-12-08T00:00:01-00:00
 categories: 
   - "notes"
