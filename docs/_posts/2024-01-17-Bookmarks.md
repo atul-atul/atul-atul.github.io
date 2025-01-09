@@ -14,7 +14,7 @@ Here I plan to note down links, etc. which I found interesting/ planned to visit
 5. [Cars can be allergic to vanilla ice-cream](https://www.cs.cmu.edu/~wkw/humour/carproblems.txt) Understanding the problem can be the key.
 6. [Seinfeld Scripts](https://www.seinfeldscripts.com/seinfeld-scripts.html) `You may tell jokes, Mr. Jerry Seinfeld; but you are no Comedian.`
 7. [Serverless may not be good for you](https://web.archive.org/web/20240325042615/https://www.primevideotech.com/video-streaming/scaling-up-the-prime-video-audio-video-monitoring-service-and-reducing-costs-by-90)
-8. [Rectangles with rounded corners are everywhere!](https://www.folklore.org/Round_Rects_Are_Everywhere.html) Why techies need to be rooted in the world they operate in. But avoid [Close Encounters of the Steve Kind](https://www.folklore.org/Close_Encounters_of_the_Steve_Kind.html) with the engineers.
+8. [Rectangles with rounded corners are everywhere!](https://www.folklore.org/Round_Rects_Are_Everywhere.html) Why techies need to be rooted in the world they operate in. But avoid [Close Encounters of the Steve Kind](https://www.folklore.org/Close_Encounters_of_the_Steve_Kind.html) with engineers.
 9. [ExRx](https://exrx.net/Lists/Directory)
 10. [Common Weakness Enumeration- a sample](https://cwe.mitre.org/data/definitions/22.html)
 11. [Tinker Tailor Soldier Spy](https://www.youtube.com/playlist?list=PLwix5PoqRIFNFxBcVsrcq2CrnVvbkexVR) and [Smiley's People](https://www.youtube.com/playlist?list=PLwix5PoqRIFOqIAlXTNGp4pCXu8HLhnWF) TV adaptations as best as any can be.
