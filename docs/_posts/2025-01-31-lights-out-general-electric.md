@@ -1,7 +1,7 @@
 ---
 title: "Lights Out: A book about fall of General Electric"
 date: "2025-01-31"
-last_modified_at: 2025-01-30T00:00:01-00:00
+last_modified_at: 2025-01-31T00:00:01-00:00
 categories: 
   - "books"
 tags: 

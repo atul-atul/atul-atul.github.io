@@ -1,7 +1,7 @@
 ---
 title: "Short Takes"
 date: "2024-04-04"
-last_modified_at: 2024-12-17T00:00:01-00:00
+last_modified_at: 2025-01-31T00:00:01-00:00
 categories: 
   - "notes"
 tags: 
