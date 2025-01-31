@@ -158,7 +158,7 @@ Lastly and most importantly I think it's the culture that matters. Of course, it
 
 TODO: A post about power.
 
-And which book is my next read? Have a few (many, actually) unread ones on my shelf, and in kindle, audible libraries. I have started re-reading a Wodehouse one. But one of the following could be the next one. Separated them from others in wishlist and grouped them here for a screenshot. Why should Al Pacino memoir be costlier that of Angela Merkel? And around Christmas prices of some Kindle books went up. Anyway Al Pacino has narrated the audible book so won't buy the kindle copy anyway. That reminds me. For past 3 years I haven't paid much for audible membership. I became a paid member from the month Audible started in India but for some time now I have been a member thanks mainly to coupons/ vouchers from GPay, Swiggy, Zomato.
+And which book is my next read? Have a few (many, actually) unread ones on my shelf, and in kindle, audible libraries. I have started re-reading a Wodehouse one. But one of the following could be the next one. Separated them from others in wishlist and grouped them here for a screenshot. Why should Al Pacino memoir be costlier than that of Angela Merkel? And around Christmas prices of some Kindle books went up. Anyway Al Pacino has narrated the audible book so won't buy the kindle copy anyway. That reminds me. For past 3 years I haven't paid much for audible membership. I became a paid member from the month Audible started in India but for some time now I have been a member thanks mainly to coupons/ vouchers from GPay, Swiggy, Zomato. Also, Walter Isaacson's Innovator paperback is sold at ₹1.10/gram. Hmm.
 
 ![auto-and-biographies](/images/biographies.png "books")
 
