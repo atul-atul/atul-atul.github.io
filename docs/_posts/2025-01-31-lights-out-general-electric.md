@@ -1,14 +1,14 @@
 ---
 title: "Lights Out: A book about fall of General Electric"
 date: "2025-01-31"
-last_modified_at: 2025-02-01T00:00:01-00:00
+last_modified_at: 2025-02-06T00:00:01-00:00
 categories: 
   - "books"
 tags: 
 ---
 I recently read the book **Lights Out** subtitled [Pride, Delusion, And The Fall Of General Electric](https://en.wikipedia.org/wiki/Lights_Out_(book)). It talks about troubles at GE. It was published in 2021 and GE stock has improved a lot since then. BillG [recommended the book](https://www.gatesnotes.com/Lights-Out) in past.
 
-Around the 1999-2000-01 turn of the century (or if you prefer, millennium/ Newmanniun) time-frame, magazines made a few lists like best discovery/ invention of human history*, greatest human being of last century (Gandhi, Einstein), best company of last century (GE, Coca Cola), etc. If I remember correctly, GE was voted the best company and Jack Welch the CEO of the century. Soon he planned to retire and the next CEO was chosen. I first came to know about GE around that time.
+Around the 1999-2000-01 turn of the century (or if you prefer, millennium/ Newmannium) time-frame, magazines made a few lists like best discovery/ invention of human history*, greatest human being of last century (Gandhi, Einstein), best company of last century (GE, Coca Cola), etc. If I remember correctly, GE was voted the best company and Jack Welch the CEO of the century. Soon he planned to retire and the next CEO was chosen. I first came to know about GE around that time.
 
 ---
 While I will talk about the book it will be mixed up with my own opinions, perceptions, etc. Some of it will not even be related to the book or GE. And some of this post may come across as unstructured, half baked thoughts. Or a quote after quote from the book. Please bear with that. 
@@ -21,12 +21,12 @@ If interested, as a mental exercise, while reading this post, picture this in yo
 ![GE](/images/GE.png "GE") 
 
 ---
-GE was a conglomerate for most of its existence. GE was a brand. The company had its roots in personalities like Edison (mostly for the sake of name) and Morgan (of JPMorgan). It made [great appliances](https://www.reddit.com/r/BuyItForLife/search/?q=ge&sort=top) from alarm clocks, fans to jet engines and turbines. It was in healthcare, insurance, medical systems (C arm was produced in India if I remember correctly). It owned NBC, and produced Friends, and Seinfeld. It spanned across generations and geographies. If I am not wrong at one point it was the largest software exporter from India.
+GE was a conglomerate for most of its existence. GE was a brand. The company had its roots in personalities like Edison (mostly for the sake of name) and Morgan (of JPMorgan). It made great products from [appliances like alarm clocks, fans](https://www.reddit.com/r/BuyItForLife/search/?q=ge&sort=top) to jet engines and turbines. It was in healthcare, insurance, medical systems (C arm was produced in India if I remember correctly). It owned NBC, and produced Friends, and Seinfeld. It spanned across generations and geographies. If I am not wrong, at one point it was the largest software exporter from India.
 
 While GE was best at engineering, in the corporate world it was popular for management, numbers, dividends, six-sigma, etc. Jack Welch was a big factor in this. The GE brand, logo, the GE way, management/ executive programs, culture had acquired an aura of mythical sort and proportion. 
 
 ---
-The book talks about GE's fall from grace. In short, it did not face innovators dilemma- Sony Walkman vs iPod type (maybe renewable energy challenged its oil, power business.) Its business did not get cannibalized. In plain words the businesses were mismanaged. The practices which GE followed (particularly accounting practices) were 'success theatre'. They manipulated numbers so that the quarterly results looked good (and had culture and practices which allowed that).
+The book talks about GE's fall from grace. In short, it did not face innovators dilemma- Sony Walkman vs iPod type (maybe renewable energy challenged its oil, power business.) Its business did not get cannibalized. In plain words the businesses were mismanaged. The practices which GE followed (particularly accounting practices), while not outright fraudulent, were 'success theatre'. They manipulated numbers so that the quarterly results looked good (and had culture and practices which allowed that).
 
 The book does not place a lot of direct blame on Welch but, of course, he's responsible for some of the mess. It just happened to surface after he stepped down.
 
@@ -35,18 +35,20 @@ But GE has stood for a well-bred hubris as well.'
 
 'GE wasn't the company that most people imagined.'
 
+'GE's size advantage was also one of its biggest weaknesses.'
+
+The CEO was also the chairman of the board. So no-one really questioned/ opposed him. 'The absence of robust opposition also pointed to the broader problem, long cultivated and growing into a quiet crisis within the company, of real candor and self-awareness.'
+
 'The board was openly dysfunctional, problems at the company were deep and troubling...'
 
 It's a fact that nothing succeeds like success. If you show great profits, dividends, etc. year after year and decade after decade you will acquire an aura. You derive credibility for yourself, for your strategies, for management style from the brand. And even if the good results are thanks to some loopholes and the numbers are gamed, you start believing the myth. You create ivory towers, echo chambers, and yes men. The book mentions how Jack Welch and Jeff Immelt did not want to hear any bad news. Immelt used to say 'where's the guy I used to know' (who had good news for me). This 'can you do it or shall I find someone who can' approach can work both positively and negatively. You know 'speaking truth to power' thing.
 
 'There was no market for hard truths or bad news. Not as far as the guy at the top was concerned.'
 
-The CEO was also the chairman of the board. So no-one really questioned/ opposed him. 'The absence of robust opposition also pointed to the broader problem, long cultivated and growing into a quiet crisis within the company, of real candor and self-awareness.'
-
-'GE's size advantage was also one of its biggest weaknesses.'
-
 ---
-Immelt was chosen and groomed by Jack. Four days after Immelt became CEO, the 9/11 attacks happened. Later sub-prime crisis happened. And GE Capital suffered. Immelt tried to separate the troubled GE Capital from other businesses. And focused on making the conglomerate more industrial business, more GE Power (turbines, oil & gas) centric. He did away with NBC, appliances, etc. Why GE moved out of appliances business: 'In a culture in which people were accustomed to tossing more treasured devices like phones and computers after just a few years, no one expected to get a full generation of use out of a dryer anymore.'
+**Immelt**
+
+Immelt was chosen and groomed by Jack. Four days after Immelt became CEO, the 9/11 attacks happened. Later sub-prime crisis happened. And GE Capital suffered. Immelt tried to separate the troubled GE Capital from other businesses. And focused on making the conglomerate more industrial business, more GE Power (turbines, oil & gas) centric. He did away with NBC, appliances, etc. Why did GE move out of appliances business: 'In a culture in which people were accustomed to tossing more treasured devices like phones and computers after just a few years, no one expected to get a full generation of use out of a dryer anymore.'
 
 People felt Immelt (even before he became the CEO) paid more to make deals happen.
 
@@ -57,6 +59,8 @@ Immelt era did not seem to generate enough cash. The numbers were manipulated (a
 'Under Immelt, the company believed that the will to hit a target could supersede the math...' (An aside: I am never comfortable with American way of saying math instead of maths.)
 
 ---
+**GE Capital**
+
 GE Capital, 'in the months leading up to the crash *(sub-prime)*, had been effectively the seventh-largest bank in the country, but its operations had been almost impenetrable. It was a "black box," everyone had said with a shrug— until the black box had almost dragged the company down for good.'
 
 'The rigorous protocols of the banking industry also bore little resemblance to the customs that prevailed at GE Capital. Like the parent company, GE Capital's system for evaluating and monitoring deals was rooted in personal accountability more than enterprise risk.'
@@ -72,6 +76,8 @@ And 'in addition, the broader market had lost its former patience for letting bi
 '...gut-driven management style could be rationalized— or explained at the very least— to the industrial divisions. But many of Immelt's grand visions fell flat at Capital, and that reception may have contributed to his distaste for that business. The marketing-based commercial strategy Immelt was imposing on GE's industrial units didn't really translate to financial services. And his optimism-driven management style, all pep talks and insistence that sheer determination to prevail could surmount any obstacle, didn't go over well with a division that measured success and failure in fractions of a percentage point and whose analyses almost always turned on quantitative factors.'
 
 ---
+**Predix**
+
 GE's Software foray(Predix); Immelt era.
 'Even GE and Predix had to obey laws of physics that weren't susceptible to marketing.'
 
@@ -80,7 +86,7 @@ GE's Software foray(Predix); Immelt era.
 'Instead of charging a small team with developing the best product and then letting the operation grow with the product's evolution, GE set up a huge organization that wasn't quite needed yet. Development was often paused or delayed in order to start the process over entirely or just to stabilize the systems.'
 
 ---
-Domain knowledge
+**Domain knowledge**
 
 GE prided itself on producing great managers. But the generalist manager approach did not always work. Sometimes domain expertise was lacking. 
 
@@ -114,7 +120,7 @@ Leaders also seem to introduce themes. For example, GE is an industrial company,
 'There is also plenty of blame to put on GE's top-down culture, which Welch and any number of midlevel managers used to their advantage as readily as Immelt did.'
 
 ---
-Post Immelt era
+**Post Immelt era**
 
 'Under Flannery, the message reverberating around the headquarters and the entire company was: no more success theater.'
 
@@ -126,7 +132,7 @@ Flannery came across a lot of problems; particularly at GE Power, Insurance (whi
 
 'If Immelt was known for his vaulting optimism, Flannery soon became known for his indecision and endless analysis. Few decisions, even major ones, were final. A critical strategic move, like the separation of a major division, could be made, only to be reassessed at any time. Flannery's style was quickly grating on top executives who worked with him.'
 
-'Jack Welch continues to privately rage about the man he chose to succeed him (Immelt). The aging CEO still likes to say he gives himself an A grade for the way he ran GE, and an F for his choice of successor.' (Welch passed away some time back.)
+'Jack Welch continues to privately rage about the man he chose to succeed him. The aging CEO still likes to say he gives himself an A grade for the way he ran GE, and an F for his choice of successor.' (Welch passed away some time back.)
 
 'The SEC didn't name the GE executives, but the order makes it clear that the misbehavior stopped with Flannery's first full quarter as CEO, the fourth quarter of 2017.'
 
@@ -138,13 +144,13 @@ The authors end the book with:
 This ending is the most biting and maybe perfect one in my opinion.
 
 ---
-A couple of additional impressions. The book could have been edited better. For better reading experience and for the layman like myself the chapters are kept small and paragraphs are also small. But this has a side effect that some information gets repeated and a bit of to and fro happens. Some flow gets interrupted. Maybe the chapters were written by individual authors instead of jointly.
+A few additional impressions. The book could have been edited better. For better reading experience and for the layman like myself the chapters are kept small and paragraphs are also small. But this has a side effect that some information gets repeated and a bit of to and fro happens. Some flow gets interrupted. Maybe the chapters were written by individual authors instead of jointly.
 
 The book does not mention this. But in my mind, Immelt seems to be the kind of manager/ leader you used to read about in trashy self help books. Shoulders back, chest out, firm handshake, make and hold eye contact, interest your audience by talking about sport, etc. 
 
 Any cash rich company can have inefficiencies, bad practices. (Commercial paper- a form of short term debt in GE's case comes to mind along with executive perks, etc.) It is better to get rid of these when there is time. When cash crunch occurs some of these things are first to go (company cars). But some others are difficult to get rid of. And sometimes you end up letting wolf inside the door (regulators, watchdog, seat on the board, etc.).
 
-A lot of these things appear obvious or common sense in hindsight. I guess none of the leaders wanted to do any harm to the company. Welch, Immelt, etc. The business of conglomerate was complex. And most certainly even after reading a book or two we may not fully understand/ appreciate the complexity. But if a CEO gets 15-20 years to shape up the company with uncontested power, like Welch and Immelt did, couldn't they have done better? Immelt was almost always firefighting. But couldn't his shortcomings (not enough knowledge about Capital business, not factoring in the crude oil price hike) be overcome. I guess people fall in love with their own images and approaches. When they reach top, they stop listening. Some of this my-way-or-highway approach must be necessary to avoid second-guessing everything. But I think you should be open to one or two levels above and below your own level. (For example, in Toyota Production System if a worker on shop floor could bring assembly line to halt if he/she found a problem.) A CEO who takes the board for granted is better without having that board or the one who isn't willing to listen to bad-news from his subordinates will have to hear that news from the market. I think life is an incessant flow of choices (irrespective of whether free will exists or not). It is all about to choices we make and paths we take. And the management at GE made bad choices for long.
+A lot of these things appear obvious or common sense in hindsight. I guess none of the leaders wanted to do any harm to the company. Welch, Immelt, etc. The business of conglomerate was complex. And most certainly even after reading a book or two we may not fully understand/ appreciate the complexity. But if a CEO gets 15-20 years to shape up the company with uncontested power, like Welch and Immelt did, couldn't they have done better? Immelt was almost always firefighting. But couldn't his shortcomings (not enough knowledge about Capital business, not factoring in the crude oil price hike) be overcome? I guess people fall in love with their own images and approaches. When they reach top, they stop listening. Some of this my-way-or-highway approach must be necessary to avoid second-guessing everything. But I think you should be open to one or two levels above and below your own level. (For example, in Toyota Production System a worker on shop floor could bring assembly line to halt if he/she found a problem.) A CEO who takes the board for granted is better without having that board or the one who isn't willing to listen to bad-news from his subordinates will have to hear that news from the market. I think life is an incessant flow of choices (irrespective of whether free will exists or not). It is all about to choices we make and paths we take. And the management at GE made bad choices for long.
 
 A few generic reasons I can think of behind such mess:
    1. The people involved are optimizing for their self interests- career paths, perks, money, power, etc. They know their limitations, and that business, companies are too impersonal, their time limited, etc. 'It's just a job.' I don't think there is anything wrong with that. But you can do that with a bit of professionalism. 
@@ -155,7 +161,7 @@ A few generic reasons I can think of behind such mess:
    6. People, when they can't answer a difficult question, tend to substitute the difficult question with an easier one which they can answer. This is substitution principle from Thinking, Fast and Slow. Any answer you can come to questions like: should we have NHS like healthcare system, should we have minimum wages, should we tax the rich more, should primary education be..., etc. is likely to be an answer to a substituted simpler question (unless you are a domain expert). Perhaps this is why companies, as first actions divest from some segments, fire employees, and even have awards and promotion cycles, etc.
    7. Systems influence people and people influence systems. Both these are dynamic.
    8. Celebrity culture, hero's blind worship is a factor.
-   9. Some of these things appear to be sort of directed acyclic graphs. It may seem that there's an inevitable directionality to them, 'it was bound to happen like that'. But as Steve Jobs said you can connect the dots only in hindsight. There's no way one can be sure how dynamic systems will evolve. If we travel back to K-T boundary and the earth is hit again by same asteroid/ comet at same time and place, there is no way you can be sure that some 66 million years later, girls would want to impress boys by talking about NVIDIA stock.
+   9. Some of these things appear to be sort of directed acyclic graphs. It may seem that there's an inevitable directionality to them, 'it was bound to happen like that'. But as Steve Jobs said you can connect the dots only in hindsight. There's no way one can be sure how dynamic systems will evolve.  If we travel back to K-T boundary and the earth is hit again by same asteroid/ comet at same time and place, there is no way you can be sure that some 66 million years later, girls would want to impress boys by talking about NVIDIA stock.
    10. GE people were not particularly different. You and I fall for these things all the time. 
 
 Borrowing money (from VCs, funds, loans, market) is starting to look less appealing to me. And yet companies do need to borrow money from market and other sources to expand, sustain, etc. The founder of Ikea [borrowed 500 Krona](https://www.acquired.fm/episodes/ikea) to purchase and then sell fountain pens. He repaid the money, and Ikea, since then, have had no outside financing, no debt financing.
@@ -166,10 +172,6 @@ Lastly and most importantly I think it's the culture that matters. Of course, it
 *Best invention/ discovery was electricity, wheel. Electricity seems ok. But wheel? No way. The best was probably the second wheel. Have you seen the idiots on unicycles? (Rich Hall gag.) Surprisingly, AFAIK, evolution has not come up with a wheel (some sea-bed dwelling fish have pods closely resembling wheels but not exactly wheels- your know, translate-to-rotary motion, friction reducing, etc.). Evolution works on the good enough principle.
 
 TODO: A post about power.
-
-And which book is my next read? Have a few (many, actually) unread ones on my shelf, and in kindle, audible libraries. I have started re-reading a Wodehouse one. But one of the following could be the next one. Separated them from others in wishlist and grouped them here for a screenshot. Why should Al Pacino memoir be costlier than that of Angela Merkel? And around Christmas prices of some Kindle books went up. Anyway Al Pacino has narrated the audible book so won't buy the kindle copy anyway. That reminds me. For past 3 years I haven't paid much for audible membership. I became a paid member from the month Audible started in India but for some time now I have been a member thanks mainly to coupons/ vouchers from GPay, Swiggy, Zomato. Also, Walter Isaacson's Innovator paperback is sold at ₹1.10/gram. Hmm.
-
-![auto-and-biographies](/images/biographies.png "books")
 
 While updating the post today, I ended up using Seinfeld's 'big budget movie with a story that goes nowhere' over Shakespeare's 'full of sound and fury signifying nothing'. And I love how quotable Seinfeld is- along with Wodehouse, Calvin And Hobbes and P. L. Deshpande. I have heard similar- quoteworthiness- about Dune (purchased but unread). And you have no idea how I resisted putting Immelt's cavalier approach in terms of Monty Python's 'Tis but a scratch/ flesh wound. But I have to say, at times when I understand him, I just love Shakespeare.
 
