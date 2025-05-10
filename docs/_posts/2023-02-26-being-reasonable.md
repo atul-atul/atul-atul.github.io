@@ -1,5 +1,6 @@
 ---
 title: "Being reasonable"
+toc: true
 date: "2023-02-26"
 ---
 

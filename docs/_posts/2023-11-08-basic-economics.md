@@ -1,5 +1,6 @@
 ---
 title: "Basic Economics"
+toc: true
 date: "2023-11-08"
 categories: 
   - "books"

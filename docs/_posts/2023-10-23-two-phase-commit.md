@@ -1,5 +1,6 @@
 ---
 title: "Two Phase Commit"
+toc: true
 date: "2023-10-23"
 last_modified_at: 2024-08-31T00:00:01-00:00
 categories: 

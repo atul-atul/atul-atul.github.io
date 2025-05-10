@@ -1,5 +1,6 @@
 ---
 title: "Concurrent vs Parallel"
+toc: true
 date: "2022-02-16"
 tags: 
   - "concurrent"

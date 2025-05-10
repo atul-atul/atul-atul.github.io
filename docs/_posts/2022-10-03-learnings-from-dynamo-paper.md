@@ -1,5 +1,6 @@
 ---
 title: "Learnings from Dynamo Paper"
+toc: true
 date: "2022-10-03"
 categories: 
   - "books"

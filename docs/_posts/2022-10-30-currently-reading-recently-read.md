@@ -1,5 +1,6 @@
 ---
 title: "Currently Reading, Recently Read"
+toc: true
 date: "2022-10-30"
 tags: 
   - "book"

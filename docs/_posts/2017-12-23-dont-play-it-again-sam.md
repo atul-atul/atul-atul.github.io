@@ -1,5 +1,6 @@
 ---
 title: "Don't play it again, Sam"
+toc: true
 date: "2017-12-23"
 ---
 

@@ -1,5 +1,6 @@
 ---
 title: "Continuous Delivery"
+toc: true
 date: "2021-03-04"
 categories: 
   - "books"

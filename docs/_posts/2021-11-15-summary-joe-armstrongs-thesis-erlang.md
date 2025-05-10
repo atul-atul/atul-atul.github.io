@@ -1,5 +1,6 @@
 ---
 title: "Summary: Joe Armstrong's Thesis: Erlang"
+toc: true
 date: "2021-11-15"
 tags: 
   - "actor-model"

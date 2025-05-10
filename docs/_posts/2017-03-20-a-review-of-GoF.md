@@ -1,5 +1,6 @@
 ---
 title: "A review of GoF Deign Patterns Book"
+toc: true
 date: "2017-03-20"
 last_modified_at: 2024-11-07T00:00:01-00:00
 tags: 

@@ -1,5 +1,6 @@
 ---
 title: "Reading Paper Scaling Memcache at Facebook"
+toc: true
 date: "2024-12-08"
 last_modified_at: 2024-12-09T00:00:01-00:00
 categories: 

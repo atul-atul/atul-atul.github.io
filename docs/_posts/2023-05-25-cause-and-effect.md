@@ -1,5 +1,6 @@
 ---
 title: "Cause and Effect"
+toc: true
 date: "2023-05-25"
 tags: 
   - "thinking-out-loud"
