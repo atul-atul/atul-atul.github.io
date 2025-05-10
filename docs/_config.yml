@@ -47,20 +47,23 @@ lunr:
   search_within_pages    : true
 
 defaults:
-  - _posts:
-    values:
-      show_date: true
+  # _posts
   - scope:
       path: ""
       type: posts
     values:
       layout: single
       author_profile: true
-      show_date: true
-      # read_time: true
       comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 
 # Site Author
@@ -172,25 +175,6 @@ sass:
 permalink: /:categories/:title/
 
 timezone: Asia/Kolkata
-
-# pagination:
-#   # Set enabled to true to use paginate v2
-#   enabled: true
-#   debug: false
-#   collection: 'posts'
-#   per_page: 10
-#   permalink: '/page/:num/'
-#   title: ':title - page :num'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
-#   category: 'posts'
-#   tag: ''
-#   locale: ''
-#   trail:
-#     before: 2
-#     after: 2
-
 
 # Plugins (previously gems:)
 plugins:
