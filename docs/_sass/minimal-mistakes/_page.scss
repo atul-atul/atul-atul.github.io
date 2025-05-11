@@ -73,7 +73,8 @@ body {
   line-height: 1;
 
   a {
-    color: $text-color;
+    color: $primary-color;
+    font-weight: bold;
     text-decoration: none;
   }
 
