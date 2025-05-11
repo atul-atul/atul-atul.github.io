@@ -74,8 +74,10 @@ body {
 
   a {
     color: $primary-color;
-    font-weight: bold;
+    font-weight: normal;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+  
   }
 
   & + .page__meta {
