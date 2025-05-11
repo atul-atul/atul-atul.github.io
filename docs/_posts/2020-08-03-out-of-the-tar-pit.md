@@ -18,7 +18,8 @@ The major contributor to complexity in many systems is the handling of **state.*
 
 Of these Complexity is the only significant one.
 
-**Approaches to understanding a system**:  Testing and informal reasoning.
+#### Approaches to understanding a system  
+Testing and informal reasoning.
 
 Testing: examining from outside. Inadequate... to show the presence of bugs but never to show their absence.
 
@@ -73,7 +74,7 @@ If the user doesn’t even know what something is (e.g. a thread pool or a loop 
 
 In an ideal scenario, we would like to formally specify the requirement without missing on any relevant requirements and keep this to just enough to meet all requirements. We would like to specify what steps- (what, not how)- we would take on the underlying infrastructure. This is closer to declarative style of programming.
 
-**Ideal World**
+#### Ideal World
 
 1. **State in the ideal world:** Data is either input or derived. And it is either mutable (user wants to modify as per requirements) or immutable. All the data in the user requirements is _essential_ but not may not be relevant to the state. Any other data is whether mutable or immutable is accidental state of the system. In the _ideal_ world, all accidental state should be eliminated.
     1. The input data if not required for further use in the program is there to have some side effects. The input data that is required in future becomes the essential state.
@@ -83,7 +84,7 @@ In an ideal scenario, we would like to formally specify the requirement without 
         3. Accidental derived data- like data maintained in cache form accidental state and should ideally be eliminated.
 2. **Control in the ideal world:** While some state is essential, control generally can be completely omitted from the ideal world and as such is considered entirely accidental. It typically won’t be mentioned in the informal requirements and hence should not appear in the formal requirements (because these are derived with no view to execution). Of course, some control will be needed for the program to run. But the results of the system should be independent of the actual control mechanism which is used.
 
-**Theoretical and Practical Limitations**
+#### Theoretical and Practical Limitations
 
 An ideal world is similar in many ways to the vision of declarative programming that lies behind functional and logic programming. Unfortunately, functional and logic programming ultimately have to confront both state and control.
 
@@ -95,7 +96,7 @@ Property based approaches do have capability of isolating and executing such exp
 
 Sometimes getting rid of accidental state will give rise to lesser **ease of expression**. One possible situation of this kind is for derived data which is dependent upon both user inputs over time, and its own previous values. In such cases it can be advantageous to maintain the accidental state even in the ideal world. An example of this would be the derived data representing the position state of a computer-controlled opponent in an interactive game- it is at all times derivable by a function of both all prior user movements and the initial starting positions, but this is not the way it is most naturally.
 
-**Required Accidental Complexity**
+#### Required Accidental Complexity
 
 Performance and ease of expression may _require_ us to maintain state and/or control, and thus accidental complexity.
 
@@ -103,7 +104,8 @@ The accidental complexity should be **avoided** and when required, as in case of
 
 To mitigate the risks we encounter due to accidental complexity, we take two defensive measures.
 
-**Risks of explicit management of accidental state** (the majority of state). The recommendation here is that we completely _**avoid explicit management**_ of the accidental state. Instead
+#### Risks of explicit management of accidental state (the majority of state). 
+The recommendation here is that we completely _**avoid explicit management**_ of the accidental state. Instead
 
 1. declare what accidental state should be used, and
 2. maintain it on a completely _separate_ infrastructure.
@@ -123,7 +125,7 @@ One implication of this overall structure is that the system (essential + accide
 
 The vital importance of separation comes simply from the fact that it is separation that allows us to “restrict the power” of each of the components independently.
 
-**Interactions among the separated components:**
+#### Interactions among the separated components
 
 1. **Essential State** This can be seen as the foundation of the system. The specification of the required state is completely self-contained- it can make no reference to either of the other parts which must be specified. One implication of this is that changes to the essential state specification itself may require changes in both the other specifications, but changes in either of the other specifications may never require changes to the specification of essential state.
 2. **Essential Logic** This is in some ways the “heart” of the system- it expresses what is sometimes termed the “business” logic. This logic expresses- in terms of the state- what must be true. It does not say anything about how, when, or why the state might change dynamically- indeed it wouldn’t make sense for the logic to be able to change the state in any way. Changes to the essential state specification may require changes to the logic specification, and changes to the logic specification may re-quire changes to the specification for accidental state and control. The logic specification will make no reference to any part of the accidental specification. Changes in the accidental specification can hence never require any change to the essential logic.

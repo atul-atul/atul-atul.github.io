@@ -44,7 +44,7 @@ The scale and reach of FB, wide fanout (say celebrity created content), read hea
 ---
 The goals of caching at FB: reduce the latency of fetching cached data or the load imposed due to a cache miss.
 
-**Reduce Latency**
+#### Reduce Latency
 
 The memcached servers are co-located in a cluster with webservers and storage. This reduces load on databases and other services and also reduces network lags. Cached items are distributed across the memcached servers through consistent hashing. Thus web servers have to routinely communicate with many memcached servers to satisfy a user request. As a result, all web servers communicate with every memcached server in a short period of time. This all-to-all communication pattern can cause incast congestion or allow a single server to become the bottleneck for many web servers. Data replication often alleviates the single-server bottleneck but leads to significant memory inefficiencies in the common case. They solved this using an indirection by introducing memcache client which runs on each web server. This client serves a range of functions, including serialization, compression, request routing, error handling, and request batching. The memcache client logic is provided as two components: a library that can be embedded into applications or as a standalone proxy named mcrouter. For convenience, I will call both of these (library and proxy) as mcrouter. This proxy presents a memcached server interface and routes the requests/replies to/from other servers. These mcrouters maintain a map of all available servers, which is updated through an auxiliary configuration system (I believe this aux config service is zookeeper).
 
@@ -55,7 +55,7 @@ They use UDP for get requests to reduce latency and overhead. Since UDP is conne
 They treat get errors as cache misses, but web servers skip inserting entries into memcached after querying for data to avoid putting additional load on a possibly overloaded network or server. This number tends to be small in their experience.
 
 ---
-**Reduce Load on data stores/ or services**
+#### Reduce Load on data stores or services
 
 They use leases to address two problems: stale sets and thundering herds. (If you are not aware, look up thundering herds and also cache stampede.) 
 
@@ -82,7 +82,7 @@ Handling Failures: Two scales of failures: (1) a widespread outage that affects 
 When a memcached client receives no response to its get request, the client assumes the server has failed and issues the request again to a special Gutter pool. If this second request misses, the client will insert the appropriate key-value pair into the Gutter machine after querying the database. Entries in Gutter expire quickly to obviate Gutter invalidations. Gutter limits the load on backend services at the cost of slightly stale data. By using Gutter to store these results, a substantial fraction of these failed get requests are converted into hits in the gutter pool thereby reducing load on the backing store.
 
 ---
-**Replication within a regiion**
+#### Replication within a regiion
 (refer to the image above) FB split web and memcached servers into multiple frontend clusters. These clusters, along with a storage cluster that contain the databases, define a region. This region architecture also allows for smaller failure domains and a tractable network configuration. Thus FB trade replication of data for more independent failure domains, tractable network configuration, and a reduction of incast congestion.
 
 A web server that modifies data also sends invalidations to its own cluster. SQL statements that modify authoritative state are amended to include memcache keys that need to be invalidated once the transaction commits. Invalidation daemons (named mcsqueal) run on every database. Each daemon inspects the SQL statements that its database commits, extracts any deletes, and broadcasts these deletes to the memcache deployment in every frontend cluster in that region. Invalidation daemons batch deletes into fewer packets and send them to mcrouter instances in each frontend cluster. These mcrouters then unpack individual deletes from each batch and route those invalidations to the right memcached serves. Invalidation via mcsqueal is better than via web servers. First, batching is possible in mcsqueal and second, use of mcrouters avoids misrouting of deletes due to a configuration error.
@@ -90,7 +90,7 @@ A web server that modifies data also sends invalidations to its own cluster. SQL
 A system called Cold Cluster Warmup mitigates poor hit rates when cache is cold by allowing clients in the "cold cluster" (i.e. the frontend cluster that has an empty cache) to retrieve data from the "warm cluster" (i.e. a cluster that has caches with normal hit rates) rather than the persistent storage. Memcached deletes support nonzero hold-off times that reject add operations for the specified hold-off time. By default, all deletes to the cold cluster are issued with a two second hold-off. When a miss is detected in the cold cluster, the client re-requests the key from the warm cluster and adds it into the cold cluster. The failure of the add (as the key is not present even in the warm cluster) indicates that newer data is available on the database and thus the client will refetch the value from the databases.
 
 ---
-**Consistency across regions**
+#### Consistency across regions
 Each region consists of a storage cluster and several frontend clusters. One region holds the master databases and the other regions contain read-only replicas. FB use on MySQL's replication mechanism to keep replica databases up-to-date with their masters. When scaling across multiple regions, maintaining consistency between data in memcache and the persistent storage becomes the primary technical challenge. These challenges stem from a single problem: replica databases may lag behind the master database.
 The paper describes what works for FB. Memcache system at FB represents just one point in the wide spectrum of consistency and performance trade-offs. They provide best-effort eventual consistency but place an emphasis on performance and availability.
 
@@ -98,7 +98,7 @@ Writes from a master region: use mcsqueal described earlier.
 Writes from a non-master region: Consider a user who updates his data from a non-master region when replication lag is excessively large. The user's next request could result in confusion if his recent change is missing. A cache refill from a replica's database should only be allowed after the replication stream has caught up. Without this, subsequent requests could result in the replica's stale data being fetched and cached. FB use a remote marker mechanism to minimize the probability of reading stale data. The presence of the marker indicates that data in the local replica database are potentially stale and the query should be redirected to the master region. When a web server (non-master region) wishes to update data that affects a key k, that server (1) sets a remote marker rk in the region, (2) performs the write to the master embedding k and rk to be invalidated in the SQL statement, and (3) deletes k in the local cluster. On a subsequent request for k, a web server will be unable to find the cached data, check whether rk exists, and direct its query to the master or local region depending on the presence of rk. In this situation, FB are ok with added latency (introduced due to a cache miss) so as to avoid reading stale data. The presence of a remote marker helps distinguish whether a non-master database holds stale data or not.
 
 ---
-**Performance Optimizations**
+#### Performance Optimizations
 The first major optimizations were to: (1) allow automatic expansion of the hash table to avoid look-up times drifting to O(n), (2) make the server multi-threaded using a global lock to protect multiple data structures, and (3) giving each thread its own UDP port to reduce contention when sending replies and later spreading interrupt processing overhead. The first two optimizations were contributed back to the open source community. Employing fine-grained locking triples the peak get rate. UDP implementation outperforms TCP implementation by 13% for single gets and 8% for 10-key multigets(more data into each request than single gets).***
 
 ---

@@ -19,7 +19,7 @@ The essential problem in making a fault-tolerant software system is that of faul
 
 The real world is concurrent. In the real world sequential activities are a rarity.
 
-**Characteristics of a COPL (Concurrency Oriented Programming Language)**
+#### Characteristics of a COPL (Concurrency Oriented Programming Language)
 
 1. COPLs must support processes. A process can be thought of as a self-contained virtual machine.
 2. Several processes operating on the same machine must be strongly isolated. A fault in one process should not adversely effect another process, unless such interaction is explicitly programmed.
@@ -28,17 +28,17 @@ The real world is concurrent. In the real world sequential activities are a rari
 5. Message passing is assumed to be unreliable with no guarantee of delivery.
 6. It should be possible for one process to detect failure in another process and reason for the failure.
 
-**Isolation:**
+#### Isolation
 
 Two processes operating on the same machine must be as independent as if they ran on physically separated machines.
 
-**Message Passing:**
+#### Message Passing
 
 1. Message passing is atomic. A message is either delivered in its entirety or not at all.
 2. Message passing between a pair of processes is ordered- meaning that if a sequence of messages is sent and received between any pair of processes then the messages will be received in the same order they were sent. Also, if process A sends a message to B then B can only receive this message at some point in time after A has sent the message. This is known as casual ordering.
 3. Messages should not contain pointers to data structures contained within processes- they should only contain constants and/or Pids. (No pass by reference.)
 
-**The Erlang view of the world**:
+#### The Erlang view of the world
 
 1. Everything is a process.
 2. Processes are strongly isolated.
@@ -50,11 +50,11 @@ Two processes operating on the same machine must be as independent as if they ra
 8. Error handling is non-local.
 9. Processes do what they are supposed to do or fail.
 
-**Concurrency in Erlang:**
+#### Concurrency in Erlang
 
 When a message arrives at a process it is put into a mailbox belonging to that process. The next time the process will try to match the first item in the mailbox with the set of acceptable patterns. If no message matches then the received message is moved to a temporary “save” queue and the process suspends and waits for the next message. If the message matches, then the sequence of statements following the match are evaluated. At the same time, any saved messages are put back into the input mailbox of the process.
 
-**Abstracting out concurrency**
+#### Abstracting out concurrency
 
 The generic component should hide details of concurrency and mechanisms for fault-tolerance from the plugins. The plugins should be written using only sequential code with well-defined types.
 
@@ -76,7 +76,7 @@ Benefits of abstracting out concurrency (for example in client-server):
 6. The code which implements the non-functional parts of the system is limited to the server (by non-function we mean things like how the system behaves in the presence of errors, how long time function evaluation takes, etc.) and is hidden from the application programmer.
 7. The details of how the remote procedure call is implemented are hidden inside the server module. This means that the implementation could be changed at a later stage without changing the client code, should this become necessary.
 
-**Error handling philosophy**
+#### Error handling philosophy
 
 1. Let some other process do the error recovery.
 2. If you can’t do what you want to do, let it crash.
@@ -111,7 +111,7 @@ Monitors are used when you want asymmetry in error handling; links are used when
 
 To make a system fault-tolerant we organize the software into a **hierarchy of tasks**. The highest level task is to run the application according to some specification. If this task cannot be performed then the system will try to perform some simpler task. If the simpler task cannot be performed then the system will try to perform an even simpler task and so on. If the lowest level task cannot be performed then the system will fail.
 
-**Supervision hierarchies**
+#### Supervision hierarchies
 
 The basic idea is:
 

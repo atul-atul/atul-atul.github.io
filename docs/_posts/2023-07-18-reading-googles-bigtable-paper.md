@@ -19,9 +19,11 @@ Users typically access a row. Row operations are atomic. Columns (like languages
 
 ![A Bigtable](/images/a_bigtable.png "A Bitgtable storing webpages and links to those pages")
 
-**Building Blocks:** GFS, Chubby, SSTable, Memtable (These topics are good for separate blog posts)
+#### Building Blocks 
+GFS, Chubby, SSTable, Memtable (These topics are good for separate blog posts)
 
-**Implementation Components:** a client library, a master, and many tablet servers.
+#### Implementation Components
+a client library, a master, and many tablet servers.
 
 As familiar terms help, let's note that a tablet in BigTable is like a shard or partition.
 
@@ -33,14 +35,14 @@ Clients communicate directly with tablet servers for reads and writes; most clie
 
 A Bigtable cluster stores a number of tables. Each table consists of a set of tablets, and each tablet contains all data associated with a row range. Initially, each table consists of just one tablet. As a table grows, it is automatically split into multiple tablets.
 
-**Tablet Location**: (B+ - tree)
+#### Tablet Location: (B+ - tree)
 ![Tablet Location Heirarchy](/images/bigtable_tablet_location_heirarchy.png "Tablet Location Heirarchy")
 
 The first level is a file stored in Chubby that contains the location of the _root tablet_. The _root tablet_ contains the location of all tablets in a special METADATA table. Each METADATA tablet contains the location of a set of user tablets. The _root tablet_ is just the first tablet in the METADATA table, but is treated specially- it is never split- to ensure that the tablet location hierarchy has no more than three levels.
 
 The client library caches tablet locations- it reads the metadata for more than one tablet whenever it reads the METADATA table. If the client does not know the location of a tablet, or if it discovers that cached location information is incorrect, then it recursively moves up the tablet location hierarchy
 
-**Tablet Assignment**:
+#### Tablet Assignment
 
 Each tablet is assigned to one tablet server at a time. The master keeps track of the set of live tablet servers, and the current assignment of tablets to tablet servers, including which tablets are unassigned. When a tablet server starts, it creates, and acquires an exclusive lock on, a uniquely-named file in a specific Chubby directory. The master monitors this directory (the _servers directory_) to discover tablet servers. A tablet server stops serving its tablets if it loses its exclusive lock but can continue to reacquire an exclusive lock as long as the file exists.
 
@@ -68,7 +70,7 @@ SSTables are immutable.
 
 The only mutable data structure that is accessed by both reads and writes is the memtable. To reduce contention during reads of the memtable, each memtable row is copy-on-write and allows reads and writes to proceed in parallel.
 
-**Compactions:**
+#### Compactions
 
 Minor compaction: Freeze memtable upon reaching a size threshold, create a new memtable. Convert the frozen one into SSTable.
 
@@ -76,9 +78,10 @@ Merging Compaction (Done periodically): Merge a few SSTables and memtable into a
 
 Major Compaction (Done periodically): Merge all SSTables into a single one.
 
-**Refinements:** Locality Groups, Compression(Bentley McIlroy, fast compression), Caching(Scan cache, block cache), Bloom Filters, Commit log implementation- a single commit log per tablet server (multiple tablets)- sorting the commit log entries in order of the keys <table, row name, log sequence number>.
+#### Refinements 
+Locality Groups, Compression(Bentley McIlroy, fast compression), Caching(Scan cache, block cache), Bloom Filters, Commit log implementation- a single commit log per tablet server (multiple tablets)- sorting the commit log entries in order of the keys <table, row name, log sequence number>.
 
-**Some thoughts upon reading:**
+#### Some thoughts upon reading
 
 Wow, what level of thinking is that.
 

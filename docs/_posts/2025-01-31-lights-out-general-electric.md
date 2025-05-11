@@ -47,7 +47,7 @@ It's a fact that nothing succeeds like success. If you show great profits, divid
 'There was no market for hard truths or bad news. Not as far as the guy at the top was concerned.'
 
 ---
-**Immelt**
+#### Immelt
 
 Immelt was chosen and groomed by Jack. Four days after Immelt became CEO, the 9/11 attacks happened. Later sub-prime crisis happened. And GE Capital suffered. Immelt tried to separate the troubled GE Capital from other businesses. And focused on making the conglomerate more industrial business, more GE Power (turbines, oil & gas) centric. He did away with NBC, appliances, etc. Why did GE move out of appliances business: 'In a culture in which people were accustomed to tossing more treasured devices like phones and computers after just a few years, no one expected to get a full generation of use out of a dryer anymore.'
 
@@ -60,7 +60,7 @@ Immelt era did not seem to generate enough cash. The numbers were manipulated (a
 'Under Immelt, the company believed that the will to hit a target could supersede the math...' (An aside: I am never comfortable with American way of saying math instead of maths.)
 
 ---
-**GE Capital**
+#### GE Capital
 
 GE Capital, 'in the months leading up to the crash *(sub-prime)*, had been effectively the seventh-largest bank in the country, but its operations had been almost impenetrable. It was a "black box," everyone had said with a shrug— until the black box had almost dragged the company down for good.'
 
@@ -77,7 +77,7 @@ And 'in addition, the broader market had lost its former patience for letting bi
 '...gut-driven management style could be rationalized— or explained at the very least— to the industrial divisions. But many of Immelt's grand visions fell flat at Capital, and that reception may have contributed to his distaste for that business. The marketing-based commercial strategy Immelt was imposing on GE's industrial units didn't really translate to financial services. And his optimism-driven management style, all pep talks and insistence that sheer determination to prevail could surmount any obstacle, didn't go over well with a division that measured success and failure in fractions of a percentage point and whose analyses almost always turned on quantitative factors.'
 
 ---
-**Predix**
+#### Predix
 
 GE's Software foray(Predix); Immelt era.
 'Even GE and Predix had to obey laws of physics that weren't susceptible to marketing.'
@@ -87,7 +87,7 @@ GE's Software foray(Predix); Immelt era.
 'Instead of charging a small team with developing the best product and then letting the operation grow with the product's evolution, GE set up a huge organization that wasn't quite needed yet. Development was often paused or delayed in order to start the process over entirely or just to stabilize the systems.'
 
 ---
-**Domain knowledge**
+#### Domain knowledge
 
 GE prided itself on producing great managers. But the generalist manager approach did not always work. Sometimes domain expertise was lacking. 
 
@@ -121,7 +121,7 @@ Leaders also seem to introduce themes. For example, GE is an industrial company,
 'There is also plenty of blame to put on GE's top-down culture, which Welch and any number of midlevel managers used to their advantage as readily as Immelt did.'
 
 ---
-**Post Immelt era**
+#### Post Immelt era
 
 'Under Flannery, the message reverberating around the headquarters and the entire company was: no more success theater.'
 

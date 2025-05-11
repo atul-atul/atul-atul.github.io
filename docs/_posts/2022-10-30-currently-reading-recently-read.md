@@ -10,7 +10,7 @@ Suppose I become a billionaire, one of the best outcome of not having to earn li
 Logging my reading here after a long time. Another thing- maybe I should only mention my completed reads here. So no currently reading (In progress) section.
 
 
-**May 2024:**
+#### May 2024
 Recently Read:
 Reread: The Godfather (read after maybe 3-5 years.), Gone With The Wind (This is the book I loved most in the past; I have read it more than 10 times, less intensity this time and it saddened me), To Kill A Mockingbird (Another favorite, maybe re-read it 6th time. Still as good in moving me as it was the first time I read it.)
 
@@ -20,7 +20,7 @@ Backstage by Montek Singh Ahluwalia. The author was instrumental (he wrote the f
 
 
 ----
-**Currently Reading October 2022:**
+#### October 2022
 
 Birdsong- Sebastian Faulks... started listening to audio book. But after first chapter or so it looks like a book I will enjoy reading. Appears descriptive in the vein of Gone With The Wind. I know I will feel all those feelings- joys and sorrows- more intensely while reading than listening. So abandoned the audiobook with good narrator. But I will pick up the ebook soon.
 
@@ -34,7 +34,7 @@ How Buildings Learn: What happens after they're built- Stewart Brand... need to 
 
 Why The Allies Won- Overy (re-read)...  need to pick again soon.
 
-**Recently Read:**
+#### Recently Read
 The Mysterious Affair at Styles- Agatha Christie... from wikipedia: 'Styles was Christie's first published novel. It introduced Hercule Poirot, Inspector (later, Chief Inspector) Japp, and Arthur Hastings.' I have been a fan of David Suchet's Poirot from the series. Of course I have read multiple Christie and Poirot novels earlier. But this was after a while. I had forgotten the story from the series episode. Liked it. Crime fiction is not a preference. But I have recently made a point of reading at least one during occassional holidays.
 
 The Splendid And The Vile A Saga Of Churchill, Family And Defiance During The Blitz- Erik Larson. 

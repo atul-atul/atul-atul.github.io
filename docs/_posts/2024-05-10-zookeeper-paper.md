@@ -27,22 +27,22 @@ In ZK, servers process read operations locally, and are not totally ordered.
 
 To guarantee that update operations satisfy linearizability, ZK implements a leader-based atomic broadcast protocol, called Zab. The writes in a quorum are commited via a simple majority. Say if the cluster has n machines then at least (1+(n/2)) should be ok to commit the update operation. Having simple majority while commiting updates may lead to weakly consistent states. Say in a cluster of 10 servers, only 6 might have the updated value. A subsequent read request for the same data may be sent to one of the remaining four servers (as it doesn't have to go via master) and the client may read stale data. Thus weak/ relaxed consistency.
 
-**Znodes**
+#### Znodes
 
 ZK resembles a hierarchical file system. Individual nodes (znodes) map to abstractions of the client application, typically corresponding to config/ meta-data used for coordination purposes. A znode has a version. Clients check version before updating znode. 
 ![ZK znodes](/images/zk_znodes.png "ZK znodes")
 
 A znode can be of type *Regular* or *Ephimeral* each with or without *Sequential* flag. Nodes created with the sequential flag set have the value of a monotonically increasing counter appended to its name (like p_1, p_2 in the figure). If n is the new znode and p is the parent znode, then the sequence value of n is never smaller than the value in the name of any other sequential znode ever created (previously) under p. So in the figure if we create a new sequential (regular or ephimeral) child znode under /app1 and name the new node as background_task then the new znode will be identified as /app1/background_task_4 as the sequence counter had reached upto 3 (for p_3) under /app1. Another node created under p_3 with name xyz will be accessible as /app1/p_3/xyz_5.
 
-**Watches**
+#### Watches
 
 ZooKeeper implements watches to allow clients to receive timely notifications of changes without requiring polling. When a client issues a read operation with a watch flag set, the operation completes as normal except that the server promises to notify the client when the information returned has changed. Watches are one-time triggers associated with a session; they are unregistered once triggered or the session closes. Watches indicate that a change has happened, but do not provide the change.
 
-**Sessions**
+#### Sessions
 
 A client connects to ZooKeeper and initiates a session. Sessions have an associated timeout. Sessions enable a client to move transparently from one server to another within a ZooKeeper ensemble, and hence persist across ZooKeeper servers. This is achieved via zxid, versions, and watches.
 
-**Client API**
+#### Client API
 
 While ZK is more of a service (co-ordination as a service) than a library, it provides a client library which makes it easy for developers to submit request, manage connections, etc. ZK service provides APIs and developers can implement locking, caching, etc. at the client end using these APIs.
 
@@ -63,7 +63,7 @@ All methods have both a synchronous and an async version available through the A
     client could instead submit a write (as writes are guaranteed to be Linearizable)
 ```
 
-**Ordering guarantees**
+#### Ordering guarantees
 
 A new leader can designate a path as the *ready* znode; other processes will only use the configuration when that znode exists. The new leader makes the configuration change by first deleting ready file, updating the various configuration znodes, and creating a new ready file. Because of the ordering guarantees, if a process sees the ready znode, it must also see all the configuration changes made by the new leader. If the new leader dies before the ready znode is created, the other processes know that the configuration has not been finalized and do not use it.
 
@@ -116,7 +116,7 @@ A few consequences/ constraints:
    1. to help ensure next read doesn't go backwards
    2. even if sent to a different replica
 
-**Locks**
+#### Locks
 
 If many clients set watch, there's a herd effect when the previously held lock gets released- many clients will want to acquire lock at once. Pseudocode for simple locking to avoid the herd effect could look like:
 ```
@@ -133,7 +133,7 @@ Unlock
 
 The use of the SEQUENTIAL flag in line 1 of Lock orders the client’s attempt to acquire the lock with respect to all other attempts. If the client’s znode has the lowest sequence number at line 3, the client holds the lock. Otherwise, the client waits for deletion of the znode that either has the lock or will receive the lock before this client’s znode. By only watching the znode that precedes the client’s znode, we avoid the herd effect by only waking up one client process when a lock is released or a lock request is abandoned. What happens if node p (preceding client znode n) gets deleted? A notification is triggered and the client checks if it can now acquire a lock. The check helps in scenarios where the node p may not have had a lock but may have been removed because of missing heartbeat/ network/ hardware failure, etc.
 
-**Read-Write Locks**
+#### Read-Write Locks
 
 ```
 Write Lock
@@ -152,7 +152,7 @@ Read Lock
 6 goto 3
 ```
 
-**ZK service**
+#### ZK service
 
 Components:
 ![ZK service components](/images/zk_service_components.png "ZK service components")
@@ -163,5 +163,5 @@ Read requests are handled locally at each server. Each read request is processed
 
 There are two reasons for write requests taking longer than read requests. First, write requests must go through atomic broadcast, which requires some extra processing and adds latency to requests. The other reason for longer processing of write requests is that servers must ensure that transactions are logged to non-volatile store before sending acknowledgments back to the leader.
 
-**General takeaways:**
+#### General takeaways
 Finished reading this paper quite fast. Also, this is the first time I watched videos related to the paper before reading the paper. Maybe that's a reason behind finishing the paper fast. Also, I hadn't read any paper for a while even though I wanted to. And that was getting on my nerves. And being familiar with some concepts beforehand helped like broadcast, linearizability. I know they say that anybody can program even if they don't have computer science education background. But I am sure if I had an educational background in CS, it would have helped me a lot.

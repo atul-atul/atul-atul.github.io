@@ -54,11 +54,11 @@ Since all processes use the same CPU, and memory, processes which try to hog the
 
 In our system processes, and concurrency, are part of the programming language and are not provided by the host operating system. Our applications are structured using large numbers of communicating parallel processes. We take this approach because it provides an architectural infrastructure, potential efficiency, fault isolation.
 
-**Concurrency Oriented Programming (COP)**
+#### Concurrency Oriented Programming (COP)
 
 The word concurrency refers to sets of events which happen simultaneously. The real world is concurrent. In the real world sequential activities are a rarity.
 
-**Characteristics of a COPL**
+#### Characteristics of a COPL
 
 COPLs are characterised by the following six properties:
 
@@ -69,7 +69,7 @@ COPLs are characterised by the following six properties:
 5. Message passing is assumed to be unreliable with no guarantee of delivery.
 6. It should be possible for one process to detect failure and reason for failure in another process.
 
-**Isolation** has several consequences:
+#### Isolation has several consequences
 
 1. Processes have “share nothing” semantics.
 2. Message passing is the only way to pass data between processes.
@@ -80,7 +80,7 @@ We will assume that processes know their own names, and that processes which cre
 
 Knowing the name of a process is the key element of security. Since names are unforgeable the system is secure only if we can limit the knowledge of the names of the processes to trusted processes.
 
-**Message passing**
+#### Message passing
 
 Message passing obeys the following rules:
 
@@ -102,7 +102,7 @@ The Erlang view of the world can be summarized in the following statements:
 8. Error handling is non-local.
 9. Processes do what they are supposed to do or fail.
 
-**Concurrent programming**
+#### Concurrent programming
 
 When a message arrives at a process it is put into a mailbox belonging to that process. The next time the process evaluates a receive statement the system will look in the mailbox and try to match the first item in the mailbox with the set of patterns contained in the current receive statement. If no message matches then the received message is moved to a temporary “save” queue and the process suspends and waits for the next message. If the message matches and if any guard test following the matching pattern also matches then the sequence of statements following the match are evaluated. At the same time, any saved messages are put back into the input mailbox of the process.
 
@@ -112,7 +112,7 @@ register(Name, Pid)
 
 creates a global process, and associates the atom Name with the process identifier Pid. Thereafter, messages sent by evaluating _Name ! Msg_ are sent to the process Pid.
 
-**Process links and monitors**
+#### Process links and monitors
 
 When one process in the system dies we would like other processes in the system to be informed; recall that we need this in order to be able to program fault-tolerant systems. There are two ways of doing this. We can use either a process link or a process monitor.
 
@@ -134,7 +134,7 @@ Process links are useful for setting up groups of processes, which will all die 
 
 Process links are useful for entire groups of processes, but not for monitoring pairs of processes in an asymmetric sense. In a typical client-server model, the relationship between the client and the servers is asymmetric as regards error handling. Suppose that a server is involved in a number of long-lived sessions with a number of different clients; if the server crashes, then we want to kill all the clients, but if an individual client crashes we do not wish to kill the server.
 
-**Dynamic code change**
+#### Dynamic code change
 
 The Erlang system allows for two versions of code for every module. If the code for a particular module has been loaded then all new processes that call any of this code will be dynamically linked with the latest version of the module. If the code for a particular module is subsequently changed then processes which execute code in this module can choose either to continue executing the old code for the module, or to use the new code. The choice is determined by how the code is called.
 
@@ -157,7 +157,7 @@ Note that it is the programmer’s responsibility to ensure that the new code to
 
 The programming techniques are concerned with: Abstracting out concurrency, Maintaining the Erlang view of the world, The Erlang view of errors, Intentional programming.
 
-**Abstracting out concurrency**
+#### Abstracting out concurrency
 
 The generic component should hide details of concurrency and mechanisms for fault-tolerance from the plugins. The plugins should be written using only sequential code with well-defined types.
 
@@ -182,13 +182,13 @@ Benefits of abstracting out concurrency (for example in client-server):
 7. The code which implements the non-functional parts of the system is limited to the server (by non-function we mean things like how the system behaves in the presence of errors, how long time function evaluation takes, etc) and is hidden from the application programmer.
 8. The details of how the remote procedure call is implemented are hidden inside the server module. This means that the implementation could be changed at a later stage without changing the client code, should this become necessary.
 
-**Maintaining the Erlang view of the world**
+#### Maintaining the Erlang view of the world
 
 The Erlang view of the world is that everything is a process and that processes can only interact by exchanging messages.
 
 When we interface Erlang programs to external software it is often convenient to write an interface program which maintains the illusion that “everything is a process.”
 
-**Error handling philosophy**
+#### Error handling philosophy
 
 1. Let some other process do the error recovery.
 2. If you can’t do what you want to do, die.
@@ -208,7 +208,7 @@ Remote handling of error has several advantages:
 3. The method works in a distributed system and so porting code from a single-node system to a distributed system needs little change to the error-handling code.
 4. Systems can be built and tested on a single node system, but deployed on a multi-node distributed system without massive changes to the code.
 
-**Workers and supervisors**
+#### Workers and supervisors
 
 To make the distinction between processes which perform work, and processes which handle errors clearer we oden talk about worker and supervisor processes:
 
@@ -221,7 +221,7 @@ One process, the worker process, does the job. Another process, the supervisor p
 
 Point three is crucial- we can run worker and supervisor processes on different physical machines, and thus make a system which tolerates hardware errors where entire processes fail.
 
-**Let it crash**
+#### Let it crash
 
 in the event of an error, then the program should just crash. But what is an error? For programming purpose we can say that:
 
@@ -232,11 +232,11 @@ The defensive code detracts from the pure case and confuses the reader- the diag
 
 5\. Programming Fault-tolerant Systems
 
-**Programming fault-tolerance**
+#### Programming fault-tolerance
 
 To make a system fault-tolerant we organize the software into a _**hierarchy of tasks**_ that must be performed. The highest level task is to run the application according to some specification. If this task cannot be performed then the system will try to perform some simpler task. If the simpler task cannot be performed then the system will try to perform an even simpler task and so on. If the lowest level task in the system cannot be performed then the system will fail.
 
-**Supervision hierarchies**
+#### Supervision hierarchies
 
 The basic idea is:
 
@@ -265,7 +265,7 @@ Each supervisor has a SSRS (Start Stop and Restart Spec) for each of its childre
 1. If my parent stops me then I should stop all my children.
 2. If any of my children dies then I must try to restart that child.
 
-**And/or supervision hierarchies**
+#### And/or supervision hierarchies
 
 The rules for a supervisor in an AND/OR tree are as follows:
 
@@ -273,7 +273,7 @@ The rules for a supervisor in an AND/OR tree are as follows:
 - If any child dies and I am an AND supervisor stop all my children and restart all my children.
 - If any child dies and I am an OR supervisor restart the child that died. AND supervision is used for dependent, or co-ordinated processes. In the AND tree the successful operation of the system depends upon the successful operation of all the children—thus if any child dies all the children should be stopped and then restarted.
 
-**What is an error?**
+#### What is an error?
 
 It is the programmer who decides if an exception corresponds to an error- in our system the programmer must explicitly say which functions in the system are expected to never generate exceptions.
 
@@ -281,7 +281,7 @@ For our purposes we will define an error as a deviation between the observed beh
 
 The programmer must ensure that if the system behaves in a way that deviates from the specification, some kind of error recovery procedure is initiated, and that some record of this fact is recorded in a permanent error log, so that it can be corrected later.
 
-**Well-behaved functions**
+#### Well-behaved functions
 
 A well-behaved function (WBF) is a function which should not normally generate an exception. If an exception is generated by the WBF then the exception will be interpreted as an error.
 
@@ -305,7 +305,7 @@ Applications which use the OTP software are built from a number of “behaviours
 
 The chapter discusses how to implement each of these, terminology associated, etc.
 
-**Discussion**
+#### Discussion
 
 1. In the OTP system the generic modules which implemented the behaviours themselves were written by expert Erlang programmers. These modules are based on several years of experience and represent “best practice” in writing code for the particular problem.
 2. Systems built using the OTP behaviours have a very regular structure. For example, all client-servers and supervision trees have an identical structure. The use of the behaviour forces a common structure in the solution of the problem. The applications programmer has to provide that part of the code which defines the semantics of their particular problem. All the infrastructure is provided automatically by the behaviour.
@@ -329,9 +329,9 @@ The client-server abstraction (gen\_server) is so useful that 63% of all generic
 
 10\. Conclusions
 
-**Program Development Using Erlang Programming Rules and Conventions**
+#### Program Development Using Erlang Programming Rules and Conventions
 
-**Structure and Erlang Terminology**
+##### Structure and Erlang Terminology
 
 Erlang systems are divided into **modules**. Modules are composed of **functions** and **attributes**. Functions are either only visible inside a module or they are **exported** i.e. they can also be called by other functions in other modules. Attributes begin with “-” and are placed in the beginning of a module.
 
@@ -343,7 +343,7 @@ A **pure function** is a function that returns the same value given the same arg
 
 Side effects typically occur if a function a) sends a message b) receives a message c) calls exit d) calls any BIF which changes a process’s environment or mode of operation (e.g. get1, put2, erase1, process flag2 etc).
 
-**SW Engineering Principles**
+#### SW Engineering Principles
 
 1. **Export as few functions as possible from a module**
 2. **Try to reduce intermodule dependencies**
@@ -361,12 +361,12 @@ Side effects typically occur if a function a) sends a message b) receives a mess
 14. **Isolate hardware interfaces with a device driver**
 15. **Do and undo things in the same function**. (For example- close file in the same function that is used for opening, reading its content)
 
-**Error Handling**
+#### Error Handling
 
 1. **Separate error handling and normal case code** Don’t clutter code for the “normal case” with code designed to handle exceptions. As far as possible you should only program the normal case. If the code for the normal case fails, the process should report the error and crash as soon as possible. Don’t try to fix up the error and continue. The error should be handled in a different process. Clean separation of error recovery code and normal case code should greatly simplify the overall system design.
 2. **Identify the error kernel** One of the basic elements of system design is identifying which part of the system has to be correct and which part of the system does not have to be correct.
 
-**Processes, Servers and Messages**
+#### Processes, Servers and Messages
 
 1. **Implement a process in one module**
 2. **Use processes for structuring the system**
