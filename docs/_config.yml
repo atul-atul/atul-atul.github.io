@@ -20,7 +20,7 @@
 
 github_username:  atul-atul
 
-remote_theme: "mmistakes/minimal-mistakes"
+remote_theme: "mmistakes/minimal-mistakes@4.27.0"
 
 # remote_theme: chrisrhymes/bulma-clean-theme
 # remote_theme: sighingnow/jekyll-gitbook
