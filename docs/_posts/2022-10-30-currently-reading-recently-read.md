@@ -1,13 +1,18 @@
 ---
-title: "Currently Reading, Recently Read"
+title: "Recently Read"
 toc: true
 date: "2022-10-30"
+last_modified_at: 2025-05-11T00:00:01-00:00
 tags: 
   - "book"
 ---
 
-Suppose I become a billionaire, one of the best outcome of not having to earn living day-in-day-out would be to get somewhat more control over the usage of my time. And a lot of it would be used for reading.
-Logging my reading here after a long time. Another thing- maybe I should only mention my completed reads here. So no currently reading (In progress) section.
+
+#### May 2025
+Recently Read:
+Recently I re-read three P. G. Wodehouse books. One was a Jeeves and Wooster novel and the other two were from the Blandings Castle series. Each was a nth re-read. Still each felt quite fresh. And still there're times when the humor surprised me. I haven't read much Ukridge nor have I read any book from his Golf series. But I have re-read many of his books many times. So I am happy that some of the portions still surprise me. If they come up with some 'Eternal Sunshine of the Spotless Mind' like idea of erasing memories, among the first of my memories I would like to earse are those of Wodehouse books. And once I've had them erased, I would re-read those books again. This thought is much older than [PG's tweet](https://x.com/paulg/status/1106749968230936577) but essentially I totally agree with him.
+
+Also, listened to Jimmy Anderson's recently published autobiography Finding the Edge. Good, not great book. Jimmy- his emotions on the field aside- is/ was a great test bowler. In the era of T20, commercial interests dictate that the test cricket will suffer. Sorry for the opinionated generic statement: the quality bowling is rare in any form of cricket these days. So maybe we won't see another fast bolwer taking as many test wickets as Jimmy. Another opinionated statement ahead: Bumrah is probably/ almost certainly better than Jimmy. But possibly health/ injuries/ hunger to continue will be important factors in his career longevity.
 
 
 #### May 2024
