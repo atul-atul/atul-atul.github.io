@@ -21,7 +21,7 @@ But for ordering of events- or determining the order of events- logical clocks a
 
 In the area of logical clocks, **Lamport clock**s are the first. They are simpler and help in partial ordering. But they are useful only so much. For example, we can say that if A happened before B, then Lamport clock of A- denoted here as LC(A)- would be less than LC(B); but we can not for certain say that if LC(A) < LC(B) then A necessarily happened before B. Here I will not detail out the mechanism of how the clock values are sent, used, incremented. It should be apparent from the diagram below. Even if it's not, let's move on to vector clocks.
 
-![](https://abjtechblog.files.wordpress.com/2023/09/lc_shortcoming.png?w=1024)
+![](/images/lc_shortcoming.png "shortcomings of Lamport clocks")
 
 **Vector clocks** give these guarantees. So
 
@@ -41,7 +41,7 @@ The mechanism of vector clocks is:
 
 A system with three processes using vector clocks:
 
-![](https://abjtechblog.files.wordpress.com/2023/09/vector_clocks.png?w=1024)
+![](/images/vector_clocks.png "vector clocks")
 
   
 In the above system, the event A has a vector clock of \[0,3,2\]. Right? We can see the events that happened before A on the same process (P2). We can also say that two on P3 happened before A. Why? Second event on P3 happened before second event on P2 as it is the corresponding send-event for second event on P2. And the first event on P3 happened before the second event on P3. In general, the causal history of an event A is a set of all events which have vector clocks same or smaller than that of A on every position.  
@@ -52,4 +52,4 @@ Are last events on P1 and P3- those having VCs \[2,3,4\] and \[1,3,5\] causally 
 
 Here is an image [from wikipedia](https://en.wikipedia.org/wiki/Vector_clock) showing some event causally connected to event on process B with VC {A:2, B:4, C:1} as well as some independent events.
 
-![](https://abjtechblog.files.wordpress.com/2023/09/vector_clock.svg_.png?w=1024)
+![](/images/vector_clock.svg_.png "Causality of events")

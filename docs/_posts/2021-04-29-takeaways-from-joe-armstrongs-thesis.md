@@ -25,7 +25,7 @@ I recently finished reading [Joe Armstrong's thesis](https://erlang.org/download
 
 \*\*\*\*\*\*\*
 
-This is a fairly involved topic and the post is quite long. I have also written a summary which also is long but somewhat shorter than this post. If you prefer the shorter version it is available [here](https://abjtechblog.wordpress.com/2021/11/15/summary-joe-armstrongs-thesis-erlang/).
+This is a fairly involved topic and the post is quite long. I have also written a summary which also is long but somewhat shorter than this post. If you prefer the shorter version it is available [here](https://atul-atul.github.io/notes/summary-joe-armstrongs-thesis-erlang/).
 
 \*\*\*\*\*\*\*
 
