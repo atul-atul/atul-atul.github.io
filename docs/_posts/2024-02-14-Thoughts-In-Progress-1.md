@@ -1,6 +1,16 @@
 ---
 title: "Thoughts In Progress: 1"
+toc: true
+date: "2024-02-14"
+last_modified_at: 2025-05-24T00:00:01-00:00
+tags: 
+  - thoughts
+  - thoughts-in-progress
+categories: 
+  - "books"
 ---
+In the [Thoughts-In-Progress](https://atul-atul.github.io/tags/#thoughts-in-progress) posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that. Like Work In Progress, these thoughts are not done yet.
+
 In the last week or so, I watched a few interviews of Patrick Collison (Stripe co-founder and CEO; generally known as PC*). Noteworthy ones: [with Zukerberg](https://www.youtube.com/watch?v=OuvrZFJLXSk) and [with Jason Crawford](https://www.youtube.com/watch?v=8rxS6kj5Zt0). There I came across a few somewhat-new thoughts. Both these have an article of his in the Atlantic [about diminishing returns in science](https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/) as a background. 
 
 Ok. First of all, that thought was new. The article was mostly about established/ pure sciences. Not technology or positive effects of the scientific progress on the world. When you read books like those by Steven Pinker and some [charts](https://ourworldindata.org/charts) from our world in data, the world certainly seems to be getting better despite news media giving the opposite impression. So in general, this thought that maybe science is not progressing at a good rate never crossed my mind. And I have not thought much about this idea. But at the face value it seems appealing. Of course, over time, I will think about it, and as I suggested in the post about [escaping from the grip of an idea](https://atul-atul.github.io/In-The-Grip-Of-An-Idea/), I will pit this thought against opposing thoughts. (For example, a contrasting thought is what Bill Gates says- and I have come to believe 100%- that we overestimate what we can achieve in one year and underestimate what we can achieve in ten years.) Suppose we discover a new element, are able to map consciousness, discover life in other places, are able to edit genes, find cure for old-age, etc.- Any one of these ideas would be a breakthrough of quantum mechanics kind. And maybe some of the new progress would be serendipitous- like [Kekule's dream](https://en.wikipedia.org/wiki/August_Kekul%C3%A9#Kekul%C3%A9's_dream) or [discovering plutonium by accident](https://www.youtube.com/watch?v=j6_pv_vRHKI). I added this Seinfeld reference after publishing the post as I thought it's- well, I will just say it- 'very comedically humorous'. I am slightly worried that my brain did not remind me of it in the first draft of this post while I was writing about discovering a new element.
