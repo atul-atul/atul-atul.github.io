@@ -2,7 +2,7 @@
 title: "Lights Out: A book about fall of General Electric"
 toc: true
 date: "2025-01-31"
-last_modified_at: 2025-02-06T00:00:01-00:00
+last_modified_at: 2025-05-24T00:00:01-00:00
 categories: 
   - "books"
 tags: 
@@ -157,7 +157,7 @@ A few generic reasons I can think of behind such mess:
    1. The people involved are optimizing for their self interests- career paths, perks, money, power, etc. They know their limitations, and that business, companies are too impersonal, their time limited, etc. 'It's just a job.' I don't think there is anything wrong with that. But you can do that with a bit of professionalism. 
    2. While they are in the system, they become part of it and cannot appraise it impartially. 
    3. People underestimate complexity because they don't understand it. Even when they understand complexity, their brains by evolutionary pressures may abstract away most of it. 
-   4. People have an illusion of control and can become cocksure about the things they do, believe. In case of uncertainty, the double down on their approaches. 
+   4. People have an illusion of control and can become cocksure about the things they do, believe. In case of uncertainty, they double down on their approaches. 
    5. People often optimize for [easier ones of the many available metrics](https://wiki.c2.com/?SovietShoeFactoryPrinciple) and [when metrics become targets](https://en.wikipedia.org/wiki/Goodhart%27s_law) and can be gamed, they stop being good metrics.
    6. People, when they can't answer a difficult question, tend to substitute the difficult question with an easier one which they can answer. This is substitution principle from Thinking, Fast and Slow. Any answer you can come to questions like: should we have NHS like healthcare system, should we have minimum wages, should we tax the rich more, should primary education be..., etc. is likely to be an answer to a substituted simpler question (unless you are a domain expert). Perhaps this is why companies, as first actions divest from some segments, fire employees, and even have awards and promotion cycles, etc.
    7. Systems influence people and people influence systems. Both these are dynamic.
@@ -167,10 +167,10 @@ A few generic reasons I can think of behind such mess:
 
 Borrowing money (from VCs, funds, loans, market) is starting to look less appealing to me. And yet companies do need to borrow money from market and other sources to expand, sustain, etc. The founder of Ikea [borrowed 500 Krona](https://www.acquired.fm/episodes/ikea) to purchase and then sell fountain pens. He repaid the money, and Ikea, since then, have had no outside financing, no debt financing.
 
-Lastly and most importantly I think it's the culture that matters. Of course, it's a vague and open-to-interpretation concept. And culture is generally not stagnant; doesn't remain unchanged for long. But many of your actions are rooted in an existing culture or are aspiring towards some culture. And every action updates the culture- what is acceptable and what's not, what is rewarded and what isn't, are you open to criticism, debate, difference of opinion, etc. What do you do when things go wrong. Certainly, GE had a culture problem. I have seen a couple of rotten companies and maybe it boiled down to this vague idea of culture. This becomes particularly noticeable when you are inside and company's fortunes turn (for better or for worse). 
+Lastly and most importantly I think it's the culture that matters. Of course, it's a vague and open-to-interpretation concept. And culture is generally not stagnant; doesn't remain unchanged for long. But many of your actions are rooted in an existing culture or are aspiring towards some culture. And every action updates the culture- what is acceptable and what's not, what is rewarded and what isn't, are you open to criticism, debate, difference of opinion, what you do when things go wrong, etc. Certainly, GE had a culture problem. I have seen a couple of rotten companies and maybe it boiled down to this vague idea of culture. This becomes particularly noticeable when you are inside and company's fortunes turn (for better or for worse). 
 
 ---
-*Best invention/ discovery was electricity, wheel. Electricity seems ok. But wheel? No way. The best was probably the second wheel. Have you seen the idiots on unicycles? (Rich Hall gag.) Surprisingly, AFAIK, evolution has not come up with a wheel (some sea-bed dwelling fish have pods closely resembling wheels but not exactly wheels- your know, translate-to-rotary motion, friction reducing, etc.). Evolution works on the good enough principle.
+*Best invention/ discovery was electricity, wheel. Electricity seems ok. But wheel? No way. The best was probably the second wheel. Have you seen the idiots on unicycles? (Rich Hall gag.) Surprisingly, AFAIK, evolution has not come up with a wheel (some sea-bed dwelling fish have pods closely resembling wheels but not exactly wheels- your know, translate-to-rotary motion, friction reducing, etc.). Evolution works on the good enough principle, doesn't want to perfect things/ mechanisms.
 
 TODO: A post about power.
 
