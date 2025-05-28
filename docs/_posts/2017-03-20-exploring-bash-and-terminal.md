@@ -3,11 +3,10 @@ title: "Exploring Bash And Terminal"
 toc: true
 date: "2017-03-20"
 tags: 
-  - "bash"
-  - "mac"
-  - "macos"
-  - "terminal"
-  - "unix"
+  - bash
+  - terminal
+categories: 
+  - tech
 ---
 
 Let me mention that probably because of Mac I have started appreciating unix. Unix was sort of arcane land for me. I used it only when required on projects. And even now I don't use it much. But I liked MacOS.

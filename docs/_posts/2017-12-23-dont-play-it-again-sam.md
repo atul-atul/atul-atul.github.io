@@ -2,6 +2,8 @@
 title: "Don't play it again, Sam"
 toc: true
 date: "2017-12-23"
+categories: 
+  - thoughts
 ---
 
 What kind of non-sense is this? Search for the  blog post titled E Pur Si Muove by Altman. I don't want to link to it.

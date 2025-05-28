@@ -3,7 +3,8 @@ title: "Takeaways from Joe Armstrong’s thesis"
 toc: true
 date: "2021-04-29"
 categories: 
-  - "notes"
+  - notes
+  - reading
 tags: 
   - "actor-model"
   - "beam"

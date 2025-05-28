@@ -7,9 +7,9 @@ tags:
   - thoughts
   - thoughts-in-progress
 categories: 
-  - "books"
+  - reading
 ---
-In the [Thoughts-In-Progress](https://atul-atul.github.io/tags/#thoughts-in-progress) posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that. Like Work In Progress, these thoughts are not done yet.
+In the [Thoughts-In-Progress](/tags/#thoughts-in-progress) posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that. Like Work In Progress, these thoughts are not done yet.
 
 I used to read Naushad Forbes' newspaper articles when I was in college. He is a co-chairman of Forbes Marshall- one of the prominent industries in Pune/ India. He has a Ph.D. from and taught at Stanford. He wrote about industry, economics, etc. and I understood some of it. I did not then understand much what other industrialists wrote. Third, he wrote regularly in the papers available in my library- thus was accessible. Maybe other people wrote regularly in pink papers. Occasionally when I read those papers I did not understand much of what was written. [Does anyone?](https://www.youtube.com/watch?v=KgUemV4brDU&ab_channel=BBCStudios) 
 

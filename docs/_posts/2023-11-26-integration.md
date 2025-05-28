@@ -3,7 +3,11 @@ title: "Integration"
 toc: true
 date: "2023-11-26"
 last_modified_at: 2024-11-07T00:00:01-00:00
-
+categories: 
+  - reading
+tags: 
+  - "technical-reading"
+  - "technology-books"
 ---
 
 Recently came across the post on Google SRE blog. [Lessons Learned from Twenty Years of Site Reliability Engineering](https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned/)

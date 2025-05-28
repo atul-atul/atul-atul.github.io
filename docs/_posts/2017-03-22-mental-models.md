@@ -2,6 +2,8 @@
 title: "Mental Models"
 toc: true
 date: "2017-03-22"
+categories: 
+  - thoughts
 ---
 
 I have known a few but while reading through a long list of [mental models the post's author finds repeatedly useful](https://medium.com/@yegg/mental-models-i-find-repeatedly-useful-936f1cc405d#.pzsodfnyw), I came to know that I use following models very frequently. The use is sometimes conscious, at other times I fall prey to these. But since these concepts have names, I can very easily spot when I am in proximity of any such model. Giving wikipedia links only for those which, I think, are possibly are new to you.

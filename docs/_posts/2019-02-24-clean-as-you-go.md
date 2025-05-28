@@ -2,6 +2,8 @@
 title: "Clean as you go"
 toc: true
 date: "2019-02-24"
+categories: 
+  - thoughts
 ---
 
 A very important thing when writing code or maintaining it is to go on deleting unnecessary pieces of code. Unused code starts becoming clutter and we should always take some time and effort to delete it. Go Marie Kondo over it otherwise it will negatively affect your code's Feng-Shui.

@@ -3,8 +3,8 @@ title: "Working Around Problems"
 toc: true
 date: "2023-12-12"
 categories: 
-  - "books"
-  - "notes"
+  - reading
+  - notes
 tags: 
   - "distributed-systems"
   - "technical-reading"

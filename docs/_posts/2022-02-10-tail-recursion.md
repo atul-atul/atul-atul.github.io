@@ -2,6 +2,11 @@
 title: "Tail Recursion"
 toc: true
 date: "2022-02-10"
+tags:
+  - "technical-papers"
+  - "technical-reading"
+categories: 
+  - reading
 ---
 
 Ok. Everyone knows what recursion and tail recursion is. Then why write this post? Well, I have copied the content below from Joe Armstrong's thesis. And he has presented it the same idea 'a little bit' differently.

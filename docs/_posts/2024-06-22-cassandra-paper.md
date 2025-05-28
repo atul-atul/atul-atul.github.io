@@ -2,7 +2,8 @@
 title: "Cassandra Paper"
 last_modified_at: 2024-06-22T00:00:01-00:00
 categories: 
-  - "notes"
+  - notes
+  - reading
 tags: 
   - "distributed-systems"
   - "Cassandra-paper"

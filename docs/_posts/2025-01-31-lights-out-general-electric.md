@@ -4,7 +4,7 @@ toc: true
 date: "2025-01-31"
 last_modified_at: 2025-05-24T00:00:01-00:00
 categories: 
-  - "books"
+  - reading
 tags: 
 ---
 I recently read the book **Lights Out** subtitled [Pride, Delusion, And The Fall Of General Electric](https://en.wikipedia.org/wiki/Lights_Out_(book)). It talks about troubles at GE. It was published in 2021 and GE stock has improved a lot since then. BillG [recommended the book](https://www.gatesnotes.com/Lights-Out) in past.

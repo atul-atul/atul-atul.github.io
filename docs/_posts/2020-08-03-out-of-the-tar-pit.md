@@ -2,6 +2,11 @@
 title: "Out of the tar pit"
 toc: true
 date: "2020-08-03"
+tags:
+  - "technical-papers"
+  - "technical-reading"
+categories: 
+  - reading
 ---
 
 Paper: [https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf](https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf)

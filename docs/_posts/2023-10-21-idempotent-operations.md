@@ -3,8 +3,8 @@ title: "Idempotent operations"
 toc: true
 date: "2023-10-21"
 categories: 
-  - "books"
-  - "notes"
+  - reading
+  - notes
 tags: 
   - "distributed-systems"
   - "idempotence"

@@ -1,3 +1,13 @@
+---
+title: "Ideas Without Contexts"
+toc: true
+date: "2022-06-06"
+tags:
+  - thoughts
+categories: 
+  - thoughts
+---
+
 As we grow, and start thinking on our own- sometimes from ground up- we notice that context matters a lot. I feel this is generally true in life as in software. If we focus on IT here, I would say that a lot of best practices, ideas, tools, opinions, principles* are somewhat bound to contexts and not applicable everywhere. (* Here I am not using the word principles in the sense in which it’s used in *Seven Habits Of Highly Effective People*.)
 
 For example, design patterns make more sense in Object Oriented world. Of course, patterns are everywhere. But those from the Gang Of Four book make more sense in OO.

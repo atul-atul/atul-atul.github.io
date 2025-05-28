@@ -4,12 +4,11 @@ toc: true
 date: "2024-02-14"
 last_modified_at: 2025-05-24T00:00:01-00:00
 tags: 
-  - thoughts
   - thoughts-in-progress
 categories: 
-  - "books"
+  - thoughts
 ---
-In the [Thoughts-In-Progress](https://atul-atul.github.io/tags/#thoughts-in-progress) posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that. Like Work In Progress, these thoughts are not done yet.
+In the [Thoughts-In-Progress](/tags/#thoughts-in-progress) posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that. Like Work In Progress, these thoughts are not done yet.
 
 In the last week or so, I watched a few interviews of Patrick Collison (Stripe co-founder and CEO; generally known as PC*). Noteworthy ones: [with Zukerberg](https://www.youtube.com/watch?v=OuvrZFJLXSk) and [with Jason Crawford](https://www.youtube.com/watch?v=8rxS6kj5Zt0). There I came across a few somewhat-new thoughts. Both these have an article of his in the Atlantic [about diminishing returns in science](https://www.theatlantic.com/science/archive/2018/11/diminishing-returns-science/575665/) as a background. 
 

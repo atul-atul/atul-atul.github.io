@@ -4,6 +4,9 @@ toc: true
 date: "2014-08-05"
 tags: 
   - "TDD"
+categories: 
+  - thoughts
+  - tech
 ---
 
 Is TDD dead? I don’t think so.

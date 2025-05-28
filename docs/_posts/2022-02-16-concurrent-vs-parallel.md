@@ -6,6 +6,8 @@ tags:
   - "concurrent"
   - "concurrent-vs-parallel"
   - "parallel-processes"
+categories: 
+  - reading
 ---
 
 This is the most simplified version of the difference between the two concepts I have found. It is from Joe Armstrong's [blog](https://joearms.github.io/#2013-04-05%20Concurrent%20and%20Parallel%20Programming). And if anyone knows the difference it'd be Joe.

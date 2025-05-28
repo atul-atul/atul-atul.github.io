@@ -4,7 +4,8 @@ toc: true
 date: "2021-11-15"
 last_modified_at: 2025-05-19T00:00:01-00:00
 categories: 
-  - "notes"
+  - notes
+  - reading
 tags: 
   - "actor-model"
   - "distributed-systems"

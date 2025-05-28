@@ -2,6 +2,8 @@
 title: "Libraries Vs Frameworks"
 toc: true
 date: "2019-02-19"
+categories: 
+  - thoughts
 ---
 
 If you ask even a junior developer, they will tell you that libraries should be preferred to frameworks.

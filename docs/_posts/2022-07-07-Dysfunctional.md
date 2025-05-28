@@ -1,3 +1,12 @@
+---
+title: "Dysfunctional"
+toc: true
+date: "2022-07-07"
+tags:
+  - thoughts
+categories: 
+  - thoughts
+---
 Here I will appear to be griping a bit so bear with me. A few problems as I see with the current way of working in my group (around 200 folks) are drafted below. Here I have noted only the problems which I have encountered in more than one environments/ organizations/ over time. So these are certainly not related only to my current work. But when I was somewhat junior, I could ignore, sweep these problems under the carpet. In fact, I can do that even now. But, I think, if I could make a difference in one or more of these systemic problem areas, that would really be a high value impact. The idea here is to look out for information. Any pointers to case studies/ books would help. Would a management diploma/ course help? TIA. I have just put these problems in my current project's context.
 
 In the project, we don't have much maneuvering space because we are dealing with business critical systems. As some systems are live in production, keeping those working is a priority (as it should be), and whatever small movements we can allow there don't really have much chance of becoming a culture.

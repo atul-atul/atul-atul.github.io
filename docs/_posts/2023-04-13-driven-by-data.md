@@ -3,7 +3,7 @@ title: "Driven By Data"
 toc: true
 date: "2023-04-13"
 categories: 
-  - "books"
+  - reading
 tags: 
   - "data"
   - "technical-reading"

@@ -1,3 +1,13 @@
+---
+title: "Bulkhead in Software Systems"
+toc: true
+date: "2022-02-16"
+tags:
+  - "technical-papers"
+  - "technical-reading"
+categories: 
+  - reading
+---
 **From the book Release It! Second Edition**
 
 In a ship, *bulkheads* are partitions that, when sealed, divide the ship into separate, watertight compartments. With hatches closed, a bulkhead prevents water from moving from one section to another. In this way, a single penetration of the hull does not irrevocably sink the ship. The bulkhead enforces a principle of damage containment.
