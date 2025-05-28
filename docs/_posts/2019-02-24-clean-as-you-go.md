@@ -2,7 +2,7 @@
 title: "Clean as you go"
 toc: true
 date: "2019-02-24"
-categories: 
+tags: 
   - thoughts
 ---
 

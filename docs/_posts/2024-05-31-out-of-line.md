@@ -5,8 +5,6 @@ date: "2024-05-31"
 last_modified_at: 2024-11-12T00:00:01-00:00
 tags: 
   - thoughts
-categories: 
-  - notes
   - reading
 ---
 Here I plan to write some of my thoughts which are not in line- as of now- with the conventional accepted wisdom or thoughts. That doesn't mean that I am not open change my mind. Or that I think I am right and others are wrong. Maybe I am just not convinced yet. Or maybe it bothers me that some of these are not in line with the worldly wise. For example, some years ago a friend of mine said (something like) she believed in feminism but she felt that sometimes they were just trying to prove a point. I am not knowledgeable about feminism but my point in mentioning this is that it is not about right or wrong. Feminism is an accepted thought and she was not fully sold on it, so to say.

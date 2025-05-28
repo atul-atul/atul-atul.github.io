@@ -2,9 +2,8 @@
 title: "Learnings from Dynamo Paper"
 toc: true
 date: "2022-10-03"
-categories: 
-  - reading
 tags: 
+  - reading
   - "distributed-systems"
   - "dynamo-paper"
   - "technical-papers"

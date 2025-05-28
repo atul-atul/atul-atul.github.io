@@ -4,8 +4,6 @@ toc: true
 date: "2023-05-25"
 tags: 
   - "thoughts"
-categories: 
-  - thoughts
 ---
 
 Does it happen to you? Learning a new thing confuses you during the process. The discomfort till you understand the new ideas, techniques- maybe understand just enough- drives you nuts.

@@ -2,10 +2,9 @@
 title: "Basic Economics"
 toc: true
 date: "2023-11-08"
-categories: 
+tags: 
   - reading
-tags:
-  - book
+  - books
 ---
 
 I find money and economics to be somewhat boring subjects. But these are very important. They make the world go round, so to say. So these are very important. On social channels I noticed that many people say that engineers should but don't often have good understanding of economics. So I think I am not alone there.

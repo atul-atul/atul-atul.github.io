@@ -2,10 +2,8 @@
 title: "Continuous Delivery"
 toc: true
 date: "2021-03-04"
-categories: 
-  - reading
 tags: 
-  - "book"
+  - books
   - "continuous-delivery"
   - notes
   - "technical-reading"

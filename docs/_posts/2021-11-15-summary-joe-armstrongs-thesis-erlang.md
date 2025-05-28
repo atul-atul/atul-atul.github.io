@@ -3,9 +3,6 @@ title: "Summary: Joe Armstrong's Thesis: Erlang"
 toc: true
 date: "2021-11-15"
 last_modified_at: 2025-05-19T00:00:01-00:00
-categories: 
-  - notes
-  - reading
 tags: 
   - "actor-model"
   - "distributed-systems"
@@ -17,7 +14,7 @@ tags:
   - "technical-reading"
 ---
 
-If my [earlier post about Joe Armstrong's Thesis](https://atul-atul.github.io/notes/2021/04/29/takeaways-from-joe-armstrongs-thesis.html) was a long read, here is an attempt at a shorter version of my notes of [Joe Armstrong's thesis](https://erlang.org/download/armstrong_thesis_2003.pdf) on **Making reliable distributed systems in the presence of software errors**. This post is still a little long read. But in my experience, papers talk a lot of conceptual things and are not easy to condense.
+If my [earlier post about Joe Armstrong's Thesis](https://atul-atul.github.io/notes/reading/takeaways-from-joe-armstrongs-thesis/) was a long read, here is an attempt at a shorter version of my notes of [Joe Armstrong's thesis](https://erlang.org/download/armstrong_thesis_2003.pdf) on **Making reliable distributed systems in the presence of software errors**. This post is still a little long read. But in my experience, papers talk a lot of conceptual things and are not easy to condense.
 
 The essential problem in making a fault-tolerant software system is that of fault-isolation. To provide fault isolation we use the notion of a process. Different programmers write different applications which are run in different processes. And errors in one application should not have a negative influence on the other applications running in the system.
 

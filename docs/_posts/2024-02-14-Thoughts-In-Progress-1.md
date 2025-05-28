@@ -5,7 +5,6 @@ date: "2024-02-14"
 last_modified_at: 2025-05-24T00:00:01-00:00
 tags: 
   - thoughts-in-progress
-categories: 
   - thoughts
 ---
 In the [Thoughts-In-Progress](/tags/#thoughts-in-progress) posts, I write about ideas some of which I may not be fully convinced of yet. Or about which I have not made up my mind yet- this way or that. Like Work In Progress, these thoughts are not done yet.

@@ -3,9 +3,8 @@ title: "Integration"
 toc: true
 date: "2023-11-26"
 last_modified_at: 2024-11-07T00:00:01-00:00
-categories: 
-  - reading
 tags: 
+  - reading
   - "technical-reading"
   - "technology-books"
 ---

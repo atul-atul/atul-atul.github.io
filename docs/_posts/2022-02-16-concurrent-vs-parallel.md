@@ -6,7 +6,6 @@ tags:
   - "concurrent"
   - "concurrent-vs-parallel"
   - "parallel-processes"
-categories: 
   - reading
 ---
 

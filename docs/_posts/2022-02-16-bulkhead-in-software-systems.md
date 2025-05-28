@@ -4,8 +4,7 @@ toc: true
 date: "2022-02-16"
 tags:
   - "technical-papers"
-  - "technical-reading"
-categories: 
+  - "technical-reading" 
   - reading
 ---
 **From the book Release It! Second Edition**

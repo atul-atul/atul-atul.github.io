@@ -2,13 +2,11 @@
 title: "Idempotent operations"
 toc: true
 date: "2023-10-21"
-categories: 
-  - reading
-  - notes
 tags: 
   - "distributed-systems"
   - "idempotence"
   - "technical-reading"
+  - reading
 ---
 
 Here is some content about [idempotent operations](https://en.wikipedia.org/wiki/Idempotence) from the book Foundations of Scalable Systems by Ian Gorton

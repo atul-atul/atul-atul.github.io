@@ -1,11 +1,10 @@
 ---
 title: "Linearizability And Serializability"
 last_modified_at: 2024-06-07T00:00:01-00:00
-categories: 
-  - notes
 tags: 
   - "distributed-systems"
   - "technical-reading"
+  - reading
 ---
 We see these two concepts often when there are concurrent reads and writes on shared objects and have some expectations from a well-behaved system. The system does not have to be a database or a distributed system. But let's talk here with those in the background.
 

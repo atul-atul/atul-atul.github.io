@@ -2,7 +2,7 @@
 title: "Libraries Vs Frameworks"
 toc: true
 date: "2019-02-19"
-categories: 
+tags: 
   - thoughts
 ---
 

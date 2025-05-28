@@ -2,10 +2,9 @@
 title: "Visual Display Of Quantitative Information"
 toc: true
 date: "2022-09-26"
-categories: 
-  - reading
 tags: 
-  - "book"
+  - reading
+  - books
 ---
 
 A recent purchase. Visual Display Of Quantitative Information by Ed Tufte. I will start reading it soon. There is a big reading list queue. But will probably bump it to near the top.

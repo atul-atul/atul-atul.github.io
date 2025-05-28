@@ -4,10 +4,6 @@ toc: true
 date: "2023-02-26"
 tags: 
   - "thoughts"
-categories: 
-  - thoughts
-  - tech
----
 ---
 
 Recently changed job after about 5 years. The earlier job was becoming a bit of more managerial than technical.

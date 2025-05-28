@@ -2,7 +2,7 @@
 title: "Mental Models"
 toc: true
 date: "2017-03-22"
-categories: 
+tags: 
   - thoughts
 ---
 

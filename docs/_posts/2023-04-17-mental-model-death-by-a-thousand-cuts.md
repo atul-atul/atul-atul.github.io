@@ -5,8 +5,6 @@ date: "2023-04-17"
 tags: 
   - "death-by-a-thousand-cuts"
   - "thoughts"
-categories: 
-  - thoughts
 ---
 
 Are you aware of this concept of 'death by a thousand cuts'? For me it means somewhere between the two wiki entries related to it. One is about [a torture technique](https://en.wikipedia.org/wiki/Lingchi). The other is [from](https://en.wikipedia.org/wiki/Creeping_normality) [psychology](https://en.wikipedia.org/wiki/Creeping_normality).\*

@@ -3,13 +3,11 @@ title: "About Learning"
 toc: true
 date: "2024-08-13"
 last_modified_at: 2024-11-12T00:00:01-00:00
-categories: 
-  - notes
-  - reading
 tags: 
+  - reading
   - thoughts
   - learning
-  - book
+  - books
 ---
 Recently, I finished listening to the audiobook [Make It Stick](https://www.makeitstick.com/about-the-book). The book is about techniques to use when learning. It was a recommendation from a youtube channel. It was good enough. After the experience of reading a few self-help books, I didn't expect it to be great. [I don't particularly enjoy self-help books](https://youtu.be/S01UOXi2wQ0?t=41). But while it did not add many ideas it was a good refresher. Something new to me: the book debunked the idea of visual, auditory, reading/ writing, kinesthetic modes of learning (VARK). Also, take a look at [Bloom's taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy).
 

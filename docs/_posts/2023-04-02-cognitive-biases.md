@@ -2,16 +2,15 @@
 title: "Cognitive Biases"
 toc: true
 date: "2023-04-02"
-categories: 
-  - reading
 tags: 
-  - "book"
+  - reading
+  - books
   - "cognitive-bias"
 ---
 
 Over past few years, cognitive biases have been of passive interest/ fascination for me. Passive because I haven't actually gone deliberately out of the way to study more about the topic. But I just notice and remember when I read about one. And then I try to look for and try to avoid that bias in my behavior. It probably started when I read the book "Thinking Fast and Slow".\* And then I ended up reading some other books in that space.
 
-Why this topic now? Recently I started listening to Predictably Irrational by Ariely. I have read the book in the past. But revisiting helps. I have [documented some of the biases in the past](https://atul-atul.github.io/mental-models/). Although by definition I may not be aware of my own cognitive biases, but I think the bias I suffer most from would be the imposter syndrome. Anyway, today I had breakfast and did not have anything else till almost 6pm. I was busy and with some people and as it got late and late, I started becoming anxious and impatient. The book (Thinking Fast and Slow) mentions how judges pass some biased judgements as it gets near lunchtime (or how parole officers' decisions differ before and after their lunches, etc.) System 2 needs effort and at times people can be predictably irrational.
+Why this topic now? Recently I started listening to Predictably Irrational by Ariely. I have read the book in the past. But revisiting helps. I have [documented some of the biases in the past](https://atul-atul.github.io/thoughts/mental-models/). Although by definition I may not be aware of my own cognitive biases, but I think the bias I suffer most from would be the imposter syndrome. Anyway, today I had breakfast and did not have anything else till almost 6pm. I was busy and with some people and as it got late and late, I started becoming anxious and impatient. The book (Thinking Fast and Slow) mentions how judges pass some biased judgements as it gets near lunchtime (or how parole officers' decisions differ before and after their lunches, etc.) System 2 needs effort and at times people can be predictably irrational.
 
 One of Ariely's observations that struck me equally was from the [documentary on Theranos](https://en.wikipedia.org/wiki/The_Inventor:_Out_for_Blood_in_Silicon_Valley). Ok, in the first place if you haven't read the book [Bad Blood by John Carreyrou](https://en.wikipedia.org/wiki/Bad_Blood:_Secrets_and_Lies_in_a_Silicon_Valley_Startup), then you MUST. Audible narration is very good. Anyway, back to Ariely's experiment which he mentions in the HBO documentary. He says, well, why don't you watch the documentary? I didn't have a lunch, remember? He mentions a few things but which of his insights did you enjoy the most?
 

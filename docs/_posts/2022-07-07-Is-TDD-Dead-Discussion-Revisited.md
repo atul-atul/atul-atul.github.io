@@ -4,9 +4,6 @@ toc: true
 date: "2022-07-07"
 tags: 
   - "TDD"
-categories: 
-  - thoughts
-  - tech
 ---
 I recently posted this year’s [Stack Overflow Developer Survey 2022 Results][so-survey-results-2022] on engineering channel of my project/ department. It has some 200+ members developers, architects, scrum masters, QAs, etc- many of them being not so active. A sort of short exchange followed. One of the points was about server side rendering which forked into the discussion about whether TDD is dead. (You understand the chain? Popularity of Phoenix -> LiveView -> SSR -> DHH -> Is TDD Dead?)
 
@@ -40,4 +37,4 @@ Again, thanks DHH for generating this discussion via his post [TDD is dead. Long
 [tdd-discussion]:https://martinfowler.com/articles/is-tdd-dead/ 
 [hey-code-metrics]:https://twitter.com/dhh/status/1263493729584742401
 [orig-article-TDD-is-dead]:https://dhh.dk/2014/tdd-is-dead-long-live-testing.html
-[my-impression-about-orig-post]:https://atul-atul.github.io/2014/08/05/Is-TDD-Dead.html
+[my-impression-about-orig-post]:https://atul-atul.github.io/thoughts/tech/Is-TDD-Dead/
