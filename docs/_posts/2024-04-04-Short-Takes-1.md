@@ -11,7 +11,7 @@ tags:
   - short-takes
 ---
 
-Here I plan to write about some concepts, phrases, models, ideas related to my work and life. As these are likely to be known to many, the idea is to just document these together, rather than go into details of these. Will keep updating.
+In the [short-takes](/tags/#short-takes) posts I write about some concepts, phrases, models, ideas, whatever related to my work and life. As these are likely to be known to many, the idea is to just document these together, rather than go into details of these. Will keep updating.
 
 1. ## DRY [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don't_repeat_yourself)
    This principle has been used and abused a lot. The idioms which sound catchy are retained more. For example, why doesn't a stitch in time save ten? Also succinctly put idioms are more popular. For example, you don't have to explain- as Wodehouse does-  that 'An apple a day, *if well aimed*, keeps the doctor away'. Anyway, Martin Fowler documents 'Duplicated Code' as a code smell. DRY suggests not repeating some information, code, logic, etc. This is good advice in general but to extract some 'duplicated' code/logic may result into coupling. And as the code evolves, it may become difficult to maintain. So, after taking advice from talks/ discussions, I think that it's better to not repeat yourself within a bounded context. But if the same information is needed outside the boundaries, it's fine to repeat it in respective contexts. It is better to evolve and maintain that way. 
