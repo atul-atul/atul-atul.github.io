@@ -2,6 +2,7 @@
 title: "Mental Models"
 toc: true
 date: "2017-03-22"
+last_modified_at: 2017-03-22T00:00:01-00:00
 categories:
   - non-tech
   - thinking

@@ -2,6 +2,7 @@
 title: "Development Feedback Loops"
 toc: true
 date: "2022-11-16"
+last_modified_at: 2022-11-16T00:00:01-00:00
 categories:
   - technology
   - non-tech

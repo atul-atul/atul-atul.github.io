@@ -2,6 +2,7 @@
 title: "Release It: Book by Michael Nygard"
 toc: true
 date: "2021-09-30"
+last_modified_at: 2021-09-30T00:00:01-00:00
 categories:
   - technology
   - reading

@@ -2,6 +2,7 @@
 title: "Visual Display Of Quantitative Information"
 toc: true
 date: "2022-09-26"
+last_modified_at: 2022-09-26T00:00:01-00:00
 categories:
   - reading
   - non-tech

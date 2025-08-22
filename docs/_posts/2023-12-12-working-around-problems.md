@@ -2,6 +2,7 @@
 title: "Working Around Problems"
 toc: true
 date: "2023-12-12"
+last_modified_at: 2023-12-12T00:00:01-00:00
 categories:
   - technology
   - non-tech

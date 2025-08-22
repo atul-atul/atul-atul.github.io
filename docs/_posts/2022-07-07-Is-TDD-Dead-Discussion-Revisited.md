@@ -2,6 +2,7 @@
 title: "Is TDD Dead- Discussion Revisited"
 toc: true
 date: "2022-07-07"
+last_modified_at: 2022-07-07T00:00:01-00:00
 categories:
   - technology
   - thinking
