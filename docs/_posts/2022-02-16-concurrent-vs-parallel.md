@@ -2,6 +2,8 @@
 title: "Concurrent vs Parallel"
 toc: true
 date: "2022-02-16"
+categories:
+  - technology
 tags: 
   - "concurrent"
   - "concurrent-vs-parallel"

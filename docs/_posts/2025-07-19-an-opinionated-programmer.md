@@ -3,6 +3,11 @@ title: "An Opinionated Programmer"
 toc: true
 date: "2025-07-19"
 last_modified_at: 2025-07-19T00:00:01-00:00
+categories:
+  - technology
+  - non-tech
+  - thinking
+  - reading
 tags: 
   - reading
   - programmer

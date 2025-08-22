@@ -3,6 +3,11 @@ title: "Lights Out: A book about fall of General Electric"
 toc: true
 date: "2025-01-31"
 last_modified_at: 2025-05-24T00:00:01-00:00
+categories:
+  - technology
+  - non-tech
+  - thinking
+  - reading
 tags: 
   - reading
 ---

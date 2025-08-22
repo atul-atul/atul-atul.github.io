@@ -3,6 +3,10 @@ title: "Consolidations And Monopolies"
 toc: true
 date: "2024-04-21"
 last_modified_at: 2024-07-18T00:00:01-00:00
+categories:
+  - technology
+  - non-tech
+  - thinking
 tags: 
   - "technical-reading"
   - thoughts
@@ -18,4 +22,4 @@ In his book Zero to One, Peter Thiel aggressively pushes that startups should ai
 
 Now, knowing that in this connected world where the whole world could be considered as a market with theoretically infinite demand, things do appear to consolidate to smaller number of players, what are your thoughts?
 
-I noticed that I did not use the term this phenonmenon is known as: [Oligopoly](https://en.wikipedia.org/wiki/Oligopoly)
+I noticed that I did not use the term this phenomenon is known as: [Oligopoly](https://en.wikipedia.org/wiki/Oligopoly)

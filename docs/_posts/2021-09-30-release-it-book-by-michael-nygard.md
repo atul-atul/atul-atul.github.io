@@ -2,6 +2,9 @@
 title: "Release It: Book by Michael Nygard"
 toc: true
 date: "2021-09-30"
+categories:
+  - technology
+  - reading
 tags: 
   - "architecture"
   - "distributed-systems"

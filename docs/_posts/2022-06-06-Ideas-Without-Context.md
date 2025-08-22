@@ -2,6 +2,10 @@
 title: "Ideas Without Contexts"
 toc: true
 date: "2022-06-06"
+categories:
+  - technology
+  - non-tech
+  - thinking
 tags:
   - thoughts
 ---

@@ -2,6 +2,9 @@
 title: "The Mythical Man-Month"
 toc: true
 date: "2021-06-01"
+categories:
+  - technology
+  - reading
 tags: 
   - books
   - "estimation"

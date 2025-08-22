@@ -2,6 +2,8 @@
 title: "Exploring Bash And Terminal"
 toc: true
 date: "2017-03-20"
+categories:
+  - technology
 tags: 
   - bash
   - terminal

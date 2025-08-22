@@ -2,6 +2,10 @@
 title: "Dysfunctional"
 toc: true
 date: "2022-07-07"
+categories:
+  - technology
+  - non-tech
+  - thinking
 tags:
   - thoughts
 ---

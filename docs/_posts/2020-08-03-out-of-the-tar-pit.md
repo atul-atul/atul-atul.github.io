@@ -2,6 +2,9 @@
 title: "Out of the tar pit"
 toc: true
 date: "2020-08-03"
+categories:
+  - technology
+  - reading
 tags:
   - "technical-papers"
   - "technical-reading"

@@ -2,6 +2,10 @@
 title: "Takeaways from Joe Armstrong’s thesis"
 toc: true
 date: "2021-04-29"
+categories:
+  - technology
+  - reading
+  - thinking
 tags: 
   - "actor-model"
   - "beam"

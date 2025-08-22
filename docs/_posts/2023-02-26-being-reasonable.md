@@ -2,6 +2,10 @@
 title: "Being reasonable"
 toc: true
 date: "2023-02-26"
+categories:
+  - technology
+  - non-tech
+  - thinking
 tags: 
   - "thoughts"
 ---

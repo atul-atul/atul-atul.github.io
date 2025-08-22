@@ -3,6 +3,10 @@ title: "Reading Google's Bigtable Paper"
 toc: true
 date: "2023-07-18"
 last_modified_at: 2024-06-05T00:00:01-00:00
+categories:
+  - technology
+  - thinking
+  - reading
 tags: 
   - "bigtable"
   - "distributed-systems"

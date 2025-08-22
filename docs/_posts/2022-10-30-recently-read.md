@@ -3,6 +3,10 @@ title: "Recently Read"
 toc: true
 date: "2022-10-30"
 last_modified_at: 2025-05-12T00:00:01-00:00
+categories:
+  - non-tech
+  - thinking
+  - reading
 tags: 
   - reading
   - books

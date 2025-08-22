@@ -2,6 +2,9 @@
 title: "Idempotent operations"
 toc: true
 date: "2023-10-21"
+categories:
+  - technology
+  - reading
 tags: 
   - "distributed-systems"
   - "idempotence"

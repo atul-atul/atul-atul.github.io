@@ -2,9 +2,13 @@
 title: "Working Around Problems"
 toc: true
 date: "2023-12-12"
+categories:
+  - technology
+  - non-tech
+  - thinking
+  - reading
 tags: 
   - reading
-  - notes
   - "distributed-systems"
   - "technical-reading"
   - "technology-books"

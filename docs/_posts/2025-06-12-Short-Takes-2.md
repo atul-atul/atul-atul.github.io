@@ -3,6 +3,10 @@ title: "Short Takes 2"
 toc: true
 date: "2025-06-12"
 last_modified_at: 2025-06-12T00:00:01-00:00
+categories:
+  - non-tech
+  - thinking
+  - reading
 tags: 
   - thoughts
   - concepts

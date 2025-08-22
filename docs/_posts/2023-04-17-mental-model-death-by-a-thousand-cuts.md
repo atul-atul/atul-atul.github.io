@@ -2,6 +2,10 @@
 title: "Mental Model- Death By A Thousand Cuts"
 toc: true
 date: "2023-04-17"
+categories:
+  - reading
+  - non-tech
+  - thinking
 tags: 
   - "death-by-a-thousand-cuts"
   - "thoughts"

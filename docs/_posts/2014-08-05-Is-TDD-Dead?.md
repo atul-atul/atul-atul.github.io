@@ -2,6 +2,9 @@
 title: "Is TDD Dead?"
 toc: true
 date: "2014-08-05"
+categories:
+  - technology
+  - thinking
 tags: 
   - "TDD"
 ---
