@@ -46,3 +46,4 @@ Here I plan to note down links, etc. which I found interesting/ planned to visit
 28. I thought I had watched all Joe Armstrong talks on youtube. But when I recently re-watched his the talk 'The Mess We're In', [this talk](https://www.youtube.com/watch?v=cNICGEwmXLU) came up as a recommendation. It has same old content- almost nothing new.
 29. While I have watched it only once, I am pretty sure I will be watching [this talk by Christopher Alexander](https://www.youtube.com/watch?v=98LdFA-_zfA) a few more times. (His book A Pattern Language inspired Object Oriented Design Patterns in software.)
 30. Aren't you the sweetest! [Just saying](https://www.youtube.com/watch?v=12Z6pWhM6TA).
+31. [Akira Kurosawa - Composing Movement](https://www.youtube.com/watch?v=doaQC-S8de8).
