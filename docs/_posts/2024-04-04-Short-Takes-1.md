@@ -3,11 +3,6 @@ title: "Short Takes 1"
 toc: true
 date: "2024-04-04"
 last_modified_at: 2025-06-12T00:00:01-00:00
-categories:
-  - technology
-  - non-tech
-  - thinking
-  - reading
 tags: 
   - "technical-reading"
   - thoughts

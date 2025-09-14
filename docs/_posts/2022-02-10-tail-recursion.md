@@ -3,8 +3,6 @@ title: "Tail Recursion"
 toc: true
 date: "2022-02-10"
 last_modified_at: 2022-02-10T00:00:01-00:00
-categories:
-  - technology
 tags:
   - "technical-papers"
   - "technical-reading"

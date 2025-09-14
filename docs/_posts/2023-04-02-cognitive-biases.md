@@ -3,10 +3,6 @@ title: "Cognitive Biases"
 toc: true
 date: "2023-04-02"
 last_modified_at: 2023-04-02T00:00:01-00:00
-categories:
-  - reading
-  - non-tech
-  - thinking
 tags: 
   - reading
   - books

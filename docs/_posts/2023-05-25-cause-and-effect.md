@@ -3,10 +3,6 @@ title: "Cause and Effect"
 toc: true
 date: "2023-05-25"
 last_modified_at: 2023-05-25T00:00:01-00:00
-categories:
-  - technology
-  - non-tech
-  - thinking
 tags: 
   - "thoughts"
 ---

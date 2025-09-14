@@ -2,9 +2,6 @@
 title: "Linearizability And Serializability"
 date: "2024-06-07"
 last_modified_at: 2024-06-07T00:00:01-00:00
-categories:
-  - technology
-  - reading
 tags: 
   - "distributed-systems"
   - "technical-reading"

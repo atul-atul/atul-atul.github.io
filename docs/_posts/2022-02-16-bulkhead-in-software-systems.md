@@ -3,9 +3,6 @@ title: "Bulkhead in Software Systems"
 toc: true
 date: "2022-02-16"
 last_modified_at: 2022-02-16T00:00:01-00:00
-categories:
-  - technology
-  - reading
 tags:
   - "technical-papers"
   - "technical-reading" 

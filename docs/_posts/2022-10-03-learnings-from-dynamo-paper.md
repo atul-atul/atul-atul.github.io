@@ -3,10 +3,6 @@ title: "Learnings from Dynamo Paper"
 toc: true
 date: "2022-10-03"
 last_modified_at: 2022-10-03T00:00:01-00:00
-categories:
-  - technology
-  - thinking
-  - reading
 tags: 
   - reading
   - "distributed-systems"
