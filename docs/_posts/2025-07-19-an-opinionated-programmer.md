@@ -7,6 +7,7 @@ tags:
   - reading
   - programmer
   - programming
+  - Tech
 ---
 Recently Lex Fridman posted a podcast episode of his [discussion with DHH](https://www.youtube.com/watch?v=vagyIcmIGOQ) (Duration 6hr+). I have previously written about another such Fridman interview- that with [John Carmack](https://atul-atul.github.io/a-master-programmer/). DHH is a legendary programmer. Known for his work on Ruby On Rails (RoR). You have read about him here [more](https://atul-atul.github.io/Is-TDD-Dead-Discussion-Revisited/) than [once](https://atul-atul.github.io/consolidations-and-monopolies/). In fact, the [oldest post on this blog](https://atul-atul.github.io/Is-TDD-Dead/) was about his sensible but controversial opinion. (Well, I had written a few blog posts before that one. I used wordpress for blogging then. But when migrating to/ starting with GitHub pages, those earlier posts did not seem to have stood the test of time.)
 

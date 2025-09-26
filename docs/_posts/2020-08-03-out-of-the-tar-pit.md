@@ -7,6 +7,7 @@ tags:
   - "technical-papers"
   - "technical-reading"
   - reading
+  - Tech
 ---
 
 Paper: [https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf](https://github.com/papers-we-love/papers-we-love/blob/master/design/out-of-the-tar-pit.pdf)

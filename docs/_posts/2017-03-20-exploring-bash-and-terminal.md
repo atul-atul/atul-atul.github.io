@@ -6,6 +6,7 @@ last_modified_at: 2017-03-20T00:00:01-00:00
 tags: 
   - bash
   - terminal
+  - Tech
 ---
 
 Let me mention that probably because of Mac I have started appreciating unix. Unix was sort of arcane land for me. I used it only when required on projects. And even now I don't use it much. But I liked MacOS.

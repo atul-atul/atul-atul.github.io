@@ -5,6 +5,7 @@ date: "2019-02-24"
 last_modified_at: 2019-02-24T00:00:01-00:00
 tags: 
   - thoughts
+  - Tech
 ---
 
 A very important thing when writing code or maintaining it is to go on deleting unnecessary pieces of code. Unused code starts becoming clutter and we should always take some time and effort to delete it. Go Marie Kondo over it otherwise it will negatively affect your code's Feng-Shui.

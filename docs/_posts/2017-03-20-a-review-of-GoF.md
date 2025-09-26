@@ -9,6 +9,7 @@ tags:
   - "review"
   - "technical-reading"
   - "technology-books"
+  - Tech
 ---
 
 Nowadays, in the world of functional programming, object oriented design patterns are probably not fashionable. But here is a short review of Design Patterns book written by the Gang Of Four.

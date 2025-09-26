@@ -8,6 +8,7 @@ tags:
   - "idempotence"
   - "technical-reading"
   - reading
+  - Tech
 ---
 
 Here is some content about [idempotent operations](https://en.wikipedia.org/wiki/Idempotence) from the book Foundations of Scalable Systems by Ian Gorton

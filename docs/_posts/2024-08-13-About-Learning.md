@@ -23,7 +23,7 @@ Having a lay of land before you dive deep into a topic helps. Learning gets more
 
 While concepts are more important, knowing syntax helps in learning concepts. (Maybe it's just me?) 
 
-Learning with concrete examples helps in the beginning. Principle of conservation of angular momentum? Remember an ice skater spreading their hands to reduce rotational speed. Atomic model can be related to the solar system with the Sun as the nucleus and electrons as planets. Later on we can fine tune the ideas like electrons behave both as particle and as waves.
+Learning with concrete examples helps in the beginning. Principle of conservation of angular momentum? Remember an ice skater spreading their hands to reduce rotational speed. Atomic model can be related to the solar system with the Sun as the nucleus and electrons as planets. Later on we can fine tune the ideas like electrons behave both as particles and as waves.
 
 It seems that learning a topic is best done by learning it with other (unrelated) topics. This may seem counterintuitive. Interleaving topics, difficulty levels is good. Cramming everything about a subject into your brain at a go is not good. 
 
@@ -31,7 +31,7 @@ Most of the actual learning is made concrete when the brain is in relaxed/ diffu
 
 Regular/ continuous learning is better and long lasting than sporadic high intensity sessions. I never pulled an all nighter for studying. Sometimes people do such sessions for exams/ vocational trainings. Remember those preparation leaves before engineering exams? But it seems the benefits are not long lasting. Learning something new just before exam does not help. That time is better spent on revision. 
 
-State of panic is not conducive. But there are some studies which say you if you need to take quick decisions, having a sense of mild physical stress/ anxiety helps- you want (not need urgently) to go to washroom, you are feeling a little cold, etc. Perhaps evolution comes into play here*.
+State of panic is not conducive. But there are some studies which say that if you need to take quick decisions, having a sense of mild physical stress/ anxiety helps- you want (not need urgently) to go to washroom, you are feeling a little cold, etc. Perhaps evolution comes into play here*.
 
 Rephrase the content and reflect the feeling. That is how Stephen R. Covey says you should practise the communication habit (seek first to understand then to be understood) in his book Seven Habits of Highly Effective People (one of the 2-3 self-help books I liked). The same advice is good for learning. Learning is better when you use your own words and terminologies for concepts. Of course, once you have learned those concepts it is better to use the actual domain terminologies because of losses in translation. 
 

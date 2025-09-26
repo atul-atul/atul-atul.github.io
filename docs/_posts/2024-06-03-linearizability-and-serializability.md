@@ -6,6 +6,7 @@ tags:
   - "distributed-systems"
   - "technical-reading"
   - reading
+  - Tech
 ---
 We see these two concepts often when there are concurrent reads and writes on shared objects and have some expectations from a well-behaved system. The system does not have to be a database or a distributed system. But let's talk here with those in the background.
 

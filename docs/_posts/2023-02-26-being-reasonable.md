@@ -5,6 +5,7 @@ date: "2023-02-26"
 last_modified_at: 2023-02-26T00:00:01-00:00
 tags: 
   - "thoughts"
+  - Tech
 ---
 
 Recently changed job after about 5 years. The earlier job was becoming a bit of more managerial than technical.

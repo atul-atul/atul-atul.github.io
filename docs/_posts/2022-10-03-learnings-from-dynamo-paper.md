@@ -10,6 +10,7 @@ tags:
   - "technical-papers"
   - "technical-reading"
   - "technology-books"
+  - Tech
 ---
 
 A while back I read [the dynamo paper](https://github.com/papers-we-love/papers-we-love/blob/master/datastores/dynamo-amazons-highly-available-key-value-store.pdf). Dynamo DB has now progressed beyond that paper. If interested: [https://youtu.be/yvBR71D0nAQ](https://youtu.be/yvBR71D0nAQ)

@@ -8,6 +8,7 @@ tags:
   - "Cassandra-paper"
   - "technical-papers"
   - "technical-reading"
+  - Tech
 ---
 Below are some notes from my reading of [Facebook's Cassandra paper](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf).
 

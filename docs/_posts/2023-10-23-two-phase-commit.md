@@ -8,6 +8,7 @@ tags:
   - "technical-reading"
   - "two-phase-commit"
   - reading
+  - Tech
 ---
 
 An old topic. Some content/ notes from Foundations of Scalable Systems by Ian Gorton. Posting here for quick reference.

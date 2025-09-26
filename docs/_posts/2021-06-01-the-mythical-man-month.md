@@ -12,6 +12,7 @@ tags:
   - "technical-reading"
   - "technology-books"
   - "the-mythical-man-month"
+  - Tech
 ---
 
 My notes from the essay by Fred Brooks.

@@ -6,6 +6,7 @@ last_modified_at: 2022-02-10T00:00:01-00:00
 tags:
   - "technical-papers"
   - "technical-reading"
+  - Tech
 ---
 
 Ok. Everyone knows what recursion and tail recursion is. Then why write this post? Well, I have copied the content below from Joe Armstrong's thesis. And he has presented it the same idea 'a little bit' differently.

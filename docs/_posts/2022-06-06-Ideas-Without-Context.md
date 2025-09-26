@@ -5,6 +5,7 @@ date: "2022-06-06"
 last_modified_at: 2022-06-06T00:00:01-00:00
 tags:
   - thoughts
+  - Tech
 ---
 
 As we grow, and start thinking on our own- sometimes from ground up- we notice that context matters a lot. I feel this is generally true in life as in software. If we focus on IT here, I would say that a lot of best practices, ideas, tools, opinions, principles* are somewhat bound to contexts and not applicable everywhere. (* Here I am not using the word principles in the sense in which it’s used in *Seven Habits Of Highly Effective People*.)

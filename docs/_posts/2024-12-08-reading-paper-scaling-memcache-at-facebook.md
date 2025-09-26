@@ -9,6 +9,7 @@ tags:
   - "Memcache-paper"
   - "technical-papers"
   - "technical-reading"
+  - Tech
 ---
 I recently read the paper [Scaling Memcache At Facebook](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf). Some of my notes below:
 

@@ -8,6 +8,7 @@ tags:
   - books
   - "programmer"
   - "programming"
+  - Tech
 ---
 
 Recently Lex Fridman posted a podcast episode of his [discussion with John Carmack](https://www.youtube.com/watch?v=I845O57ZSy4) (Duration 5hr+). Carmack is a legendary programmer. Known for his work on games like Doom, Quake, and Oculus VR.

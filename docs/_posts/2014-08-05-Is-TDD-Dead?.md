@@ -5,6 +5,7 @@ date: "2014-08-05"
 last_modified_at: 2014-08-05T00:00:01-00:00
 tags: 
   - "TDD"
+  - Tech
 ---
 
 Is TDD dead? I don’t think so.

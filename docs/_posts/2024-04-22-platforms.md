@@ -6,6 +6,7 @@ last_modified_at: 2024-11-12T00:00:01-00:00
 tags: 
   - "technical-reading"
   - thoughts
+  - Tech
 ---
 A little background:
 I read "Steve Yegge's platform rant" when it was published. In that post published on Google plus and marked open to public, he talked about how Amazon and Facebook understood the value of platforms better than Google. He removed it a few hours after publishing it and said that it was supposed to be internal to Google only; not public. And later posted how HR (and/ or other people) talked to him about this and tried to understand and then arranged guitar (music) room upon his request (something like that if I remember correctly). I haven't looked for the afterwards but his rant is still available [elsewhere](https://gist.github.com/chitchcock/1281611).

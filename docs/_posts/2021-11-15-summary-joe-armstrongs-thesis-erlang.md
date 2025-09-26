@@ -12,6 +12,7 @@ tags:
   - "joe-armstrongs-thesis"
   - "technical-papers"
   - "technical-reading"
+  - Tech
 ---
 
 If my [earlier post about Joe Armstrong's Thesis](https://atul-atul.github.io/notes/reading/takeaways-from-joe-armstrongs-thesis/) was a long read, here is an attempt at a shorter version of my notes of [Joe Armstrong's thesis](https://erlang.org/download/armstrong_thesis_2003.pdf) on **Making reliable distributed systems in the presence of software errors**. This post is still a little long read. But in my experience, papers talk a lot of conceptual things and are not easy to condense.

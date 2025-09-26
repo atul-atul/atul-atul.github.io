@@ -7,6 +7,7 @@ tags:
   - "technical-papers"
   - "technical-reading" 
   - reading
+  - Tech
 ---
 **From the book Release It! Second Edition**
 

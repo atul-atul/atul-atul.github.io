@@ -9,6 +9,7 @@ tags:
   - "technical-reading"
   - "technology-books"
   - "thoughts"
+  - Tech
 ---
 
 `"The significant problems we have cannot be solved at the same level of thinking with which we created them."- Einstein`

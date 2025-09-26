@@ -18,6 +18,7 @@ tags:
   - "otp"
   - "system-design"
   - "technical-papers"
+  - Tech
 ---
 
 I recently finished reading [Joe Armstrong's thesis](https://erlang.org/download/armstrong_thesis_2003.pdf). **Making reliable distributed systems in the presence of software errors** (2003). To quote: "The central problem addressed by this thesis is the problem of constructing reliable systems from programs which may themselves contain errors. Constructing such systems imposes a number of requirements on any programming language that is to be used for the construction. I discuss these language requirements, and show how they are satisfied by Erlang."

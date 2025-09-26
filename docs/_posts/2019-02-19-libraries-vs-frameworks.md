@@ -5,6 +5,7 @@ date: "2019-02-19"
 last_modified_at: 2019-02-19T00:00:01-00:00
 tags: 
   - thoughts
+  - Tech
 ---
 
 If you ask even a junior developer, they will tell you that libraries should be preferred to frameworks.

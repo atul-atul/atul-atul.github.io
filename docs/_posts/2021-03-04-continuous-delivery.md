@@ -9,6 +9,7 @@ tags:
   - notes
   - "technical-reading"
   - "technology-books"
+  - Tech
 ---
 
 Continuous Delivery by Jez Humble and Dave Farley is now an old book. You probably already follow most of the practices it recommends.

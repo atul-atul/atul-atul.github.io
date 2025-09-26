@@ -5,6 +5,7 @@ date: "2022-11-16"
 last_modified_at: 2022-11-16T00:00:01-00:00
 tags: 
   - "thoughts"
+  - Tech
 ---
 
 An agile trainer once explained the importance of having in-process-checks like automated test suites. The point he was making was about how end of process checks are not good enough. For example, if your QA team finds some defect after you complete the development, then it will result in rework, throwing away some code, etc. Instead, if you have checks embedded in the process, then the feedback is immediate. Agile is mostly about reducing the lengths of feedback loops among various stakeholders.

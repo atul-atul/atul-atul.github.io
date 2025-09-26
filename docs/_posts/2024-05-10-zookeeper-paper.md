@@ -8,6 +8,7 @@ tags:
   - "Zookeeper-paper"
   - "technical-papers"
   - "technical-reading"
+  - Tech
 ---
 Here is my understanding about ZooKeeper from reading [the ZooKeeper paper](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/zookeeper-wait-free-coordination-for-internet-scale-systems.pdf). Some other references: [MIT's lecture video](https://www.youtube.com/watch?v=pbmyrNjzdDk) and [course notes](http://nil.csail.mit.edu/6.824/2021/notes/l-zookeeper.txt).
 
