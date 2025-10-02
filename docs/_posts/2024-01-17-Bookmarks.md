@@ -42,3 +42,4 @@ Here I plan to note down links, etc. which I found interesting/ planned to visit
 29. While I have watched it only once, I am pretty sure I will be watching [this talk by Christopher Alexander](https://www.youtube.com/watch?v=98LdFA-_zfA) a few more times. (His book A Pattern Language inspired Object Oriented Design Patterns in software.)
 30. Aren't you the sweetest! [Just saying](https://www.youtube.com/watch?v=12Z6pWhM6TA).
 31. [Akira Kurosawa - Composing Movement](https://www.youtube.com/watch?v=doaQC-S8de8).
+32. Very early on, you learn that when she's working or in any social setting you shouldn't call your girlfriend by her pet name. She may in turn call you grandpa. Of course, that's not too bad if she's [this sweet](https://www.youtube.com/watch?v=O1te_Xg1hfk).
