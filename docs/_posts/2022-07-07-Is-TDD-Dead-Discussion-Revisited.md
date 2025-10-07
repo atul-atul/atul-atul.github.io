@@ -39,4 +39,4 @@ Again, thanks DHH for generating this discussion via his post [TDD is dead. Long
 [tdd-discussion]:https://martinfowler.com/articles/is-tdd-dead/ 
 [hey-code-metrics]:https://twitter.com/dhh/status/1263493729584742401
 [orig-article-TDD-is-dead]:https://dhh.dk/2014/tdd-is-dead-long-live-testing.html
-[my-impression-about-orig-post]:https://atul-atul.github.io/thoughts/tech/Is-TDD-Dead/
+[my-impression-about-orig-post]:https://atul-atul.github.io/Is-TDD-Dead/
