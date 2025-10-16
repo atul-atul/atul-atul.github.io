@@ -49,6 +49,6 @@ If there is an event that has a VC with some positions as same or more and other
 
 Are last events on P1 and P3- those having VCs \[2,3,4\] and \[1,3,5\] causally connected?
 
-Here is an image [from wikipedia](https://en.wikipedia.org/wiki/Vector_clock) showing some event causally connected to event on process B with VC {A:2, B:4, C:1} as well as some independent events.
+Here is an image [from wikipedia](https://en.wikipedia.org/wiki/Vector_clock) showing some events causally connected to event on process B with VC {A:2, B:4, C:1} as well as some independent events.
 
 ![](/images/vector_clock.svg_.png "Causality of events")
