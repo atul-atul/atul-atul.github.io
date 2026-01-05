@@ -2,7 +2,7 @@
 title: "Bookmarks"
 toc: true
 date: "2024-01-23"
-last_modified_at: 2024-05-12T00:00:01-00:00
+last_modified_at: 2026-01-04T00:00:01-00:00
 tags: 
   - reading
   - "thoughts"
