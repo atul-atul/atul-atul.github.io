@@ -2,7 +2,7 @@
 title: "Short Takes 2"
 toc: true
 date: "2025-06-12"
-last_modified_at: 2025-06-12T00:00:01-00:00
+last_modified_at: 2026-01-04T00:00:01-00:00
 tags: 
   - thoughts
   - concepts
