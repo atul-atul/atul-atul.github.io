@@ -49,3 +49,4 @@ Here I plan to note down links, etc. which I found interesting/ planned to visit
 36. [Rowan Atkinson on free speech](https://www.youtube.com/watch?v=xUezfuy8Qpc)
 37. A great Marathi [poem taught in a class](https://www.youtube.com/watch?v=3fYzgs3GOTc) reunion.
 38. Recently- in the last couple of weeks- found [Vaidehi Joshi's blog](https://medium.com/baseds)- better not call her Joshi Kaku- on topics related to distributed systems. Haven't gone thr' all entries but seems quite well structured.
+39. [Stress class](https://www.youtube.com/watch?v=9AjWywWG02I)- IT crowd style. Another couple of favorites from the series: Roy and Moss [introduce their manager- Jen- to The Internet](https://www.youtube.com/watch?v=iDbyYGrswtg) and her subsequent [employee of the month internet speech](https://www.youtube.com/watch?v=Vywf48Dhyns).
