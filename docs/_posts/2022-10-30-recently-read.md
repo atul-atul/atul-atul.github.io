@@ -2,7 +2,7 @@
 title: "Recently Read"
 toc: true
 date: "2022-10-30"
-last_modified_at: 2025-05-12T00:00:01-00:00
+last_modified_at: 2026-05-07T00:00:01-00:00
 tags: 
   - reading
   - books
@@ -34,7 +34,7 @@ Phantoms in the Brain- V.S. Ramachandran Started Listening to the audiobook.
 
 The Rise and Fall of Ancient Egypt- Wilkinson
 
-Thinking In Systems- Meadows... need to pick again soon.
+Thinking In Systems- Meadows... Restarted and finished in April 2026
 
 How Buildings Learn: What happens after they're built- Stewart Brand... need to pick again soon.
 
