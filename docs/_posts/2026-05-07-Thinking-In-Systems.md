@@ -10,7 +10,7 @@ After writing a short take about [system dynamics](/Short-Takes-2/#system-dynami
 
 The book talks about systems, flows, stock, balancing and reinforcing feedback loops, traps, leverages, etc. 
 
-I won't add my notes/ highlights here. Instead, you can take a look at the very good [chapter wise summary of the book](https://www.youtube.com/playlist?list=PLL6RiAl2WHXEU04zFYyWrUGV_fqGG4TuR). A note: The chapter 5 video talks about *inventor*. That should be *intervenor*.
+I won't add my notes/ highlights here. Instead, you can take a look at the very good [chapter wise summary of the book](https://www.youtube.com/playlist?list=PLL6RiAl2WHXEU04zFYyWrUGV_fqGG4TuR&ref=atul-atul.github.io/Thinking-In-Systems/). A note: The chapter 5 video talks about *inventor*. That should be *intervenor*.
 
 The book is written in a simple style. Mentions concepts, terminologies, ideas, etc. Not too technical. And that makes it somewhat easier to read. To the author's credit, she has deliberately made it even simpler. If you watch some videos on youtube related to the topic, you can see that the simplicity of the book must have been a choice.
 
