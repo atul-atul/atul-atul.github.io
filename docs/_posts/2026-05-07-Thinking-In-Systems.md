@@ -5,6 +5,7 @@ date: "2026-05-07"
 last_modified_at: 2026-05-07T00:00:01-00:00
 tags: 
   - reading
+  - Tech
 ---
 After writing a short take about [system dynamics](/Short-Takes-2/#system-dynamics) I recently picked up the book [Thinking In Systems](https://en.wikipedia.org/wiki/Thinking_In_Systems:_A_Primer) again. And this time I finished it.
 
