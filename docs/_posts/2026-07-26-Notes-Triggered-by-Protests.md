@@ -17,8 +17,8 @@ While I won't like to read too much into the effects of [recent protests in Indi
    6. I am sure that these protests won't bring about any major systemic changes. Naipaul's Wounded Civilization would prevent me from wearing such rosy glasses of high expectations. But some changes will take place.
    7. After French/ Russian revolutions the oppressed had become oppressors (from my very superficial reading about those topics).
    8. You must be the change you wish to see in the world.- Gandhi is great, isn't he?
-   9. 'A mob's always made up of people, no matter what.' Harper Lee in To Kill A Mockingbird. 
-   10. 'Cry about the simple hell people give other people– without even thinking. Cry about the hell white people give coloured folks, without even stopping to think that they're people, too.' Harper Lee in To Kill A Mockingbird.
+   9. A mob's always made up of people, no matter what. Harper Lee in To Kill A Mockingbird. 
+   10. Cry about the simple hell people give other people– without even thinking. Cry about the hell white people give coloured folks, without even stopping to think that they're people, too. Harper Lee in To Kill A Mockingbird.
    11. Atticus told me to delete the adjectives and I'd have the facts. Harper Lee in To Kill A Mockingbird.
    12. I wanted you to see what real courage is, instead of getting the idea that courage is a man with a gun in his hand. It's when you know you're licked before you begin but you begin anyway and you see it through no matter what. You rarely win, but sometimes you do. Harper Lee in To Kill A Mockingbird.
    13. Scholars know of no large society that has been able to dispense with discrimination altogether. Yuval Noah Harari in Sapiens
