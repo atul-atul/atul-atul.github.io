@@ -2,14 +2,14 @@
 title: "Consistent Hashing"
 toc: true
 date: 2026-08-25
-last_modified_at: 2026-09-02T00:00:01-00:00
+last_modified_at: 2026-09-08T00:00:01-00:00
 tags: 
   - "distributed-systems"
   - Tech
 ---
 [Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) is a hashing technique used in distributed systems. It is also a somewhat optimized re-hashing/ remapping technique. While the idea is old (in CS timelines), I think it became popular after the Akamai article and the dynamo paper.
 
-Consistent hashing distributes keys evenly across a few servers (shards, nodes, etc.). The data could be the data in a partitioned DBMS, distributed cache or requests in a distributed system, etc. And when those items need to be remapped (because say a shard becomes full, goes down, gets added), the technique reduces the number of items which need to be remapped and redistributed, and avoids the remapping/ re-hashing of the whole data.
+Consistent hashing distributes keys evenly across a few servers (shards, nodes, etc.). The data could be the data in a partitioned DBMS**, distributed cache or requests in a distributed system, etc. And when those items need to be remapped (because say a shard becomes full, goes down, gets added), the technique reduces the number of items which need to be remapped and redistributed, and avoids the remapping/ re-hashing of the whole data.
 
 For ease of understanding the servers/ partitions are considered to be on a ring. The data key is hashed. The hash value may fall within a range of values (in simplest way, the hash-value % number of servers) and is allocated to the clockwise next server on the ring.
 
@@ -26,4 +26,10 @@ Consistent hashing has some limitations like celebrity effect (hotkey) where a f
 There are some improvements over this basic idea. First of all a better hash function which distributes data evenly is far better than anything else. But you could also add a level of indirection and have virtual nodes. And there are trade-offs dictated by usage pattern, etc. For example, you could replicate data and use quorum ([Amazon's Dynamo paper](/learnings-from-dynamo-paper/) mentioned sloppy quorum based on their service requirements).
 
 ---
-My Greek mythology knowledge is quite limited. I have read a book or two before. Recently listened to Stephen Fry's audiobooks Mythos and Troy again. I will recommend those. Somehow I did not like Madeline Miller's Song Of Achilles in the past even though it's quite popular. Now started Stephen Fry's audiobook Odyssey.
+** DDIA book first edition says about consistent hashing in data partitioning chapter: *this particular approach actually doesn’t work very well for databases, so it is rarely used in practice (the documentation of some databases still refers to consistent hashing, but it is often inaccurate)...*
+
+I haven't yet read the second edition which came out recently, but the author has updated the the description. Here's what it says now: *The sharding algorithm used by Cassandra and ScyllaDB is similar to the original definition of consistent hashing, but several other consistent hashing algorithms have also been proposed, such as highest random weight, also known as rendezvous hashing, and jump consistent hashing. With these approaches, rather than a small number of existing shards being split into subranges to create new shards for a node that is added, the new node is instead assigned individual keys that were previously scattered across all the other nodes. Which is preferable depends on the application.*
+
+So I think we are good.
+---
+My Greek mythology knowledge is quite limited. I have read a book or two before. Recently listened to Stephen Fry's audiobooks Mythos and Troy again. I will recommend those. Somehow I did not like Madeline Miller's Song Of Achilles in the past even though it's quite popular. Now started Stephen Fry's audiobook Odyssey. He's talked about the Greek mythology a number of times on youtube and I recently watched his appearance on Anita Anand and William Dalrymple's Empire podcast. But if you are ok with a bit of off-colored humor (and why shouldn't you be) here's [a joke he told](https://www.youtube.com/watch?v=zx5RNDrKLls) on QI.
