@@ -1,7 +1,8 @@
 ---
 title: "ZooKeeper Paper"
 date: "2024-06-03"
-last_modified_at: 2024-06-03T00:00:01-00:00
+toc: true
+last_modified_at: 2026-09-09T00:00:01-00:00
 tags: 
   - reading
   - "distributed-systems"
@@ -12,25 +13,25 @@ tags:
 ---
 Here is my understanding about ZooKeeper from reading [the ZooKeeper paper](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/zookeeper-wait-free-coordination-for-internet-scale-systems.pdf). Some other references: [MIT's lecture video](https://www.youtube.com/watch?v=pbmyrNjzdDk) and [course notes](http://nil.csail.mit.edu/6.824/2021/notes/l-zookeeper.txt).
 
-The ideas relevant in this description include: distributed applications, group membership, group messaging, broadcast, quorum, leader election, distributed locks, consistency, performance, hierarchical file system, FIFO, linearizability, write-ahead-log, etc. (Some of these topics are so ubiquitous in distributed systems that it'd be worthwhile for me to write about these in short for quick reference.)
+The **ideas relevant in this description** include: distributed applications, group membership, group messaging, broadcast, quorum, leader election, distributed locks, consistency, performance, hierarchical file system, FIFO, linearizability, write-ahead-log, etc. (Some of these topics are so ubiquitous in distributed systems that it'd be worthwhile for me to write about these in short for quick reference.)
 
-They identify Zookeeper (ZK) as a co-ordination service. What does it co-ordinate? Processes of distributed applications. 
+They identify Zookeeper (ZK) as **a co-ordination service**. What does it co-ordinate? Processes of distributed applications. 
 
 A typical workload of a ZK application is dominated by read operations and it becomes desirable to scale read throughput. 
 
 Clients submit asynchronous (wait-free) requests to ZK. All requests (read or write) *from a client* are FIFO and all write requests are linearizable. 
 
-To achieve this, write/ update requests must be submitted to leader but ZK allows clients to submit read requests to local servers (followers). This yields greater performance when read:write request ratio is higher. And also adding followers increases throughput. However, if the read:write ratio is small (more write requests) then the performance suffers and adding more followers does not help as much. Allowing read requests to bypass the leader (by directly querying a follower) results in weak consistency guarantees. A workaround to ensure strong consistency is to for the client to submit a *sync* request before read. But then performance is impacted. So it's recommeded only when the client must read consistent data.
+To achieve this, write/ update requests must be submitted to leader but ZK allows clients to submit read requests to local servers (followers). This yields greater performance when read:write request ratio is higher. And also adding followers increases throughput. However, if the read:write ratio is small (more write requests) then the performance suffers and adding more followers does not help as much. Allowing read requests to bypass the leader (by directly querying a follower) results in **weak consistency guarantees**. A workaround to ensure strong consistency is to for the client to submit a *sync* request before read. But then performance is impacted. So it's recommended only when the client must read consistent data.
 
-Per client FIFO request gurantee is achieved via a (what the paper calls) pipeline architecture (implemented using write-ahead-log, zxid, etc.). This FIFO gurantee means that a client doen't have to wait for previous request/ operation to be completed before submitting another request. Hence asynch. Also, because of the per client FIFO guarantee, the property of read-your-own-write is fulfilled for any given client. 
+Per client FIFO request guarantee is achieved via a (what the paper calls) **pipeline architecture** (implemented using write-ahead-log, zxid, etc.). This FIFO guarantee means that a client doesn't have to wait for previous request/ operation to be completed before submitting another request. Hence asynch. Also, because of the per client FIFO guarantee, the property of read-your-own-write is fulfilled for any given client. 
 
 In ZK, servers process read operations locally, and are not totally ordered. 
 
-To guarantee that update operations satisfy linearizability, ZK implements a leader-based atomic broadcast protocol, called Zab. The writes in a quorum are commited via a simple majority. Say if the cluster has n machines then at least (1+(n/2)) should be ok to commit the update operation. Having simple majority while commiting updates may lead to weakly consistent states. Say in a cluster of 10 servers, only 6 might have the updated value. A subsequent read request for the same data may be sent to one of the remaining four servers (as it doesn't have to go via master) and the client may read stale data. Thus weak/ relaxed consistency.
+To guarantee that **update operations satisfy linearizability**, ZK implements a **leader-based atomic broadcast protocol, called Zab**. The writes in a quorum are committed via a simple majority. Say if the cluster has n machines then at least (1+(n/2)) should be ok to commit the update operation. Having simple majority while committing updates may lead to weakly consistent states. Say in a cluster of 10 servers, only 6 might have the updated value. A subsequent read request for the same data may be sent to one of the remaining four servers (as it doesn't have to go via master) and the client may read stale data. Thus weak/ relaxed consistency.
 
 #### Znodes
 
-ZK resembles a hierarchical file system. Individual nodes (znodes) map to abstractions of the client application, typically corresponding to config/ meta-data used for coordination purposes. A znode has a version. Clients check version before updating znode. 
+ZK resembles a hierarchical file system. Individual nodes (znodes) map to abstractions of the client application, **typically corresponding to config/ meta-data used for coordination purposes**. A znode has a version. Clients check version before updating znode. 
 ![ZK znodes](/images/zk_znodes.png "ZK znodes")
 
 A znode can be of type *Regular* or *Ephimeral* each with or without *Sequential* flag. Nodes created with the sequential flag set have the value of a monotonically increasing counter appended to its name (like p_1, p_2 in the figure). If n is the new znode and p is the parent znode, then the sequence value of n is never smaller than the value in the name of any other sequential znode ever created (previously) under p. So in the figure if we create a new sequential (regular or ephimeral) child znode under /app1 and name the new node as background_task then the new znode will be identified as /app1/background_task_4 as the sequence counter had reached upto 3 (for p_3) under /app1. Another node created under p_3 with name xyz will be accessible as /app1/p_3/xyz_5.
@@ -76,14 +77,13 @@ What happens if a process sees that *ready* exists before the new leader starts 
     sends to replicas, which all execute in zxid order
   * *FIFO client order*
     each client specifies an order for its operations (reads AND writes) by sending requests one after another
-    writes:
+    *  **writes:**
       writes appear in the write order in client-specified order
-      this is the business about the "ready" file in section 2.3
-    reads:
-      each read executes at a particular point in the write order (when the ready file exists)
-      a client's successive reads execute at non-decreasing points in the order
-      a client's read executes after all previous writes by that client
-        a server may block a client's read to wait for previous write, or sync()
+      using the "ready" file
+    *  **reads:**
+        * each read executes at a particular point in the write order (when the ready file exists)
+        * a client's successive reads execute at non-decreasing points in the order
+        * a client's read executes after all previous writes by that client, a server may block a client's read to wait for previous write, or sync()
 
   Read order rules help reasoning.
   ```

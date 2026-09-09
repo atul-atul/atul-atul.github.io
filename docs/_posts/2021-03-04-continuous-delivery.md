@@ -2,7 +2,7 @@
 title: "Continuous Delivery"
 toc: true
 date: "2021-03-04"
-last_modified_at: 2021-03-04T00:00:01-00:00
+last_modified_at: 2026-09-09T00:00:01-00:00
 tags: 
   - books
   - "continuous-delivery"
@@ -64,6 +64,6 @@ I have observed this personally that Conway's Law holds true. You produce softwa
 
 Have small (1 or 2 pizza), independent teams (You write it, you own it).
 
-In any company or project the normal distribution and new technology/ process adoption curve will be there. The adoption of new process technology should be such that late adopters adopt it before new there is new process/ technology on the block.
+In any company or project the normal distribution and new technology/ process adoption curve will be there. The adoption of new process technology should be such that late adopters adopt it before there is new process/ technology on the block.
 
 I have deliberately kept possibly the most important thing for the last. I often say that in software the size matters- smaller the better. So always have small features, incrementally shipped in small deliveries.

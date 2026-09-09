@@ -31,7 +31,7 @@ For example, at level 0 in the diagram below (image from wikipedia), is MemTable
 ## System Performance
 Performs well when writing data into the system. No random I/O, writes are appends, sequential and efficient. Also, MemTable flush writes into SSTables are also efficient for same reasons. 
 
-While reading the data is first searched in MemTable based on key; if not found there it is searched for in the newest SSTable file, then a SSTable older than that, etc. Of course, in the worst case (data not found in the system) reading may not be a very efficient operation. (TODO read/ write about bloom filters, etc.). Also, if the rate of incoming data (thrashing?) is far more than the rate at which SSTables are merged and compacted, space utilization can also suffer.
+While reading the data is first searched in MemTable based on key; if not found there it is searched in the newest SSTable file, then a SSTable older than that, etc. Of course, in the worst case (data not found in the system) reading may not be a very efficient operation. (TODO read/ write about bloom filters, etc.). Also, if the rate of incoming data is far more (thrashing?) than the rate at which SSTables are merged and compacted, space utilization can also suffer.
 
 LSM-trees are better suited for write-heavy applications. 
 

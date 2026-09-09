@@ -2,7 +2,7 @@
 title: "Release It: Book by Michael Nygard"
 toc: true
 date: "2021-09-30"
-last_modified_at: 2021-09-30T00:00:01-00:00
+last_modified_at: 2026-09-09T00:00:01-00:00
 tags: 
   - "architecture"
   - "distributed-systems"
@@ -23,11 +23,11 @@ There are stability patterns (circuit breakers, timeouts, bulkheads, decoupling 
 
 In design for production he talks about networks, NICs, physical, virtual machines, containers, logging, transparency, DNS, load balancing, session stickiness, control plane, some OWASP items.
 
-When talking about thing related to deployment the author says: Making deployments faster and more routine has an immediate financial benefit. More than that, though, a virtuous cycle kicks in that gives you new superpowers. Best of all, you can stop wasting human potential on jobs that should be scripts.
+When talking about things related to deployment the author says: Making deployments faster and more routine has an immediate financial benefit. More than that, though, a virtuous cycle kicks in that gives you new superpowers. Best of all, you can stop wasting human potential on jobs that should be scripts.
 
 He talks about immutable infrastructure, CI, CD, build pipeline, RDBMS migration changes, version management, contract tests, etc.
 
-In Systemic Problems section the author talks about blue-green releases, canary releases, platform team evolutionary architecture, information architecture, URL dualism, chaos engineering, etc. A self-sufficient two-pizza team also means each team member has to cover more than one discipline. The two-pizza team is about reducing external dependencies.
+In Systemic Problems section the author talks about blue-green releases, canary releases, platform team, evolutionary architecture, information architecture, URL dualism, chaos engineering, etc. A self-sufficient two-pizza team also means each team member has to cover more than one discipline. The two-pizza team is about reducing external dependencies.
 
 One area I think could have been done better is that the sections could have had numbers (e.g. 5.2.1) instead of differences in font sizes.
 
