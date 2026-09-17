@@ -9,8 +9,10 @@ tags:
 ---
 [Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) is a hashing technique used in distributed systems. It is also a somewhat optimized re-hashing/ remapping technique. While the idea is old (in CS timelines), I think it became popular after the Akamai article and the dynamo paper.
 
+## What
 Consistent hashing distributes keys evenly across a few servers (shards, nodes, etc.). The data could be the data in a partitioned DBMS**, distributed cache or requests in a distributed system, etc. And when those items need to be remapped (because say a shard becomes full, goes down, gets added), the technique reduces the number of items which need to be remapped and redistributed, and avoids the remapping/ re-hashing of the whole data.
 
+## How
 For ease of understanding the servers/ partitions are considered to be on a ring. The data key is hashed. The hash value may fall within a range of values (in simplest way, the hash-value % number of servers) and is allocated to the clockwise next server on the ring.
 
 This is very similar to slot/ bucket allocation in traditional hashing. When a server gets added (due to a higher load) or goes down, in traditional techniques the whole data will be rehashed and remapped again.
@@ -19,10 +21,13 @@ Consistent hashing avoids this by hashing not just requests (data) but servers (
 
 ![Hashring](/images/Hashring.png "Hashring")
 
+## An Example
 For ease of understanding let's say that your system is a distributed cache. You are caching biography webpages of Greek mythological characters. And you chose a hash function such that the hashes turn out to be the characters' Greek names. The above image shows the current in progress state of your system. ServerA contains cached pages of characters A thr' E; ServerF from F to J, etc. Now if you know a bit of Greek mythology, you would naturally see that ServerA is already bleeding- there's a lot of bad blood between the characters. How would it accommodate Athena, Aphrodite, Apollo? Ideally, you should question your hash function if it lets you add Apollo and Achilles in the same bucket. But just to take it easy for now, you decide to add a new server say ServerC and let the mythological characters take their own fateful course. You may consider yourself a duct tape programmer but I am telling you, you should be a statesman. Now if you add any new page of a character whose name begins with A or B, it goes to ServerA. C, D, E go to ServerC. But what about existing pages cached in ServerA like Cassandra, Clytemnestra? When ServerC gets added you could aggressively move these from ServerA to ServerC. That way when you look up a page for Cassandra, you could directly go to ServerC. Alternatively, you could let the irrelevant pages in ServerA be evicted; and when a request for Cassandra lookup comes in you take a cache-miss and fetch the page from main server and this time you cache it on ServerC. Depends on trade-offs you choose. Important point is that you had to re-arrange/ remap only the data that was hosted on the ServerA. The rest of the data on other servers did not have to move. A somewhat similar arrangement takes place when a server goes out. Suppose ServerF from above image crashes, data from which server will move to which server? 
 
+## No Silver Bullet
 Consistent hashing has some limitations like celebrity effect (hotkey) where a few keys receive massive traffic (for example, the page for Zeus and respective server in the Greek Mythology example above may receive disproportionately- well, maybe proportionately because he's quite a character- high traffic). Also one server crashing can send a wave of cascading failure down the ring. And, physical limitations like [Fallacies of distributed computing](https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing) play a part.
 
+## Improvements
 There are some improvements over this basic idea. First of all a better hash function which distributes data evenly is far better than anything else. But you could also add a level of indirection and have virtual nodes. And there are trade-offs dictated by usage pattern, etc. For example, you could replicate data and use quorum ([Amazon's Dynamo paper](/learnings-from-dynamo-paper/) mentioned sloppy quorum based on their service requirements).
 
 ---
