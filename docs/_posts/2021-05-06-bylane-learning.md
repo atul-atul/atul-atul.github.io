@@ -4,8 +4,7 @@ toc: true
 date: "2021-05-06"
 last_modified_at: 2024-11-07T00:00:01-00:00
 tags: 
-  - "bylane-learning"
-  - "learning"
+  - Learning
 ---
 
 Books (or any good content you consume) have beneficial side effect of teaching you a few add-on things. Things that you had not consciously aimed to learn from that content.

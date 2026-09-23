@@ -3,11 +3,10 @@ title: "Cassandra Paper"
 date: "2024-06-22"
 last_modified_at: 2024-06-22T00:00:01-00:00
 tags: 
-  - reading
-  - "distributed-systems"
-  - "Cassandra-paper"
-  - "technical-papers"
-  - "technical-reading"
+  - Reading
+  - Distributed-Systems
+  - Technical-Papers
+  - Technical-Reading
   - Tech
 ---
 Below are some notes from my reading of [Facebook's Cassandra paper](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf).

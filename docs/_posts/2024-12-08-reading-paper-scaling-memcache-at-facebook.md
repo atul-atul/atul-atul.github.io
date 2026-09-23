@@ -4,11 +4,10 @@ toc: true
 date: "2024-12-08"
 last_modified_at: 2026-09-09T00:00:01-00:00
 tags: 
-  - reading
-  - "distributed-systems"
-  - "Memcache-paper"
-  - "technical-papers"
-  - "technical-reading"
+  - Reading
+  - Distributed-Systems
+  - Technical-Papers
+  - Technical-Reading
   - Tech
 ---
 I recently read the paper [Scaling Memcache At Facebook](https://www.usenix.org/system/files/conference/nsdi13/nsdi13-final170_update.pdf). Some of my notes below:

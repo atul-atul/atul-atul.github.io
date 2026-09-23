@@ -4,7 +4,7 @@ toc: true
 date: 2026-08-25
 last_modified_at: 2026-09-08T00:00:01-00:00
 tags: 
-  - "distributed-systems"
+  - Distributed-Systems
   - Tech
 ---
 [Consistent hashing](https://en.wikipedia.org/wiki/Consistent_hashing) is a hashing technique used in distributed systems. It is also a somewhat optimized re-hashing/ remapping technique. While the idea is old (in CS timelines), I think it became popular after the Akamai article and the dynamo paper.

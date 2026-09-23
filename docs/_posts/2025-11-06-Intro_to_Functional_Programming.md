@@ -4,8 +4,7 @@ toc: true
 date: "2025-11-07"
 last_modified_at: 2025-11-07T00:00:01-00:00
 tags: 
-  - reading
-  - programming
+  - Reading
 ---
 Finished reading Introduction to Functional Programming by Richard Bird and Philip Wadler. The first edition. Published in 1988. This book is so old it's not listed even on the authors' university homepages and wikipedia entries. There is a 1998 version using Haskell that is listed. But I hadn't read a programming book in a while, someone on twitter had mentioned this book, PDF was available, so I read it. Here are a few impressions.
 

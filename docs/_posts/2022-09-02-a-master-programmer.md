@@ -4,10 +4,8 @@ toc: true
 date: "2022-09-02"
 last_modified_at: 2024-10-06T00:00:01-00:00
 tags: 
-  - reading
-  - books
-  - "programmer"
-  - "programming"
+  - Reading
+  - Books
   - Tech
 ---
 

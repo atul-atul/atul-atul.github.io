@@ -4,8 +4,8 @@ toc: true
 date: "2022-09-26"
 last_modified_at: 2022-09-26T00:00:01-00:00
 tags: 
-  - reading
-  - books
+  - Reading
+  - Books
 ---
 
 A recent purchase. Visual Display Of Quantitative Information by Ed Tufte. I will start reading it soon. There is a big reading list queue. But will probably bump it to near the top.

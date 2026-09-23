@@ -4,20 +4,9 @@ toc: true
 date: "2021-04-29"
 last_modified_at: 2021-04-29T00:00:01-00:00
 tags: 
-  - "actor-model"
-  - "beam"
-  - "distributed-systems"
-  - "elixir"
-  - "erlang"
-  - "error-handling"
-  - "fault-tolerance"
-  - "functional-programming"
-  - "generic-server"
-  - "joe-armstrong"
-  - "joe-armstrong-thesis"
-  - "otp"
-  - "system-design"
-  - "technical-papers"
+  - Distributed-Systems
+  - Fault-Tolerance
+  - Technical-Papers
   - Tech
 ---
 

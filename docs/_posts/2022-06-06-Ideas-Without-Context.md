@@ -4,7 +4,7 @@ toc: true
 date: "2022-06-06"
 last_modified_at: 2022-06-06T00:00:01-00:00
 tags:
-  - thoughts
+  - Thoughts
   - Tech
 ---
 

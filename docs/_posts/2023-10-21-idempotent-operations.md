@@ -4,10 +4,9 @@ toc: true
 date: "2023-10-21"
 last_modified_at: 2023-10-21T00:00:01-00:00
 tags: 
-  - "distributed-systems"
-  - "idempotence"
-  - "technical-reading"
-  - reading
+  - Distributed-Systems
+  - Technical-Reading
+  - Reading
   - Tech
 ---
 

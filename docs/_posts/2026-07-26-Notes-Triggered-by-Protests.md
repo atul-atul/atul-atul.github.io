@@ -4,8 +4,8 @@ toc: true
 date: 2026-07-26
 last_modified_at: 2026-07-26T00:00:01-00:00
 tags: 
-  - thoughts
-  - concepts
+  - Thoughts
+  - Concepts
 ---
 While I won't like to read too much into the effects of [recent protests in India](https://en.wikipedia.org/wiki/2026_Delhi_Jantar_Mantar_protests) here are some observations, thoughts, quotes, etc. While the trigger for this post was the recent protests, notes here are more than just about recent protests. But maybe having a concrete example in mind while discussing theory helps. The goal is to understand and make sense of things rather than sensational political statements, opinions, etc. Separating it out here rather than [a related short take](/Short-Takes-3/#india-will-go-on) because it seemed to get quite lengthy. Also, somewhere in the background must be the idea that we are [not just code monkeys](https://www.youtube.com/watch?v=4E3xfR6IBII). I haven't watched that talk in last 4-5 years, so its reference here is just based on memory. Maybe I will watch it again soon. Lastly, as I mentioned in the previous [post on the book Thinking in Systems](/Thinking-In-Systems/), to some extent the book helped me reason about a system (protest dynamics) that I was not familiar with.
 

@@ -4,14 +4,11 @@ toc: true
 date: "2021-06-01"
 last_modified_at: 2021-06-01T00:00:01-00:00
 tags: 
-  - books
-  - "estimation"
-  - "project-management"
-  - "software"
-  - "technical-papers"
-  - "technical-reading"
-  - "technology-books"
-  - "the-mythical-man-month"
+  - Books
+  - Project-Management
+  - Technical-Papers
+  - Technical-Reading
+  - Technology-Books
   - Tech
 ---
 

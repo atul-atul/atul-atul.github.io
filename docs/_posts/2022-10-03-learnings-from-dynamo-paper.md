@@ -4,12 +4,11 @@ toc: true
 date: "2022-10-03"
 last_modified_at: 2022-10-03T00:00:01-00:00
 tags: 
-  - reading
-  - "distributed-systems"
-  - "dynamo-paper"
-  - "technical-papers"
-  - "technical-reading"
-  - "technology-books"
+  - Reading
+  - Distributed-Systems
+  - Technical-Papers
+  - Technical-Reading
+  - Technology-Books
   - Tech
 ---
 

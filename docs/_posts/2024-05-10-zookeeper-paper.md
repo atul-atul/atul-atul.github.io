@@ -4,11 +4,10 @@ date: "2024-06-03"
 toc: true
 last_modified_at: 2026-09-09T00:00:01-00:00
 tags: 
-  - reading
-  - "distributed-systems"
-  - "Zookeeper-paper"
-  - "technical-papers"
-  - "technical-reading"
+  - Reading
+  - Distributed-Systems
+  - Technical-Papers
+  - Technical-Reading
   - Tech
 ---
 Here is my understanding about ZooKeeper from reading [the ZooKeeper paper](https://github.com/papers-we-love/papers-we-love/blob/main/distributed_systems/zookeeper-wait-free-coordination-for-internet-scale-systems.pdf). Some other references: [MIT's lecture video](https://www.youtube.com/watch?v=pbmyrNjzdDk) and [course notes](http://nil.csail.mit.edu/6.824/2021/notes/l-zookeeper.txt).

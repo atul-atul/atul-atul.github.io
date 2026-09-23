@@ -4,13 +4,12 @@ toc: true
 date: "2021-09-30"
 last_modified_at: 2026-09-09T00:00:01-00:00
 tags: 
-  - "architecture"
-  - "distributed-systems"
-  - "michael-nygard"
-  - "release-it"
-  - "technical-reading"
-  - "technology-books"
+  - Distributed-Systems
+  - Technical-Reading
+  - Technology-Books
   - Tech
+  - Reading
+  - Books
 ---
 
 The book 'Release It' by Michael Nygard is targeted towards Architects, Designer, Programmers of distributed software systems. It has very practical advice. This is one of top five best technical books I read in, say, last five years. It is also probably the book where I underlined a lot of content for later quick look up. I would recommend the book very strongly.

@@ -4,12 +4,11 @@ toc: true
 date: "2023-07-18"
 last_modified_at: 2024-06-05T00:00:01-00:00
 tags: 
-  - "bigtable"
-  - "distributed-systems"
-  - "googles-bigtable-paper"
-  - "technical-papers"
-  - "technical-reading"
+  - Distributed-Systems
+  - Technical-Papers
+  - Technical-Reading
   - Tech
+  - Reading
 ---
 
 Below are my notes from my reading of [Google's bigtable paper](https://github.com/papers-we-love/papers-we-love/blob/main/datastores/bigtable-a-distributed-storage-system-for-structured-data.pdf).

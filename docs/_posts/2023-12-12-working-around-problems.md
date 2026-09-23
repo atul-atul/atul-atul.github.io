@@ -4,11 +4,11 @@ toc: true
 date: "2023-12-12"
 last_modified_at: 2023-12-12T00:00:01-00:00
 tags: 
-  - reading
-  - "distributed-systems"
-  - "technical-reading"
-  - "technology-books"
-  - "thoughts"
+  - Reading
+  - Distributed-Systems
+  - Technical-Reading
+  - Technology-Books
+  - Thoughts
   - Tech
 ---
 

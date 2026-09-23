@@ -4,11 +4,9 @@ toc: true
 date: "2021-03-04"
 last_modified_at: 2026-09-09T00:00:01-00:00
 tags: 
-  - books
-  - "continuous-delivery"
-  - notes
-  - "technical-reading"
-  - "technology-books"
+  - Books
+  - Technical-Reading
+  - Technology-Books
   - Tech
 ---
 

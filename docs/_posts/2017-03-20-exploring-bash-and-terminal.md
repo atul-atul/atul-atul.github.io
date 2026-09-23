@@ -4,8 +4,6 @@ toc: true
 date: "2017-03-20"
 last_modified_at: 2017-03-20T00:00:01-00:00
 tags: 
-  - bash
-  - terminal
   - Tech
 ---
 

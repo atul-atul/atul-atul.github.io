@@ -4,9 +4,9 @@ toc: true
 date: "2024-04-21"
 last_modified_at: 2024-07-18T00:00:01-00:00
 tags: 
-  - "technical-reading"
-  - thoughts
-  - concepts
+  - Technical-Reading
+  - Thoughts
+  - Concepts
 ---
 If I remember correctly, around 2009/10/11/12 I used to read anything related to technology I found on the net. Of course I did not know many authoritative sources and quality of content was not always good. It never is. We have to curate, choose, etc. But those days I did not bother much about it. Mostly content creation was via personal sites. People used to write blogs then. Of course youtube and video content like conferences were there. But I consumed text more than videos (not so good home internet speed and data plans could have been factors). And Google Reader was there. I miss Google Reader.
 

@@ -4,9 +4,9 @@ toc: true
 date: 2026-04-23
 last_modified_at: 2026-07-26T00:00:01-00:00
 tags: 
-  - thoughts
-  - concepts
-  - short-takes
+  - Thoughts
+  - Concepts
+  - Short-Takes
 ---
 
 In the [short-takes](/tags/#short-takes) posts I write about some concepts, phrases, models, ideas, whatever related to my work and life. As these are likely to be known to many, the idea is to just document these together, rather than go into details of these. Will keep updating.

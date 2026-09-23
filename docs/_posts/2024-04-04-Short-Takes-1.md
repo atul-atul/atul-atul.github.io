@@ -4,11 +4,10 @@ toc: true
 date: "2024-04-04"
 last_modified_at: 2025-06-12T00:00:01-00:00
 tags: 
-  - "technical-reading"
-  - thoughts
-  - concepts
-  - models
-  - short-takes
+  - Technical-Reading
+  - Thoughts
+  - Concepts
+  - Short-Takes
 ---
 
 In the [short-takes](/tags/#short-takes) posts I write about some concepts, phrases, models, ideas, whatever related to my work and life. As these are likely to be known to many, the idea is to just document these together, rather than go into details of these. Will keep updating.

@@ -4,9 +4,9 @@ toc: true
 date: "2023-04-02"
 last_modified_at: 2023-04-02T00:00:01-00:00
 tags: 
-  - reading
-  - books
-  - "cognitive-bias"
+  - Reading
+  - Books
+  - Cognitive-Bias
 ---
 
 Over past few years, cognitive biases have been of passive interest/ fascination for me. Passive because I haven't actually gone deliberately out of the way to study more about the topic. But I just notice and remember when I read about one. And then I try to look for and try to avoid that bias in my behavior. It probably started when I read the book "Thinking Fast and Slow".\* And then I ended up reading some other books in that space.
